@@ -1,0 +1,60 @@
+{
+  "retrieved": "2026-10-29",
+  "source": "Warpath Planet — game officer portraits",
+  "assets": [
+    {
+      "file": "lady-shadow.png",
+      "officer": "Lady Shadow",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/lady-shadow",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-order_17-UI_Officer_head_icon_57_1_5fbd5dfa-8126-44dd-87e9-3887c2794e0f.png?v=1787832378&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "haymaker.png",
+      "officer": "Haymaker",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/haymaker",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-freedom_34-UI_Officer_head_icon_86_1_5222ca9b-516b-4dbc-985f-03b79e322650.png?v=1787831707&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "rapier.png",
+      "officer": "Rapier",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/rapier",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-order_15-UI_Officer_head_icon_37_1_5c48b46e-8661-4fcf-b6cb-296c02ce60e0.png?v=1787833920&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "catseye.png",
+      "officer": "Catseye",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/catseye",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-freedom_36-UI_Officer_head_icon_90_1_7293136c-320f-48e3-a922-15e7a9d02c30.png?v=1787300756&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "desert-jaeger.png",
+      "officer": "Desert Jaeger",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/desert-jaeger",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-power_25-UI_Officer_head_icon_73_1_cd1b7a8f-55c7-4129-a64f-9d8b9a22af9e.png?v=1787810457&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "steel-phoenix.png",
+      "officer": "Steel Phoenix",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/steel-phoenix",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-power_18-UI_Officer_head_icon_53_1_d01fbe94-5fdd-4cce-9a7f-b2178ff28c2d.png?v=1787835954&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    }
+  ]
+}
