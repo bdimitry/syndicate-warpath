@@ -40,3 +40,7 @@ The only external runtime resource is Google Fonts; system fonts provide a fallb
 ### Artillery officer pairs
 
 `?page=artillery&lang=ru` has 11 pairs in six categories: Howitzer B2B F2P (1) / P2W (2), Howitzer garrison (2), field Rocket Launcher F2P (2) / P2W (2), Anti-Tank Gun garrison (2). Garrison pairs have no spending category. Explanations cover role conditions, awakening, the one-Map-Grid range-bonus cap and Argent Flame’s Captain requirement. The submitted typo «Безморозный гром» is normalized to «Безмолвный гром» (Silent Thunder), and «Стальное ангел» to «Стальной ангел». Aircraft and ships still await compositions. OfficerGuide shares the layout with armor while retaining distinct content and routes.
+
+### Construction priorities
+
+`?page=construction&lang=ru` (also en/vi/ar) opens from the active Base Development card. Four priorities follow the submitted SyndiCate plan: Command Center, Engineering Center, required defense, relevant Barracks. Each includes a reason and checkpoint, followed by a repeatable cycle and source notes. The guide does not assert an unverified universal Wall/turret/Defense Center dependency or mandatory Barracks/airfield per level. Current in-game requirements and any displayed Build Index threshold take precedence; Lilith 3.0 posts are explicitly historical context. Production and research exceptions prevent the minimal-upgrade plan from blocking the core army or research guide.
