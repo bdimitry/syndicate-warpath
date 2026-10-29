@@ -7,6 +7,7 @@
 .research-gate { margin-top: 24px; border-top: 1px solid #734037; padding-top: 16px; }
 .research-gate > strong { color: #c38672; font-size: 11px; }
 .research-guide aside nav { gap: 16px; }
+.construction-decision { margin-block: 32px 42px; }
 .card-research { grid-column: 1 / -1; min-height: 210px; background: linear-gradient(120deg, #20272b, #181819); border-top-color: #697c81; }
 .card-research .card-body { margin-top: 20px; }
 .card-research .card-body p { max-width: 700px; }
