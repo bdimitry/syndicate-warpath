@@ -1,9 +1,12 @@
 import React from 'react';
 import { parts, partSources } from './parts';
 import './parts.css';
+import PartScreenshot from './PartScreenshot';
+import { partScreenshots, screenshotCopy } from './partScreenshots';
 
 export default function PartsGuide({ lang }) {
   const t = parts[lang];
+  const screenshots = screenshotCopy[lang];
 
   return (
     <main id="guide" className="guide parts-guide">
@@ -28,6 +31,7 @@ export default function PartsGuide({ lang }) {
           <ul className="lesson-checks parts-summary">
             {t.summary.map(item => <li key={item}>{item}</li>)}
           </ul>
+          <p className="part-shot-note">{screenshots.note}</p>
           {t.sections.map((section, i) => (
             <section id={`parts-${section.id}`} key={section.id}>
               <p className="eyebrow">{String(i + 1).padStart(2, '0')} / SYNDICATE FIELD MANUAL</p>
@@ -52,6 +56,9 @@ export default function PartsGuide({ lang }) {
                 </div>
               )}
               {section.callout && <p className="lesson-warning">{section.callout}</p>}
+              {partScreenshots.filter(screenshot => screenshot.section === section.id).map(screenshot => (
+                <PartScreenshot key={screenshot.id} screenshot={screenshot} copy={screenshots.items[screenshot.id]} labels={screenshots} />
+              ))}
               {section.sources && (
                 <div className="parts-references">
                   <span>{t.sourceLabel}:</span>

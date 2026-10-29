@@ -2,6 +2,7 @@ node_modules/
 dist/
 *.local
 .codex-edit/
+.codex-remote-attachments/
 .work/
 *.xlsx
 *.inspect.ndjson
