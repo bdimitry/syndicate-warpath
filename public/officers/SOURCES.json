@@ -118,6 +118,51 @@
       "format": "PNG",
       "width": 136,
       "height": 192
+    },
+    {
+      "file": "madame-havoc.png",
+      "officer": "Madame Havoc",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/madame-havoc",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-power_19-UI_Officer_head_icon_59_1_455e966d-39d8-4fe6-bf40-6f427a4c5067.png?v=1787832978&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "iron-cavalier.png",
+      "officer": "Iron Cavalier",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/iron-cavalier",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-order_20-UI_Officer_head_icon_68_1_a3751409-bc7c-4e50-837e-a48cc4cbfed7.png?v=1787832028&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "dawn-anthem.png",
+      "officer": "Dawn Anthem",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/dawn-anthem",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-freedom_30-UI_Officer_head_icon_79_1_45ab80ce-daf9-40bd-8c2e-f2b7a1bdcf0e.png?v=1787301327&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "uncle-ivankov.png",
+      "officer": "Uncle Ivankov",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/uncle-ivankov",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-order_16-UI_Officer_head_icon_52_1_0cba408e-de0f-4944-81f0-b9bc36d4b106.png?v=1787836887&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "gridlock-architect.png",
+      "officer": "Gridlock Architect",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/gridlock-architect",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-freedom_35-UI_Officer_head_icon_88_1_a3035dee-b9da-4c2f-84d7-177a13f2a44e.png?v=1787831103&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
     }
   ]
 }

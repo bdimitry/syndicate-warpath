@@ -1,0 +1,21 @@
+// Shared identities keep names consistent across troop guides.
+export const officers = {
+  'lady-shadow': {ru:'Госпожа теней',en:'Lady Shadow',name:'Mulian'},
+  haymaker: {ru:'Стальная коса',en:'Haymaker',name:'Jackson Hays'},
+  rapier: {ru:'Рапира',en:'Rapier',name:'Ye Qiming'},
+  catseye: {ru:'Хитрая кошка',en:'Catseye',name:'Elena Loch'},
+  'desert-jaeger': {ru:'Егерь пустыни',en:'Desert Jaeger',name:'Hans Seckler'},
+  'steel-phoenix': {ru:'Стальной феникс',en:'Steel Phoenix',name:'Klaudia Nowak'},
+  'rogue-edge': {ru:'Клинок беззакония',en:'Rogue Edge',name:'Mason Walker'},
+  'herald-of-peace': {ru:'Вестник мира',en:'Herald of Peace',name:'Harmonix'},
+  'wings-of-wanderlust': {ru:'Крылья скитальца',en:'Wings of Wanderlust',name:'Ethan Brown'},
+  everbloom: {ru:'Неувядающий цветок',en:'Everbloom',name:'Nguyen Thu Suong'},
+  'angel-of-light': {ru:'Ангел света',en:'Angel of Light',name:'Florence Borden'},
+  scavenger: {ru:'Мусорщик',en:'Scavenger',name:'Bruno Stahl'},
+  'the-arbitrator': {ru:'Арбитр',en:'The Arbitrator',name:'Robert Brown'},
+  'madame-havoc': {ru:'Мадам хаос',en:'Madame Havoc',name:'Kyra Adler'},
+  'iron-cavalier': {ru:'Железный всадник',en:'Iron Cavalier',name:'Mikhail Baturin'},
+  'dawn-anthem': {ru:'Песнь рассвета',en:'Dawn Anthem',name:'Aminah Zanduni'},
+  'uncle-ivankov': {ru:'Дядюшка Иванков',en:'Uncle Ivankov',name:'Ruslan Ivankov'},
+  'gridlock-architect': {ru:'Железная роза',en:'Gridlock Architect',name:'Victoria Thorne'},
+};

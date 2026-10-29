@@ -1,15 +1,6 @@
-import { tankOfficers } from './tanks';
+import { officers } from './officers';
 
-export const infantryOfficers = {
-  'rogue-edge': {ru:'Клинок беззакония',en:'Rogue Edge',name:'Mason Walker'},
-  'lady-shadow': tankOfficers['lady-shadow'],
-  'herald-of-peace': {ru:'Вестник мира',en:'Herald of Peace',name:'Harmonix'},
-  'wings-of-wanderlust': {ru:'Крылья скитальца',en:'Wings of Wanderlust',name:'Ethan Brown'},
-  everbloom: {ru:'Неувядающий цветок',en:'Everbloom',name:'Nguyen Thu Suong'},
-  'angel-of-light': {ru:'Ангел света',en:'Angel of Light',name:'Florence Borden'},
-  scavenger: {ru:'Мусорщик',en:'Scavenger',name:'Bruno Stahl'},
-  'the-arbitrator': {ru:'Арбитр',en:'The Arbitrator',name:'Robert Brown'},
-};
+export const infantryOfficers = Object.fromEntries(['rogue-edge','lady-shadow','herald-of-peace','wings-of-wanderlust','everbloom','angel-of-light','scavenger','the-arbitrator'].map(id=>[id,officers[id]]));
 // Submitted order is preserved; positions do not assign commander/aide roles.
 export const infantryGroups = [
   {id:'attack-f2p',category:'f2p',pairs:[['rogue-edge','lady-shadow'],['rogue-edge','herald-of-peace']]},
