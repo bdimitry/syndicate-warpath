@@ -73,6 +73,76 @@
       "format": "PNG",
       "width": 300,
       "height": 300
+    },
+    {
+      "file": "units/fighter.png",
+      "name": "F-22 Raptor",
+      "sourcePage": "https://warpath.afuns.cc/en/units",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/unit/UI_Card3D_F22_01.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "units/armored.png",
+      "name": "Modernized Project 1155 Fregat-Class",
+      "sourcePage": "https://warpath.afuns.cc/en/units",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/unit/UI_Card3D_Udaloy3_01.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "units/submarine.png",
+      "name": "Project 971M-Class",
+      "sourcePage": "https://warpath.afuns.cc/en/units",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/unit/UI_Card3D_Akula3_01.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "units/missile.png",
+      "name": "Arleigh Burke-Class Flight III",
+      "sourcePage": "https://warpath.afuns.cc/en/units",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/unit/UI_Card3D_Arleighburke3_01.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "units/carrier.png",
+      "name": "Type II Modified Nimitz-Class",
+      "sourcePage": "https://warpath.afuns.cc/en/units",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/unit/UI_Card3D_Nimitz3_01.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "units/antiair.png",
+      "name": "Modified Horizon-Class",
+      "sourcePage": "https://warpath.afuns.cc/en/units",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/unit/UI_Card3D_Horizon3_01.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "units/antisub.png",
+      "name": "Al Riyadh-Class",
+      "sourcePage": "https://warpath.afuns.cc/en/units",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/unit/UI_Card3D_Lafayette3_01.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300,
+      "retrieved": "2026-10-30"
     }
   ],
   "references": [

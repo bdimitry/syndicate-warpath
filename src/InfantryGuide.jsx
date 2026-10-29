@@ -1,4 +1,5 @@
 import React from 'react';
+import {directionLinks} from './airNaval';
 import { infantry, infantryGroups, infantryOfficers } from './infantry';
 import OfficerPair from './OfficerPair';
 import Why from './Why';
@@ -19,7 +20,7 @@ export default function InfantryGuide({ lang }) {
         </section>)}
         <section id="infantry-5"><h2>{t.headings[5]}</h2><ul className="lesson-checks">{t.checks.map(text=><li key={text}>{text}</li>)}</ul><Why lang={lang}>{t.chooseWhy}</Why></section>
         <section id="infantry-6"><h2>{t.headings[6]}</h2><p>{t.note}</p><ul className="event-sources">{Object.entries(infantryOfficers).map(([id,officer])=><li key={id}><a href={`https://warpath-planet.com/blogs/officers/${id}`} lang="en" dir="ltr">{officer.en} ↗</a></li>)}</ul></section>
-        <div className="officer-guide-links"><a className="text-link" href={`?page=tanks&lang=${lang}`}>{t.tankLink}</a><a className="text-link" href={`?page=artillery&lang=${lang}`}>{artillery[lang].title} →</a></div>
+        <div className="officer-guide-links">{directionLinks(lang,"infantry").map(link=><a className="text-link" key={link.page} href={`?page=${link.page}&lang=${lang}`}>{link.label}</a>)}</div>
       </article>
     </div>
   </main>;

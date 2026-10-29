@@ -16,8 +16,8 @@ unitExamples.artillery='M777 / TOS-2';
 for(const lang of Object.keys(cardCopy))cardCopy[lang].types.artillery=mergedArtilleryCopy[lang].type;
 
 export function cardContext(groupId='') {
-  const type=['light','mbt','superheavy','helicopter','howitzer','rocket','antitank','artillery'].find(type=>groupId.startsWith(type))||'infantry';
-  const mode=['garrison','b2b','field','attack','tank'].find(mode=>groupId.split('-').includes(mode));
+  const type=['light','mbt','superheavy','helicopter','howitzer','rocket','antitank','artillery','fighter','armored','submarine','missile','carrier','antiair','antisub'].find(type=>groupId.startsWith(type))||'infantry';
+  const mode=['garrison','b2b','field','attack','defense','tank'].find(mode=>groupId.split('-').includes(mode));
   return {type,mode};
 }
 
@@ -43,3 +43,14 @@ export const referenceLoadouts={
 };
 
 export const referenceAtlases={superheavy:{file:'superheavy-reference.jpg',width:1026,height:1280},skill:{file:'skill-reference.jpg',width:974,height:1280}};
+
+const airNavalTypes={
+ru:['Истребитель','Бронированный корабль','Подводная лодка','Ракетный корабль','Авианосец','Эсминец ПВО','Противолодочный корабль','Защитный'],
+en:['Fighter','Armored ship','Submarine','Missile ship','Aircraft carrier','Anti-air destroyer','Anti-submarine frigate','Defensive'],
+vi:['Tiêm kích','Tàu bọc thép','Tàu ngầm','Tàu tên lửa','Tàu sân bay','Tàu khu trục phòng không','Tàu chống ngầm','Phòng thủ'],
+ar:['مقاتلة','سفينة مدرعة','غواصة','سفينة صاروخية','حاملة طائرات','مدمرة دفاع جوي','فرقاطة مضادة للغواصات','دفاعية']};
+for(const lang of Object.keys(cardCopy)){
+ ['fighter','armored','submarine','missile','carrier','antiair','antisub'].forEach((type,i)=>cardCopy[lang].types[type]=airNavalTypes[lang][i]);
+ cardCopy[lang].modes.defense=airNavalTypes[lang][7];
+}
+Object.assign(unitExamples,{fighter:'F-22 Raptor',armored:'Project 1155 Fregat',submarine:'Project 971M',missile:'Arleigh Burke Flight III',carrier:'Type II Modified Nimitz',antiair:'Modified Horizon',antisub:'Al Riyadh'});

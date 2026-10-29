@@ -34,3 +34,10 @@ export const officers = {
   "terrain-tactician": {"ru":"Говорящая с ветром","en":"Terrain Tactician","name":"Alicia Fels"},
   "maestro": {"ru":"Маэстро","en":"Maestro","name":"Emilio Solari"},
 };
+
+const identities=[
+ ['shadow-chaser','Преследующая тень','Shadow Chaser','Valentina Cruz',true],['silver-fox','Серебряный лис','Silver Fox','Nicolás Acosta'],['fleeting-arrow','Стремительная стрела','Fleeting Arrow','Isabella Romano'],['nighthawk','Ночная птица','Nighthawk','Felix Fogel'],['bladewing','Крылатый клинок','Bladewing','Vasily Sokolov'],['cloud-buster','Небесная охотница','Cloud-Buster','Alina Lebed'],['darkwing','Чёрное крыло','Darkwing','Connor Lawrence'],['sky-jockey','Небесная наездница','Sky Jockey','Isabel Gómez'],
+ ['captain-unbeaten','Непобедимый капитан','Captain Unbeaten','James Patrick'],['surf-strider','Скользящий по волнам','Surf Strider','David Knight'],['ripcurrent','Дитя прилива','Ripcurrent','Loic Messier'],['liberty-blaze','Пламя свободы','Liberty Blaze','Lucas Oliveira'],['la-sirena','Сирена','La Sirena','Camila Morales'],['tidal-fang','Клык приливов','Tidal Fang','Esmeralda Del Rio'],['skiptide','Волнорез','Skiptide','Leon Del Rio'],['dame-sombra','Сумрачная дама','Dame Sombra','Elena Casar'],['black-jack','Блэкджек','Black Jack','Jack Callahan',true],['steel-commodore','Стальной командор','Steel Commodore','Victoria Taylor'],
+];
+for(const [id,ru,en,name,tall] of identities) officers[id]={ru,en,name,...(tall?{portrait:{width:136,height:192}}:{})};
+
