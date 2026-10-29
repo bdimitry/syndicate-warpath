@@ -1,0 +1,22 @@
+.parts-summary { margin: 0 0 48px; }
+.parts-steps { padding-inline-start: 24px; color: #c9bfb5; font-size: 14px; line-height: 1.9; }
+.parts-steps li { padding-inline-start: 7px; margin-bottom: 13px; }
+.parts-steps li::marker { color: #c6806b; font-weight: 700; }
+.parts-choices { margin: 24px 0; }
+.parts-choices > div { padding: 18px 20px; border: 1px solid var(--border); margin-top: 10px; background: #1a1818; }
+.parts-choices dt { font-size: 15px; font-weight: 800; color: #e2c4b5; line-height: 1.7; }
+.parts-choices dd { margin: 9px 0 0; font-size: 13px; line-height: 1.9; color: #bab2a9; }
+.parts-example { border-inline-start: 3px solid #99734e; background: #24201b; padding: 20px 24px; margin: 25px 0; }
+.guide-layout .parts-example h3 { margin-top: 0; color: #e7cba5; }
+.guide-layout .parts-example p { margin-bottom: 0; }
+.parts-references { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; margin: 24px 0; font-size: 11px; line-height: 1.8; color: #9c9187; }
+.parts-references a { color: #c69580; text-decoration: underline; text-underline-offset: 4px; overflow-wrap: anywhere; }
+.card-parts { grid-column: 1 / -1; min-height: 210px; background: linear-gradient(120deg, #2c241b, #181819); border-top-color: #8b6545; }
+.card-parts .card-body { margin-top: 20px; }
+.card-parts .card-body p { max-width: 650px; }
+.parts-guide aside nav { gap: 12px; }
+@media (max-width: 600px) {
+  .parts-steps { font-size: 13px; }
+  .parts-example { padding: 18px; }
+  .parts-choices > div { padding: 16px; }
+}
