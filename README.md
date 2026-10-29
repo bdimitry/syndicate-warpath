@@ -67,4 +67,6 @@ Five Vanya Gefesto builds fill six context-specific cards: Steel Angel leads Lad
 
 ### Aircraft and naval officers
 
+La Sirena and Steel Commodore are alternatives for the same slot, as clarified by SyndiCate: Ripcurrent + Steel Commodore is the P2W alternative to Ripcurrent + La Sirena. This is a substitution, not a La Sirena + Steel Commodore pair, and does not imply identical skills or performance.
+
 `?page=aircraft&lang=ru` adds five fighter cards in four attack/defense and F2P/P2W groups. `?page=naval&lang=ru` adds eleven cards across six ship classes. Both support en, vi and ar, share the existing card component, link all officer branches, and explain each pair and class. The naval selection checklist preserves SyndiCate’s La Sirena / Steel Commodore P2W note without assigning undocumented leader/aide roles. New skills and gear remain explicitly unspecified. The 43 previously published land/helicopter/artillery cards and their authored loadouts are preserved. New verified PNG portraits and unit art have provenance in the corresponding SOURCES.json files. Surf Strider and Skiptide remain distinct identities despite an ambiguous Russian source label; Skiptide uses the supplied name Волнорез.

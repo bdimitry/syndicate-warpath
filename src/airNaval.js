@@ -50,8 +50,8 @@ const make=(copy)=>Object.fromEntries(Object.keys(common).map(lang=>[lang,{...co
 export const aircraft=make(airCopy);
 export const naval=make(seaCopy);
 const sirenaNotes={
-ru:'Примечание SyndiCate: там, где указана Сирена, к ней в пару может быть добавлен Стальной командор — это P2W-вариант. Сочетание её критического урона навыками с бонусами Стального командора требует развития соответствующих навыков; роли и полная комплектация пока не заданы.',
-en:'SyndiCate note: wherever La Sirena is listed, Steel Commodore can be paired with her as a P2W option. Combining her critical skill damage with Steel Commodore’s bonuses requires developing the relevant skills; roles and the full loadout are not specified yet.',
-vi:'Ghi chú SyndiCate: nơi có La Sirena, có thể ghép Steel Commodore với cô ấy như lựa chọn P2W. Kết hợp sát thương kỹ năng chí mạng với hiệu ứng Steel Commodore cần phát triển kỹ năng tương ứng; chưa chỉ định vai trò và trang bị đầy đủ.',
-ar:'ملاحظة SyndiCate: حيث تظهر La Sirena، يمكن إقران Steel Commodore بها كخيار P2W. جمع ضرر مهاراتها الحرج مع مكافآته يتطلب تطوير المهارات المعنية؛ لم تحدد الأدوار والتجهيزات الكاملة بعد.'};
+ru:'Примечание SyndiCate: Сирена и Стальной командор — альтернативы для одного места в указанных морских парах. Вместо «Дитя прилива + Сирена» можно использовать «Дитя прилива + Стальной командор» — это P2W-вариант. Выбирайте по доступности и развитию офицера; такая замена не означает одинаковые навыки или одинаковую эффективность.',
+en:'SyndiCate note: La Sirena and Steel Commodore are alternatives for the same slot in the listed naval pairs. Replace “Ripcurrent + La Sirena” with “Ripcurrent + Steel Commodore” for the P2W option. Choose according to availability and officer development; this substitution does not imply identical skills or performance.',
+vi:'Ghi chú SyndiCate: La Sirena và Steel Commodore là hai lựa chọn thay thế cho cùng một vị trí trong các cặp hải quân đã liệt kê. Có thể thay “Ripcurrent + La Sirena” bằng “Ripcurrent + Steel Commodore” — phương án P2W. Chọn theo khả năng sở hữu và mức phát triển sĩ quan; thay thế không có nghĩa kỹ năng hay hiệu quả giống nhau.',
+ar:'ملاحظة SyndiCate: La Sirena وSteel Commodore بديلان للموقع نفسه في الأزواج البحرية المذكورة. يمكن استبدال «Ripcurrent + La Sirena» بـ «Ripcurrent + Steel Commodore» كخيار P2W. اختر حسب التوفر وتطوير الضابط؛ الاستبدال لا يعني تطابق المهارات أو الأداء.'};
 for(const lang of Object.keys(naval))naval[lang].checks.push(sirenaNotes[lang]);
