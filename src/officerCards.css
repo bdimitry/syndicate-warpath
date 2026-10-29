@@ -13,8 +13,8 @@
 .build-unit-label { position: relative; z-index: 3; align-self: start; margin-top: 8px; text-align: center; text-shadow: 0 2px 5px #000,0 0 18px #000; }
 .build-unit-label > strong { display: block; font-size: clamp(15px,2vw,23px); line-height: 1.35; color: #f4ede0; }
 .build-unit-label > span { display: block; color: #d9b26c; font-size: 13px; margin-top: 9px; font-weight: 700; }
-/* Reference badge occupies about 13% of the card width, centered above the unit name. */
-.build-unit-label > .build-unit-rank { --rank-width:clamp(42px,13.4cqw,118px); width:var(--rank-width); height:calc(var(--rank-width) * 43 / 118); margin:0 auto 6px; border-radius:calc(var(--rank-width) * 15 / 118); background-repeat:no-repeat; background-size:calc(var(--rank-width) * 974 / 118) calc(var(--rank-width) * 1280 / 118); background-position:calc(var(--rank-width) * -428 / 118) calc(var(--rank-width) * -53 / 118); }
+/* Keep the reference aspect ratio; scale the badge down by 23% and lower it by 8px. */
+.build-unit-label > .build-unit-rank { --rank-width:calc(clamp(42px,13.4cqw,118px) * .77); width:var(--rank-width); height:calc(var(--rank-width) * 43 / 118); margin:8px auto 6px; border-radius:calc(var(--rank-width) * 15 / 118); background-repeat:no-repeat; background-size:calc(var(--rank-width) * 974 / 118) calc(var(--rank-width) * 1280 / 118); background-position:calc(var(--rank-width) * -428 / 118) calc(var(--rank-width) * -53 / 118); }
 .build-unit-label > small { display: inline-block; color: #c3b9a6; font-size: 10px; margin-top: 10px; background: #080b11a3; padding: 3px 7px; border-radius: 4px; }
 .build-body { padding: 28px; }
 .guide-layout article .build-loadout-title { color: #d8b56f; font-size: 13px; font-weight: 700; margin: 0 0 12px; }
