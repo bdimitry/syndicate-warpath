@@ -1,6 +1,6 @@
 /* Raster game art, semantic text and CSS only. No icon library or vector assets. */
 .tank-guide .tank-pair-grid { grid-template-columns: minmax(0,1fr); gap: 28px; }
-.tank-pair.officer-build-card { padding: 0; border: 1px solid #9470328a; border-radius: 25px; overflow: hidden; background: linear-gradient(120deg,#19170f,#0b0d12 60%); box-shadow: 0 0 0 3px #8e66230a,0 16px 45px #0004; }
+.tank-pair.officer-build-card { container-type: inline-size; padding: 0; border: 1px solid #9470328a; border-radius: 25px; overflow: hidden; background: linear-gradient(120deg,#19170f,#0b0d12 60%); box-shadow: 0 0 0 3px #8e66230a,0 16px 45px #0004; }
 .officer-build-card .build-visual { position: relative; border-bottom: 1px solid #b2863747; background: radial-gradient(ellipse at 8% 32%,#85633440,transparent 58%),radial-gradient(ellipse at 90% 35%,#1e456225,transparent 60%),#111318; }
 .build-classification { display: flex; justify-content: space-between; gap: 12px; padding: 20px 28px 0; color: #d2b578; font-size: 10px; font-weight: 700; letter-spacing: 1.4px; }
 .officer-build-card .build-portrait-stage { position: relative; display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1.25fr) minmax(0,1fr); gap: 0; align-items: end; min-height: 235px; padding: 10px 22px 22px; }
@@ -10,10 +10,11 @@
 .build-unit > img { position: absolute; width: 160%; max-width: none; height: 250px; object-fit: contain; opacity: .64; filter: drop-shadow(0 10px 15px #0006); }
 .build-unit-combined > img:first-child { width: 115%; inset-inline-start: -30%; bottom: -10px; }
 .build-unit-combined > img:nth-child(2) { width: 115%; inset-inline-end: -30%; top: -10px; opacity: .4; }
-.build-unit-label { position: relative; z-index: 3; align-self: center; text-align: center; text-shadow: 0 2px 5px #000,0 0 18px #000; padding-top: 10px; }
+.build-unit-label { position: relative; z-index: 3; align-self: start; margin-top: 8px; text-align: center; text-shadow: 0 2px 5px #000,0 0 18px #000; }
 .build-unit-label > strong { display: block; font-size: clamp(15px,2vw,23px); line-height: 1.35; color: #f4ede0; }
 .build-unit-label > span { display: block; color: #d9b26c; font-size: 13px; margin-top: 9px; font-weight: 700; }
-.build-unit-label > .build-unit-rank { width:118px; height:43px; margin:0 auto 8px; border-radius:15px; background-repeat:no-repeat; background-size:974px 1280px; background-position:-428px -53px; }
+/* Reference badge occupies about 13% of the card width, centered above the unit name. */
+.build-unit-label > .build-unit-rank { --rank-width:clamp(42px,13.4cqw,118px); width:var(--rank-width); height:calc(var(--rank-width) * 43 / 118); margin:0 auto 6px; border-radius:calc(var(--rank-width) * 15 / 118); background-repeat:no-repeat; background-size:calc(var(--rank-width) * 974 / 118) calc(var(--rank-width) * 1280 / 118); background-position:calc(var(--rank-width) * -428 / 118) calc(var(--rank-width) * -53 / 118); }
 .build-unit-label > small { display: inline-block; color: #c3b9a6; font-size: 10px; margin-top: 10px; background: #080b11a3; padding: 3px 7px; border-radius: 4px; }
 .build-body { padding: 28px; }
 .guide-layout article .build-loadout-title { color: #d8b56f; font-size: 13px; font-weight: 700; margin: 0 0 12px; }
@@ -54,7 +55,8 @@
   .build-unit > img { height: 170px; width: 180%; }
   .build-unit-label > strong { font-size: 14px; }
   .build-unit-label > span { font-size: 10px; margin-top: 6px; }
-  .build-unit-label > .build-unit-rank { width:94.4px; height:34.4px; margin:0 auto 6px; background-size:779.2px 1024px; background-position:-342.4px -42.4px; border-radius:12px; }
+  .build-unit-label { margin-top:0; }
+  .build-unit-label > .build-unit-rank { margin-bottom:4px; }
   .build-unit-label > small { font-size: 8px; margin-top: 7px; }
   .build-body { padding: 20px 17px; }
   .guide-layout article .build-pair-title { font-size: 22px; margin-bottom: 22px; }
