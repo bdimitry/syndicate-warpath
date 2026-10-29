@@ -1,0 +1,12 @@
+.guide-layout article .research-route { padding: 22px; border-inline-start: 3px solid #bd5945; background: #271b19; color: #ecd1bd; font-size: 15px; font-weight: 700; margin: 0 0 42px; }
+.research-parallel { margin: 26px 0; }
+.research-parallel dl { display: grid; gap: 12px; }
+.research-parallel dl > div { padding: 20px; background: #1b1918; border: 1px solid var(--border); }
+.research-parallel dt { font-size: 15px; color: #e6bfaa; font-weight: 800; line-height: 1.8; }
+.research-parallel dd { margin: 8px 0 0; font-size: 13px; color: #bfb5ac; line-height: 1.9; }
+.research-gate { margin-top: 24px; border-top: 1px solid #734037; padding-top: 16px; }
+.research-gate > strong { color: #c38672; font-size: 11px; }
+.research-guide aside nav { gap: 16px; }
+.card-research { grid-column: 1 / -1; min-height: 210px; background: linear-gradient(120deg, #20272b, #181819); border-top-color: #697c81; }
+.card-research .card-body { margin-top: 20px; }
+.card-research .card-body p { max-width: 700px; }
