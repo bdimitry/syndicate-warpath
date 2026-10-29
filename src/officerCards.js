@@ -1,3 +1,5 @@
+import {baseBufferLoadout} from './baseBuffer';
+
 export const cardCopy = {
   ru:{requirements:'Комплектация',leader:'Командир',aide:'Помощник',officer:'Офицер',skills:'Обучаемые навыки',gear:'Снаряжение',pending:'Навыки и снаряжение пока не указаны.',rolesNote:'Роли командира и помощника для этой пары ещё не назначены.',reference:'Образец SyndiCate',referenceNote:'Комплектация по образцу SyndiCate. Уровень 40 показан на скриншоте; подпись допускает любой уровень снаряжения.',example:'Иллюстрация',exampleLevel:'На примере: 40',types:{infantry:'Пехота',light:'Лёгкий танк',mbt:'Основной боевой танк',superheavy:'Сверхтяжёлый танк',helicopter:'Вертолёт',howitzer:'Гаубица',rocket:'Ракетная установка',antitank:'Противотанковое орудие'},modes:{attack:'Атакующая',tank:'Танкующая',field:'Поле',b2b:'B2B · штурм',garrison:'Гарнизон'}},
   en:{requirements:'Loadout',leader:'Leader',aide:'Aide',officer:'Officer',skills:'Trained skills',gear:'Gear',pending:'Skills and gear have not been specified yet.',rolesNote:'Leader and aide roles have not been assigned for this pair.',reference:'SyndiCate reference',referenceNote:'Loadout from the SyndiCate reference. Level 40 appears in the screenshot; its caption allows any gear level.',example:'Illustration',exampleLevel:'Example: Lv 40',types:{infantry:'Infantry',light:'Light Tank',mbt:'Main Battle Tank',superheavy:'Super Heavy Tank',helicopter:'Helicopter',howitzer:'Howitzer',rocket:'Rocket Launcher',antitank:'Anti-Tank Gun'},modes:{attack:'Attacking',tank:'Tanking',field:'Field',b2b:'B2B · assault',garrison:'Garrison'}},
@@ -16,6 +18,7 @@ export function cardContext(groupId='') {
 // Coordinates reference the unchanged user JPEGs, never generated replacements.
 const icon=(name,atlas,x,y,size)=>({name,atlas,x,y,size});
 export const referenceLoadouts={
+  'helicopter-garrison:gridlock-architect+uncle-ivankov':baseBufferLoadout,
   'superheavy-b2b-f2p:iron-cavalier+dawn-anthem':{
     source:'superheavy',
     officers:[

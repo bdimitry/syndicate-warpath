@@ -4,6 +4,7 @@ import {cardCopy,cardContext,unitExamples,referenceLoadouts,referenceAtlases} fr
 import './officerCards.css';
 
 function ReferenceIcon({item}) {
+  if(!item.atlas)return null;
   const atlas=referenceAtlases[item.atlas];
   return <span className="build-item-icon" aria-hidden="true" style={{backgroundImage:`url(${import.meta.env.BASE_URL}guides/officers/references/${atlas.file})`,backgroundSize:`${atlas.width/item.size*100}% ${atlas.height/item.size*100}%`,backgroundPosition:`${item.x/(atlas.width-item.size)*100}% ${item.y/(atlas.height-item.size)*100}%`}}/>;
 }
@@ -22,15 +23,16 @@ export default function OfficerPair({ pair, officers, lang, label, reason, group
     </div>
     <div className="build-body">
       <div className="build-tags"><span>{t.types[context.type]}</span>{context.mode&&<span>{t.modes[context.mode]}</span>}</div>
+      {loadout?.title&&<p className="build-loadout-title" lang="en" dir="ltr">{loadout.title}</p>}
       <h3 className="build-pair-title"><bdi>{names[0]}</bdi><span aria-hidden="true"> + </span><bdi>{names[1]}</bdi></h3>
       <p className="build-requirements-title">{t.requirements}</p>
       <div className="build-role-grid">{pair.map((id,index)=><div className={`build-role-panel build-role-${index}`} key={id}>
         <p className="build-role-label"><span aria-hidden="true"/>{loadout?(index===0?t.leader:t.aide):`${t.officer} ${String(index+1).padStart(2,'0')}`}</p>
         <strong className="build-role-name"><bdi>{names[index]}</bdi></strong>
-        {loadout?<><p className="build-field-label">{t.skills}</p><ul className="build-item-list">{loadout.officers[index].skills.map(item=><li key={item.name}><ReferenceIcon item={item}/><span lang="en" dir="ltr">{item.name}</span></li>)}</ul><p className="build-field-label build-gear-heading">{t.gear}</p><div className="build-gear-item"><ReferenceIcon item={loadout.officers[index].gear}/><span lang="en" dir="ltr">{loadout.officers[index].gear.name}</span></div><small className="build-example-level">{t.exampleLevel}</small></>:<p className="build-pending">{t.pending}</p>}
+        {loadout?<><p className="build-field-label">{t.skills}</p><ul className="build-item-list">{loadout.officers[index].skills.map(item=><li key={item.name}><ReferenceIcon item={item}/><span lang="en" dir="ltr">{item.name}</span></li>)}</ul><p className="build-field-label build-gear-heading">{t.gear}</p><div className="build-gear-item"><ReferenceIcon item={loadout.officers[index].gear}/><span lang="en" dir="ltr">{loadout.officers[index].gear.name}</span></div><small className="build-example-level">{loadout.copy?loadout.copy[lang].level:t.exampleLevel}</small></>:<p className="build-pending">{t.pending}</p>}
       </div>)}</div>
-      <p className="build-role-note">{loadout?t.referenceNote:t.rolesNote}</p>
-      {loadout&&<span className="build-reference-label">{t.reference}</span>}
+      <p className="build-role-note">{loadout?(loadout.copy?loadout.copy[lang].note:t.referenceNote):t.rolesNote}</p>
+      {loadout&&<span className="build-reference-label">{loadout.copy?loadout.copy[lang].credit:t.reference}</span>}
       <Why lang={lang}>{reason}</Why>
     </div>
   </div>;

@@ -1,5 +1,6 @@
 import { officers } from './officers';
 import { armorExpansion } from './armorExpansion';
+import {baseBufferGroup,baseBufferCopy} from './baseBuffer';
 
 // Latest alliance list; card order does not assign commander/aide positions.
 export const tankGroups = [
@@ -12,6 +13,7 @@ export const tankGroups = [
   {id:'mbt-garrison',category:null,pairs:[['uncle-ivankov','gridlock-architect']]},
   {"id":"helicopter-f2p","category":"f2p","pairs":[["haymaker","lady-shadow"]]},
   {"id":"helicopter-p2w","category":"p2w","pairs":[["haymaker","desert-jaeger"]]},
+  baseBufferGroup,
   {"id":"superheavy-b2b-f2p","category":"f2p","pairs":[["iron-cavalier","dawn-anthem"]]},
   {"id":"superheavy-b2b-p2w","category":"p2w","pairs":[["the-arbitrator","iron-cavalier"]]},
 ];
@@ -113,6 +115,7 @@ const baseTanks = {
 };
 
 export const tanks = Object.fromEntries(Object.entries(baseTanks).map(([lang,t])=>{
-  const extra=armorExpansion[lang];
-  return [lang,{...t,title:extra.title,intro:extra.intro,tag:extra.tag,headings:[extra.overviewHeading,...t.headings.slice(1,8),...extra.headings,...t.headings.slice(8)],groupIntros:[...t.groupIntros,...extra.groupIntros],groupWhys:[...t.groupWhys,...extra.groupWhys],reasons:[...t.reasons,...extra.reasons],upcoming:extra.upcoming,checks:[extra.check,...t.checks.slice(1)],artilleryLink:extra.artilleryLink}];
+  const extra=armorExpansion[lang], buffer=baseBufferCopy[lang];
+  const insertBuffer=(items,value)=>[...items.slice(0,2),value,...items.slice(2)];
+  return [lang,{...t,title:extra.title,intro:extra.intro.replace(/^18 /,'19 '),tag:extra.tag,headings:[extra.overviewHeading,...t.headings.slice(1,8),...insertBuffer(extra.headings,buffer.heading),...t.headings.slice(8)],groupIntros:[...t.groupIntros,...insertBuffer(extra.groupIntros,buffer.intro)],groupWhys:[...t.groupWhys,...insertBuffer(extra.groupWhys,buffer.why)],reasons:[...t.reasons,...insertBuffer(extra.reasons,[buffer.reason])],upcoming:extra.upcoming,checks:[extra.check,...t.checks.slice(1)],artilleryLink:extra.artilleryLink}];
 }));

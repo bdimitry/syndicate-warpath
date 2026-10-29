@@ -13,6 +13,7 @@
 .build-unit-label > span { display: block; color: #d9b26c; font-size: 13px; margin-top: 9px; font-weight: 700; }
 .build-unit-label > small { display: inline-block; color: #c3b9a6; font-size: 10px; margin-top: 10px; background: #080b11a3; padding: 3px 7px; border-radius: 4px; }
 .build-body { padding: 28px; }
+.guide-layout article .build-loadout-title { color: #d8b56f; font-size: 13px; font-weight: 700; margin: 0 0 12px; }
 .build-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
 .build-tags > span { border: 1px solid #a5895140; color: #bcb19e; font-size: 11px; padding: 5px 9px; border-radius: 5px; line-height: 1.4; }
 .guide-layout article .build-pair-title { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 8px; font-size: clamp(21px,2.5vw,29px); line-height: 1.4; color: #faf2df; margin: 0 0 26px; letter-spacing: -.4px; }
