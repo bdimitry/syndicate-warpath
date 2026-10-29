@@ -14,7 +14,7 @@
 .build-unit-label > strong { display: block; font-size: clamp(15px,2vw,23px); line-height: 1.35; color: #f4ede0; }
 .build-unit-label > span { display: block; color: #d9b26c; font-size: 13px; margin-top: 9px; font-weight: 700; }
 /* Preserve the 23% reduction and center the badge below the unit artwork. */
-.build-unit > .build-unit-rank { --rank-width:calc(clamp(42px,13.4cqw,118px) * .77); width:var(--rank-width); height:calc(var(--rank-width) * 43 / 118); position:absolute; z-index:4; bottom:-8px; left:50%; transform:translateX(-50%); margin:0; border-radius:calc(var(--rank-width) * 15 / 118); background-repeat:no-repeat; background-size:calc(var(--rank-width) * 974 / 118) calc(var(--rank-width) * 1280 / 118); background-position:calc(var(--rank-width) * -428 / 118) calc(var(--rank-width) * -53 / 118); }
+.build-unit > .build-unit-rank { --rank-width:calc(clamp(42px,13.4cqw,118px) * .77); width:var(--rank-width); height:calc(var(--rank-width) * 43 / 118); position:absolute; z-index:4; mix-blend-mode:lighten; bottom:-8px; left:50%; transform:translateX(-50%); margin:0; border-radius:calc(var(--rank-width) * 15 / 118); background-repeat:no-repeat; background-size:calc(var(--rank-width) * 974 / 118) calc(var(--rank-width) * 1280 / 118); background-position:calc(var(--rank-width) * -428 / 118) calc(var(--rank-width) * -53 / 118); }
 .build-unit-label > small { display: inline-block; color: #c3b9a6; font-size: 10px; margin-top: 10px; background: #080b11a3; padding: 3px 7px; border-radius: 4px; }
 .build-body { padding: 28px; }
 .guide-layout article .build-loadout-title { color: #d8b56f; font-size: 13px; font-weight: 700; margin: 0 0 12px; }
