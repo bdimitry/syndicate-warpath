@@ -163,6 +163,105 @@
       "format": "PNG",
       "width": 216,
       "height": 180
+    },
+    {
+      "file": "futurus-venturer.png",
+      "officer": "Futurus Venturer",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/futurus-venturer",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-order_19-UI_Officer_head_icon_61_1_6e2ea24d-a643-4460-9a9d-41936fab6f12.png?v=1787830838&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "eye-of-providence.png",
+      "officer": "Eye of Providence",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/eye-of-providence",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-freedom_11-UI_Officer_head_icon_29_1_740f077e-76e8-4f82-a388-573ac8c95e24.png?v=1787830430&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "silent-thunder.png",
+      "officer": "Silent Thunder",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/silent-thunder",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-order_23-UI_Officer_head_icon_82_1_68d22f27-a4b3-43bc-a74d-68397da7d023.png?v=1787834745&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "madame-vindicta.png",
+      "officer": "Madame Vindicta",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/madame-vindicta",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-power_21-UI_Officer_head_icon_66_1_3370988b-c3c8-4e4c-b608-966a5fe3695b.png?v=1787833037&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "steel-angel.png",
+      "officer": "Steel Angel",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/steel-angel",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-freedom_32-UI_Officer_head_icon_80_1_1cd8c805-e65a-4bf5-b95a-132eb9b650f4.png?v=1787835394&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "stinger-fist.png",
+      "officer": "Stinger Fist",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/stinger-fist",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-freedom_19-UI_Officer_head_icon_51_1_1f5859aa-d258-4186-932c-feb34382fc6d.png?v=1787836048&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "argent-flame.png",
+      "officer": "Argent Flame",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/argent-flame",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-power_09-UI_Officer_head_icon_26_1.png?v=1785578196&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "frostfire.png",
+      "officer": "Frostfire",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/frostfire",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-order_22-UI_Officer_head_icon_76_1_b2eab3b7-22ee-4e86-aca8-a56e6c06a7f3.png?v=1787830715&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "champion-of-the-people.png",
+      "officer": "Champion of the People",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/champion-of-the-people",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-order_02-UI_Officer_head_icon_03_1.png?v=1787301036&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "terrain-tactician.png",
+      "officer": "Terrain Tactician",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/terrain-tactician",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-power_31-UI_Officer_head_icon_91_1_4fc1072e-c6ed-46a3-a423-0ccf253ef861.png?v=1787836305&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "maestro.png",
+      "officer": "Maestro",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/maestro",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-power_17-UI_Officer_head_icon_48_1_c156563b-2489-4606-b308-886cacb0e7d3.png?v=1787833162&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
     }
   ]
 }

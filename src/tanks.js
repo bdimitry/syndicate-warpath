@@ -1,4 +1,5 @@
 import { officers } from './officers';
+import { armorExpansion } from './armorExpansion';
 
 // Latest alliance list; card order does not assign commander/aide positions.
 export const tankGroups = [
@@ -9,10 +10,14 @@ export const tankGroups = [
   {id:'mbt-b2b-f2p',category:'f2p',pairs:[['iron-cavalier','dawn-anthem']]},
   {id:'mbt-b2b-p2w',category:'p2w',pairs:[['the-arbitrator','iron-cavalier']]},
   {id:'mbt-garrison',category:null,pairs:[['uncle-ivankov','gridlock-architect']]},
+  {"id":"helicopter-f2p","category":"f2p","pairs":[["haymaker","lady-shadow"]]},
+  {"id":"helicopter-p2w","category":"p2w","pairs":[["haymaker","desert-jaeger"]]},
+  {"id":"superheavy-b2b-f2p","category":"f2p","pairs":[["iron-cavalier","dawn-anthem"]]},
+  {"id":"superheavy-b2b-p2w","category":"p2w","pairs":[["the-arbitrator","iron-cavalier"]]},
 ];
 export const tankOfficers = Object.fromEntries([...new Set(tankGroups.flatMap(group=>group.pairs.flat()))].map(id=>[id,officers[id]]));
 
-export const tanks = {
+const baseTanks = {
   ru: {
     title:'Офицеры для танков',intro:'14 пар SyndiCate: лёгкий танк и основной боевой танк для поля, танкования базы и гарнизона. Выбери задачу, затем состав F2P или P2W.',
     tag:'ОФИЦЕРЫ / ТАНКИ',back:'На главную',toc:'Выбери направление',ready:'Смотреть сборки',variant:'Вариант',garrison:'ГАРНИЗОН',infantryLink:'Офицеры для пехоты →',
@@ -106,3 +111,8 @@ export const tanks = {
     note:'صور PNG وأوصاف المهارات: Warpath Planet. تساعد الأسماء الإنجليزية على مطابقة الضباط بين اللغات. تم التحقق في 29 أكتوبر 2026.',
   },
 };
+
+export const tanks = Object.fromEntries(Object.entries(baseTanks).map(([lang,t])=>{
+  const extra=armorExpansion[lang];
+  return [lang,{...t,title:extra.title,intro:extra.intro,tag:extra.tag,headings:[extra.overviewHeading,...t.headings.slice(1,8),...extra.headings,...t.headings.slice(8)],groupIntros:[...t.groupIntros,...extra.groupIntros],groupWhys:[...t.groupWhys,...extra.groupWhys],reasons:[...t.reasons,...extra.reasons],upcoming:extra.upcoming,checks:[extra.check,...t.checks.slice(1)],artilleryLink:extra.artilleryLink}];
+}));
