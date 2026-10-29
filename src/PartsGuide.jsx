@@ -1,6 +1,9 @@
 import React from 'react';
 import { parts, partSources } from './parts';
 import './parts.css';
+import Why from './Why';
+import {rationale} from './rationale';
+
 import PartScreenshot from './PartScreenshot';
 import { partScreenshots, screenshotCopy } from './partScreenshots';
 
@@ -37,6 +40,7 @@ export default function PartsGuide({ lang }) {
               <p className="eyebrow">{String(i + 1).padStart(2, '0')} / SYNDICATE FIELD MANUAL</p>
               <h2>{section.title}</h2>
               {section.paragraphs?.map(p => <p key={p}>{p}</p>)}
+              <Why lang={lang}>{rationale[lang].parts[section.id]}</Why>
               {section.bullets && (
                 <ol className="parts-steps">
                   {section.bullets.map(item => <li key={item}>{item}</li>)}

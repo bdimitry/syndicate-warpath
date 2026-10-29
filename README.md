@@ -1,5 +1,7 @@
 # SyndiCate — Warpath Field Manual
 
+Every published page includes localized explanations beside its recommendations. `src/rationale.js` stores the reasoning in all four languages, and `src/Why.jsx` renders the shared explanation block. Coverage includes the homepage, all unit rules and coupon choices, each calendar day and Jurisdiction step, every parts section, and every research stage plus its three initial parallel tracks. `AGENTS.md` preserves this editorial requirement for future work. Explanations distinguish alliance strategy from game mechanics and avoid invented guarantees or savings.
+
 React landing page in Russian, English, Arabic (RTL) and Vietnamese. Uses the supplied PNG alliance banner; no SVG assets or icon libraries.
 
 ## Development

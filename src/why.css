@@ -1,0 +1,10 @@
+.why-box { margin: 18px 0 25px; padding: 16px 20px; border-inline-start: 2px solid #9a6550; background: #211d19; }
+.why-box > strong { color: #dfab89; font-size: 11px; line-height: 1.8; }
+.guide-layout article .why-box > p, .why-box > p { margin: 7px 0 0; font-size: 13px; line-height: 1.9; color: #c8bdb1; }
+.why-box.why-box p { max-width: none; }
+.manual > .why-box { margin-bottom: 30px; }
+.research-parallel dd .why-box { margin-bottom: 0; }
+@media (max-width: 600px) {
+  .why-box { padding: 14px 16px; }
+  .guide-layout article .why-box > p, .why-box > p { font-size: 12px; }
+}

@@ -1,5 +1,8 @@
 import React from 'react';
 import { events, eventSources } from './events';
+import Why from './Why';
+import {rationale} from './rationale';
+
 
 function StageTimes({ lang, text }) {
   const locale = { ru: 'ru', en: 'en-GB', vi: 'vi', ar: 'ar' }[lang];
@@ -22,6 +25,7 @@ function StageTimes({ lang, text }) {
 
 export default function EventsGuide({ lang }) {
   const t = events[lang];
+  const why = rationale[lang].events;
   return <main id="guide" className="guide">
     <div className="guide-cover section">
       <a className="text-link" href={`?lang=${lang}`}>← {t.back}</a>
@@ -36,18 +40,18 @@ export default function EventsGuide({ lang }) {
         <section id="event-0"><h2>{t.headings[0]}</h2><p>{t.note}</p>
           <div className="calendar-days">{t.days.map(([day, action, stage], i) => <div className="calendar-day" key={day}>
             <div className="calendar-day-title"><span>0{i + 1}</span><h3>{day}</h3></div>
-            <p>{action}</p><div className="calendar-stage"><strong>{t.columns[2]}</strong><p>{stage}</p></div>
+            <p>{action}</p><Why lang={lang}>{why.days[i]}</Why><div className="calendar-stage"><strong>{t.columns[2]}</strong><p>{stage}</p></div>
           </div>)}</div>
         </section>
         <section id="event-1"><h2>{t.headings[1]}</h2><p>{t.definition}</p>
           <StageTimes lang={lang} text={t}/>
-          {t.steps.map(([h, p], i) => <div className="event-step" key={h}><span>0{i + 1}</span><div><h3>{h}</h3><p>{p}</p></div></div>)}
+          {t.steps.map(([h, p], i) => <div className="event-step" key={h}><span>0{i + 1}</span><div><h3>{h}</h3><p>{p}</p><Why lang={lang}>{why.steps[i]}</Why></div></div>)}
         </section>
         <section id="event-2"><h2>{t.headings[2]}</h2><p>{t.why}</p>
-          <div className="lesson-callout"><h3>{t.overlap}</h3><p>{t.whyMore}</p></div><p>{t.exception}</p>
+          <div className="lesson-callout"><h3>{t.overlap}</h3><p>{t.whyMore}</p></div><p>{t.exception}</p><Why lang={lang}>{why.honors}</Why>
         </section>
-        <section id="event-3"><h2>{t.headings[3]}</h2><ul className="lesson-checks">{t.checks.map(c => <li key={c}>{c}</li>)}</ul><p className="lesson-warning">{t.caution}</p></section>
-        <section id="event-4"><h2>{t.headings[4]}</h2><p className="lesson-source">{t.sources}</p>
+        <section id="event-3"><h2>{t.headings[3]}</h2><ul className="lesson-checks">{t.checks.map(c => <li key={c}>{c}</li>)}</ul><p className="lesson-warning">{t.caution}</p><Why lang={lang}>{why.plan}</Why></section>
+        <section id="event-4"><h2>{t.headings[4]}</h2><p className="lesson-source">{t.sources}</p><Why lang={lang}>{why.sources}</Why>
           <ul className="event-sources">{eventSources.map(([label, url]) => <li key={url}><a href={url}>{label} ↗</a></li>)}</ul>
         </section>
         <a className="text-link" href={`?lang=${lang}`}>← {t.back}</a>

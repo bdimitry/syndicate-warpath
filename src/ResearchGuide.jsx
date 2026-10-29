@@ -1,9 +1,13 @@
 import React from 'react';
 import { research } from './research';
 import './research.css';
+import Why from './Why';
+import {rationale} from './rationale';
+
 
 export default function ResearchGuide({ lang }) {
   const t = research[lang];
+  const why = rationale[lang];
   return <main id="guide" className="guide research-guide">
     <div className="guide-cover section">
       <a className="text-link" href={`?lang=${lang}`}>← {t.back}</a>
@@ -18,14 +22,15 @@ export default function ResearchGuide({ lang }) {
         <p className="research-route">{t.summary}</p>
         {t.stages.map((stage, i) => <section id={`research-${i}`} key={stage.title}>
           <p className="eyebrow">0{i + 1} / SYNDICATE FIELD MANUAL</p>
-          <h2>{stage.title}</h2><p>{stage.text}</p>
+          <h2>{stage.title}</h2><p>{stage.text}</p><Why lang={lang}>{why.research[i]}</Why>
           {stage.tracks && <div className="research-parallel"><h3>{t.parallel}</h3><dl>
-            {stage.tracks.map(([title, text]) => <div key={title}><dt>{title}</dt><dd>{text}</dd></div>)}
+            {stage.tracks.map(([title, text], index) => <div key={title}><dt>{title}</dt><dd>{text}<Why lang={lang}>{why.researchTracks[index]}</Why></dd></div>)}
           </dl></div>}
           <div className="research-gate"><strong>{t.finish}</strong><p>{stage.gate}</p></div>
         </section>)}
         <p className="lesson-warning">{t.reminder}</p>
         <p className="lesson-source">{t.attribution}</p>
+        <p className="lesson-source"><a href="https://forum-global-share.lilithgame.com/warpath/post/40435/?lang=en-US">Warpath · Research / City Honors ↗</a></p>
         <a className="text-link" href={`?lang=${lang}`}>← {t.back}</a>
       </article>
     </div>
