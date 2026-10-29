@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.local
+.codex-edit/
+.work/
+*.xlsx
+*.inspect.ndjson
+*-check.png
+Формулы_урона_Warpath.md
