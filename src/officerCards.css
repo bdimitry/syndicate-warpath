@@ -1,0 +1,63 @@
+/* Raster game art, semantic text and CSS only. No icon library or vector assets. */
+.tank-guide .tank-pair-grid { grid-template-columns: minmax(0,1fr); gap: 28px; }
+.tank-pair.officer-build-card { padding: 0; border: 1px solid #9470328a; border-radius: 25px; overflow: hidden; background: linear-gradient(120deg,#19170f,#0b0d12 60%); box-shadow: 0 0 0 3px #8e66230a,0 16px 45px #0004; }
+.officer-build-card .build-visual { position: relative; border-bottom: 1px solid #b2863747; background: radial-gradient(ellipse at 8% 32%,#85633440,transparent 58%),radial-gradient(ellipse at 90% 35%,#1e456225,transparent 60%),#111318; }
+.build-classification { display: flex; justify-content: space-between; gap: 12px; padding: 20px 28px 0; color: #d2b578; font-size: 10px; font-weight: 700; letter-spacing: 1.4px; }
+.officer-build-card .build-portrait-stage { position: relative; display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1.25fr) minmax(0,1fr); gap: 0; align-items: end; min-height: 235px; padding: 10px 22px 22px; }
+.officer-build-card .build-portrait { position: relative; z-index: 2; display: flex; align-items: end; aspect-ratio: auto; height: 205px; border: 0; background: none; margin: 0; }
+.officer-build-card .build-portrait img { max-height: 205px; width: 100%; height: 100%; object-fit: contain; object-position: center bottom; filter: drop-shadow(0 9px 12px #0005); }
+.build-unit { position: relative; align-self: stretch; display: grid; place-items: center; min-width: 0; }
+.build-unit > img { position: absolute; width: 160%; max-width: none; height: 250px; object-fit: contain; opacity: .64; filter: drop-shadow(0 10px 15px #0006); }
+.build-unit-label { position: relative; z-index: 3; align-self: center; text-align: center; text-shadow: 0 2px 5px #000,0 0 18px #000; padding-top: 10px; }
+.build-unit-label > strong { display: block; font-size: clamp(15px,2vw,23px); line-height: 1.35; color: #f4ede0; }
+.build-unit-label > span { display: block; color: #d9b26c; font-size: 13px; margin-top: 9px; font-weight: 700; }
+.build-unit-label > small { display: inline-block; color: #c3b9a6; font-size: 10px; margin-top: 10px; background: #080b11a3; padding: 3px 7px; border-radius: 4px; }
+.build-body { padding: 28px; }
+.build-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+.build-tags > span { border: 1px solid #a5895140; color: #bcb19e; font-size: 11px; padding: 5px 9px; border-radius: 5px; line-height: 1.4; }
+.guide-layout article .build-pair-title { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 8px; font-size: clamp(21px,2.5vw,29px); line-height: 1.4; color: #faf2df; margin: 0 0 26px; letter-spacing: -.4px; }
+.build-pair-title > bdi { max-width: 100%; }
+.build-pair-title > span { color: #e6aa42; padding-inline: 5px; white-space: nowrap; }
+.guide-layout article .build-requirements-title { font-size: 11px; text-transform: uppercase; letter-spacing: 2px; color: #b4a68b; font-weight: 800; margin: 0 0 14px; }
+.build-role-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; }
+.build-role-panel { padding: 20px; border-radius: 18px; border: 1px solid #773e3e50; border-top-color: #aa4b4b77; background: linear-gradient(155deg,#2a101764,#101114 65%); min-width: 0; }
+.build-role-panel.build-role-1 { border-color: #31496650; border-top-color: #3462a377; background: linear-gradient(155deg,#101c346e,#101114 65%); }
+.guide-layout article .build-role-label { display: flex; align-items: center; gap: 8px; margin: 0 0 12px; color: #ef777c; font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; }
+.guide-layout article .build-role-1 .build-role-label { color: #73b5f3; }
+.build-role-label > span { width: 7px; height: 7px; flex-shrink: 0; border-radius: 50%; background: currentColor; box-shadow: 0 0 12px currentColor; }
+.build-role-name { display: block; color: #e8e3db; font-size: 17px; line-height: 1.5; }
+.guide-layout article .build-field-label { color: #9c9c9e; font-size: 10px; text-transform: uppercase; font-weight: 800; letter-spacing: 1px; margin: 20px 0 12px; line-height: 1.4; }
+.build-item-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 13px; }
+.build-item-list > li,.build-gear-item { display: flex; align-items: center; gap: 12px; min-width: 0; font-size: 17px; line-height: 1.4; color: #e7e5e1; }
+.build-item-list span[lang],.build-gear-item span[lang] { min-width: 0; overflow-wrap: anywhere; }
+.build-item-icon { display: block; width: 48px; height: 48px; flex-shrink: 0; background-repeat: no-repeat; border: 1px solid #9b855342; box-shadow: 0 0 0 1px #0006; }
+.build-gear-item .build-item-icon { border-radius: 8px; border-color: #b88c3870; }
+.guide-layout article .build-gear-heading { display: flex; gap: 12px; align-items: center; margin-top: 22px; }
+.build-gear-heading:after { content: ''; height: 1px; background: #ffffff18; flex: 1; }
+.build-example-level { display: block; color: #caa65f; font-size: 10px; margin-top: 10px; }
+.guide-layout article .build-pending { font-size: 13px; line-height: 1.7; color: #9f9b99; margin: 14px 0 0; }
+.guide-layout article .build-role-note { font-size: 13px; line-height: 1.8; color: #a49b8f; margin: 18px 0 0; }
+.build-reference-label { display: inline-block; margin-top: 12px; font-size: 10px; color: #d8b56f; border-bottom: 1px solid #a27b3c77; padding-bottom: 3px; }
+.officer-build-card .why-box { margin: 24px 0 0; background: #ffffff04; border-inline-start-color: #b48c45; box-shadow: none; }
+[dir=rtl] .build-classification,[dir=rtl] .build-role-label,[dir=rtl] .guide-layout article .build-requirements-title { letter-spacing: 0; }
+@media (max-width:600px) {
+  .tank-pair.officer-build-card { border-radius: 20px; }
+  .build-classification { padding: 16px 17px 0; font-size: 8px; letter-spacing: .7px; }
+  .officer-build-card .build-portrait-stage { min-height: 170px; padding: 8px 10px 15px; grid-template-columns: minmax(0,1fr) minmax(0,1.05fr) minmax(0,1fr); }
+  .officer-build-card .build-portrait { height: 148px; }
+  .officer-build-card .build-portrait img { max-height: 148px; }
+  .build-unit > img { height: 170px; width: 180%; }
+  .build-unit-label > strong { font-size: 14px; }
+  .build-unit-label > span { font-size: 10px; margin-top: 6px; }
+  .build-unit-label > small { font-size: 8px; margin-top: 7px; }
+  .build-body { padding: 20px 17px; }
+  .guide-layout article .build-pair-title { font-size: 22px; margin-bottom: 22px; }
+  .build-role-grid { gap: 10px; }
+  .build-role-panel { padding: 14px 11px; border-radius: 13px; }
+  .build-role-name { font-size: 13px; }
+  .guide-layout article .build-role-label { font-size: 10px; gap: 6px; }
+  .guide-layout article .build-pending { font-size: 12px; }
+  .build-item-icon { width: 32px; height: 32px; }
+  .build-item-list > li,.build-gear-item { gap: 7px; font-size: 13px; }
+  .guide-layout article .build-field-label { font-size: 9px; letter-spacing: .5px; }
+}

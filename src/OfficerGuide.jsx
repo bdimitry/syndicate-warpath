@@ -13,7 +13,7 @@ export default function OfficerGuide({lang,data,groups,officers,prefix,links}) {
         {groups.map((group,i)=><section id={`${prefix}-${i+1}`} data-build-group={group.id} key={group.id}>
           <div className={`tank-section-heading tank-section-${group.category||'garrison'}`}><span>{group.category?group.category.toUpperCase():t.garrison}</span><h2>{t.headings[i+1]}</h2></div>
           <p>{t.groupIntros[i]}</p><Why lang={lang}>{t.groupWhys[i]}</Why>
-          <div className="tank-pair-grid">{group.pairs.map((pair,index)=><OfficerPair key={pair.join('-')} pair={pair} officers={officers} lang={lang} label={`${group.category?group.category.toUpperCase():t.garrison} / ${t.variant} ${String(index+1).padStart(2,'0')}`} reason={t.reasons[i][index]}/>)}</div>
+          <div className="tank-pair-grid">{group.pairs.map((pair,index)=><OfficerPair key={pair.join('-')} pair={pair} groupId={group.id} officers={officers} lang={lang} label={`${group.category?group.category.toUpperCase():t.garrison} / ${t.variant} ${String(index+1).padStart(2,'0')}`} reason={t.reasons[i][index]}/>)}</div>
         </section>)}
         <section id={`${prefix}-${end}`}><h2>{t.headings[end]}</h2><ul className="lesson-checks">{t.checks.map(text=><li key={text}>{text}</li>)}</ul><Why lang={lang}>{t.chooseWhy}</Why></section>
         <section id={`${prefix}-${end+1}`}><h2>{t.headings[end+1]}</h2><ul className="lesson-checks">{t.upcoming.map(text=><li key={text}><strong>{text}</strong> — {t.pending}</li>)}</ul><Why lang={lang}>{t.pendingWhy}</Why></section>

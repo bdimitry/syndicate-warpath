@@ -15,7 +15,7 @@ export default function InfantryGuide({ lang }) {
         {infantryGroups.map((group,i)=><section id={`infantry-${i+1}`} key={group.id}>
           <div className={`tank-section-heading tank-section-${group.category}`}><span>{group.category.toUpperCase()}</span><h2>{t.headings[i+1]}</h2></div>
           <p>{t.groupIntros[i]}</p><Why lang={lang}>{t.groupWhys[i]}</Why>
-          <div className="tank-pair-grid">{group.pairs.map((pair,index)=><OfficerPair key={pair.join('-')} pair={pair} officers={infantryOfficers} lang={lang} label={`${group.category.toUpperCase()} / ${t.variant} ${String(index+1).padStart(2,'0')}`} reason={t.reasons[i][index]}/>)}</div>
+          <div className="tank-pair-grid">{group.pairs.map((pair,index)=><OfficerPair key={pair.join('-')} pair={pair} groupId={group.id} officers={infantryOfficers} lang={lang} label={`${group.category.toUpperCase()} / ${t.variant} ${String(index+1).padStart(2,'0')}`} reason={t.reasons[i][index]}/>)}</div>
         </section>)}
         <section id="infantry-5"><h2>{t.headings[5]}</h2><ul className="lesson-checks">{t.checks.map(text=><li key={text}>{text}</li>)}</ul><Why lang={lang}>{t.chooseWhy}</Why></section>
         <section id="infantry-6"><h2>{t.headings[6]}</h2><p>{t.note}</p><ul className="event-sources">{Object.entries(infantryOfficers).map(([id,officer])=><li key={id}><a href={`https://warpath-planet.com/blogs/officers/${id}`} lang="en" dir="ltr">{officer.en} ↗</a></li>)}</ul></section>

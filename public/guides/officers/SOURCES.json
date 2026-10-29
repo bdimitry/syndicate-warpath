@@ -1,0 +1,90 @@
+{
+  "retrieved": "2026-10-29",
+  "unitArtNote": "Illustrative units only; model and star level are not build requirements.",
+  "assets": [
+    {
+      "file": "units/infantry.png",
+      "name": "SR-556 Squad",
+      "sourcePage": "https://warpath.afuns.cc/en/units",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/unit/UI_Card3D_SR556_01.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300
+    },
+    {
+      "file": "units/light.png",
+      "name": "M6 Linebacker",
+      "sourcePage": "https://warpath.afuns.cc/en/units",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/unit/UI_Card3D_M6_Linebacker_01.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300
+    },
+    {
+      "file": "units/mbt.png",
+      "name": "Leopard 2",
+      "sourcePage": "https://warpath.afuns.cc/en/units",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/unit/UI_Card3D_Leopard2_01.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300
+    },
+    {
+      "file": "units/helicopter.png",
+      "name": "AH-64E Apache",
+      "sourcePage": "https://warpath.afuns.cc/en/units",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/unit/UI_Card3D_AH64_Apache_01.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300
+    },
+    {
+      "file": "units/superheavy.png",
+      "name": "P. 1500 Monster",
+      "sourcePage": "https://warpath.afuns.cc/en/units",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/unit/UI_Card3d_P1500_01.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300
+    },
+    {
+      "file": "units/rocket.png",
+      "name": "TOS-2 Tosochka",
+      "sourcePage": "https://warpath.afuns.cc/en/units",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/unit/UI_Card3D_Tos2_Tosochka_01.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300
+    },
+    {
+      "file": "units/howitzer.png",
+      "name": "155mm M777",
+      "sourcePage": "https://warpath.afuns.cc/en/units",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/unit/UI_Card3D_155mm_M777_01.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300
+    },
+    {
+      "file": "units/antitank.png",
+      "name": "PzH-2000",
+      "sourcePage": "https://warpath.afuns.cc/en/units",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/unit/UI_Card3D_Panzerhaubitze2000_01.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300
+    }
+  ],
+  "references": [
+    {
+      "file": "references/superheavy-reference.jpg",
+      "source": "User-provided 1000015105.jpg",
+      "note": "Unmodified JPEG; CSS shows original skill/gear icon regions."
+    },
+    {
+      "file": "references/skill-reference.jpg",
+      "source": "User-provided 1000015107.jpg",
+      "note": "Unmodified JPEG; CSS shows original skill/gear icon regions."
+    }
+  ]
+}
