@@ -55,6 +55,69 @@
       "format": "PNG",
       "width": 216,
       "height": 180
+    },
+    {
+      "file": "rogue-edge.png",
+      "officer": "Rogue Edge",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/rogue-edge",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-freedom_29-UI_Officer_head_icon_78_1_b69ff366-2276-44d8-904d-2118735e8646.png?v=1787834318&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "herald-of-peace.png",
+      "officer": "Herald of Peace",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/herald-of-peace",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-freedom_20-UI_Officer_head_icon_55_1_a5e4ab39-71ae-4a44-8b3d-745347df8330.png?v=1787831849&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "wings-of-wanderlust.png",
+      "officer": "Wings of Wanderlust",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/wings-of-wanderlust",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-freedom_22-UI_Officer_head_icon_56_1_cbb1de20-8c0e-4aba-9e33-536d60d07bf9.png?v=1787836670&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "everbloom.png",
+      "officer": "Everbloom",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/everbloom",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-order_14-UI_Officer_head_icon_50_1_2cabb5f1-4efb-448b-b774-153c10c443bd.png?v=1787830317&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "angel-of-light.png",
+      "officer": "Angel of Light",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/angel-of-light",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-freedom_03-UI_Officer_head_icon_07_1.png?v=1785577089&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "the-arbitrator.png",
+      "officer": "The Arbitrator",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/the-arbitrator",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-freedom_28-UI_Officer_head_icon_69_1_f6cda7d0-0634-4468-bbb6-832e2e28eaeb.png?v=1787836359&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "scavenger.png",
+      "officer": "Scavenger",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/scavenger",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/game-data-order_28-d26ac353872d3a2c949af1964e2022cc7623ce354947a41a1627c32b659993b6.png?v=1792731148&width=480",
+      "format": "PNG",
+      "width": 136,
+      "height": 192
     }
   ]
 }

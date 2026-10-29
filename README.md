@@ -32,3 +32,7 @@ The resource calendar and Jurisdiction guide are available at `?page=events&lang
 Push the project to the `main` branch of a GitHub repository, then select **Settings → Pages → Source → GitHub Actions**. The included workflow builds and deploys `dist`. Relative asset paths support repository subdirectories. Publication is not enabled until the repository and Pages are configured. Existing spreadsheets and notes are not included in the published build.
 
 The only external runtime resource is Google Fonts; system fonts provide a fallback. The banner is served locally. No analytics or tracking is installed.
+
+### Infantry officer pairs
+
+`?page=infantry&lang=ru` presents six SyndiCate compositions in Russian, English, Vietnamese and Arabic (RTL). Attacking F2P: Rogue Edge + Lady Shadow; Rogue Edge + Herald of Peace. Attacking P2W: Wings of Wanderlust + Rogue Edge. Tanking F2P: Everbloom + Angel of Light; Everbloom + Scavenger. Tanking P2W: The Arbitrator + Everbloom. Every pair has a skill-based explanation and relevant conditions. Categories and order follow the supplied alliance plan, not a tested ranking. Portrait provenance is in `public/officers/SOURCES.json`; assets are PNG.
