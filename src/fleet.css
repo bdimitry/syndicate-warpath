@@ -1,0 +1,26 @@
+/* Transparent raster ships move independently; the original banner stays still. */
+.hero-fleet{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:1;direction:ltr}
+.hero-ship{position:absolute;left:100%;top:17%;width:clamp(180px,21vw,330px);opacity:.85;will-change:transform}
+.hero-ship img{display:block;width:100%;height:auto;filter:brightness(.74);object-fit:contain}
+.hero-ship-far{top:7%;width:clamp(80px,10vw,150px);opacity:.45;filter:blur(.35px)}
+.hero-ship-return{top:30%;width:clamp(100px,13vw,210px);opacity:.6}
+.hero-ship-return img{transform:scaleX(-1)}
+.ship-engine{position:absolute;right:7%;top:51%;width:9%;height:4%;background:#ff9a5a;border-radius:50%;filter:blur(2px);box-shadow:6px 0 12px #f4542488;opacity:.7}
+.hero-ship-return .ship-engine{right:auto;left:7%;box-shadow:-6px 0 12px #f4542488}
+@keyframes cruiser-cross{0%{transform:translate(340px,10px)}100%{transform:translate(calc(-100vw - 360px),-26px)}}
+@keyframes cruiser-return{0%{transform:translate(calc(-100vw - 360px),-8px)}100%{transform:translate(340px,22px)}}
+@keyframes engine-flicker{from{opacity:.45;scale:.85}to{opacity:.9;scale:1.15}}
+@media(prefers-reduced-motion:no-preference){
+  .hero-ship{animation:cruiser-cross 28s linear infinite;animation-delay:-8s}
+  .hero-ship-far{animation-duration:48s;animation-delay:-29s}
+  .hero-ship-return{animation:cruiser-return 37s linear infinite;animation-delay:-22s}
+  .ship-engine{animation:engine-flicker 1.8s ease-in-out infinite alternate}
+  .hero.hero-paused .hero-ship,.hero.hero-paused .ship-engine{animation-play-state:paused}
+}
+@media(max-width:600px){
+  .hero-fleet{height:380px}
+  .hero-ship{top:32%;width:180px;animation-duration:19s}
+  .hero-ship-far{top:13%;width:82px;animation-duration:32s}
+  .hero-ship-return{top:56%;width:115px;animation-duration:25s}
+}
+@media(prefers-reduced-motion:reduce){.hero-fleet{display:none}}

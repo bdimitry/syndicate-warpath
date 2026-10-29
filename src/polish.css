@@ -45,12 +45,11 @@ body{background:radial-gradient(ellipse at 85% 10%,#36221b24,transparent 48%),#1
 .part-shot,.tank-pair,.parts-choices>div,.research-parallel dl>div{border-radius:7px}
 th,td{line-height:1.75}
 footer{font-size:12px;line-height:1.8}
-@keyframes banner-drift{0%,100%{transform:scale(1.045) translate(-.4%,0)}50%{transform:scale(1.09) translate(.4%,-.6%)}}
 @keyframes ember-rise{0%{opacity:0;transform:translate(0,0)}18%{opacity:.65}75%{opacity:.3}100%{opacity:0;transform:translate(-32px,-260px)}}
 @media(prefers-reduced-motion:no-preference){
-  .hero .hero-art{animation:banner-drift 24s ease-in-out infinite}
+  .hero .hero-art{animation:none}
   .hero-atmosphere i{animation:ember-rise calc(7s + var(--spark)*.6s) linear infinite;animation-delay:calc(var(--spark)*-1.7s)}
-  .hero.hero-paused .hero-art,.hero.hero-paused .hero-atmosphere i{animation-play-state:paused}
+  .hero.hero-paused .hero-atmosphere i{animation-play-state:paused}
 }
 @media(max-width:900px){.header nav{font-size:13px}.card{padding:22px}.card h3{font-size:22px}.card p,.card .card-lead{font-size:14px}}
 @media(max-width:600px){
