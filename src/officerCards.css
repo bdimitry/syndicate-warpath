@@ -13,6 +13,7 @@
 .build-unit-label { position: relative; z-index: 3; align-self: center; text-align: center; text-shadow: 0 2px 5px #000,0 0 18px #000; padding-top: 10px; }
 .build-unit-label > strong { display: block; font-size: clamp(15px,2vw,23px); line-height: 1.35; color: #f4ede0; }
 .build-unit-label > span { display: block; color: #d9b26c; font-size: 13px; margin-top: 9px; font-weight: 700; }
+.build-unit-label > .build-unit-rank { width:118px; height:43px; margin:0 auto 8px; border-radius:15px; background-repeat:no-repeat; background-size:974px 1280px; background-position:-428px -53px; }
 .build-unit-label > small { display: inline-block; color: #c3b9a6; font-size: 10px; margin-top: 10px; background: #080b11a3; padding: 3px 7px; border-radius: 4px; }
 .build-body { padding: 28px; }
 .guide-layout article .build-loadout-title { color: #d8b56f; font-size: 13px; font-weight: 700; margin: 0 0 12px; }
@@ -53,6 +54,7 @@
   .build-unit > img { height: 170px; width: 180%; }
   .build-unit-label > strong { font-size: 14px; }
   .build-unit-label > span { font-size: 10px; margin-top: 6px; }
+  .build-unit-label > .build-unit-rank { width:94.4px; height:34.4px; margin:0 auto 6px; background-size:779.2px 1024px; background-position:-342.4px -42.4px; border-radius:12px; }
   .build-unit-label > small { font-size: 8px; margin-top: 7px; }
   .build-body { padding: 20px 17px; }
   .guide-layout article .build-pair-title { font-size: 22px; margin-bottom: 22px; }
