@@ -1,14 +1,16 @@
 import { officers } from './officers';
 import { tanks } from './tanks';
+import {artilleryExpansion} from './artilleryExpansion';
+import {mergedArtilleryCopy} from './mergedArtillery';
 
 // Preserve the alliance list and pair order; no spending category was assigned to garrisons.
 export const artilleryGroups = [
-  {id:'howitzer-b2b-f2p',category:'f2p',pairs:[['futurus-venturer','eye-of-providence']]},
-  {id:'howitzer-b2b-p2w',category:'p2w',pairs:[['silent-thunder','eye-of-providence'],['silent-thunder','madame-vindicta']]},
-  {id:'howitzer-garrison',category:null,pairs:[['steel-angel','stinger-fist'],['argent-flame','stinger-fist']]},
-  {id:'rocket-field-f2p',category:'f2p',pairs:[['lady-shadow','champion-of-the-people'],['frostfire','champion-of-the-people']]},
-  {id:'rocket-field-p2w',category:'p2w',pairs:[['silent-thunder','champion-of-the-people'],['silent-thunder','madame-vindicta']]},
-  {id:'antitank-garrison',category:null,pairs:[['steel-angel','terrain-tactician'],['steel-angel','maestro']]},
+  {id:'artillery-b2b-f2p',aliases:['howitzer-b2b-f2p'],category:'f2p',pairs:[['futurus-venturer','eye-of-providence']]},
+  {id:'artillery-b2b-p2w',aliases:['howitzer-b2b-p2w'],category:'p2w',pairs:[['silent-thunder','eye-of-providence'],['silent-thunder','madame-vindicta']]},
+  {id:'artillery-garrison',aliases:['howitzer-garrison'],category:null,pairs:[['steel-angel','stinger-fist'],['argent-flame','stinger-fist'],['stinger-fist','red-heat']]},
+  {id:'artillery-field-f2p',aliases:['rocket-field-f2p'],category:'f2p',pairs:[['lady-shadow','champion-of-the-people'],['frostfire','champion-of-the-people']]},
+  {id:'artillery-field-p2w',aliases:['howitzer-field-p2w','rocket-field-p2w'],category:'p2w',pairs:[['red-heat','fighting-falcon'],['silent-thunder','madame-vindicta'],['silent-thunder','champion-of-the-people']]},
+  {id:'antitank-garrison',category:null,pairs:[['steel-angel','terrain-tactician'],['steel-angel','maestro'],['steel-angel','lady-shadow']]},
 ];
 export const artilleryOfficers = Object.fromEntries([...new Set(artilleryGroups.flatMap(group=>group.pairs.flat()))].map(id=>[id,officers[id]]));
 
@@ -91,4 +93,12 @@ const localized = {
   },
 };
 
-export const artillery = Object.fromEntries(Object.entries(localized).map(([lang,t])=>[lang,{...tanks[lang],...t}]));
+export const artillery = Object.fromEntries(Object.entries(localized).map(([lang,t])=>{
+  const extra=artilleryExpansion[lang], merged=mergedArtilleryCopy[lang];
+  const result={...tanks[lang],...t,intro:t.intro.replace(/^\d+ /,`${artilleryGroups.reduce((total,group)=>total+group.pairs.length,0)} `),headings:[t.headings[0],...merged.headings,...t.headings.slice(7)],overview:merged.overview,overviewWhy:`${t.overviewWhy} ${merged.why}`,groupIntros:merged.intros,groupWhys:[...t.groupWhys],reasons:t.reasons.map(reasons=>[...reasons])};
+  result.reasons[0][0]=extra.f2pWhy;result.reasons[1][1]=extra.loungeWhy;
+  result.reasons[2].push(extra.splashWhy);result.reasons[5].push(extra.atgWhy);
+  result.reasons[4]=[extra.burnWhy,extra.loungeWhy,t.reasons[4][0]];
+  result.groupWhys[4]=`${t.groupWhys[4]} ${extra.why}`;
+  return [lang,result];
+}));

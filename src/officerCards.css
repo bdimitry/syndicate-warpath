@@ -8,6 +8,8 @@
 .officer-build-card .build-portrait img { max-height: 205px; width: 100%; height: 100%; object-fit: contain; object-position: center bottom; filter: drop-shadow(0 9px 12px #0005); }
 .build-unit { position: relative; align-self: stretch; display: grid; place-items: center; min-width: 0; }
 .build-unit > img { position: absolute; width: 160%; max-width: none; height: 250px; object-fit: contain; opacity: .64; filter: drop-shadow(0 10px 15px #0006); }
+.build-unit-combined > img:first-child { width: 115%; inset-inline-start: -30%; bottom: -10px; }
+.build-unit-combined > img:nth-child(2) { width: 115%; inset-inline-end: -30%; top: -10px; opacity: .4; }
 .build-unit-label { position: relative; z-index: 3; align-self: center; text-align: center; text-shadow: 0 2px 5px #000,0 0 18px #000; padding-top: 10px; }
 .build-unit-label > strong { display: block; font-size: clamp(15px,2vw,23px); line-height: 1.35; color: #f4ede0; }
 .build-unit-label > span { display: block; color: #d9b26c; font-size: 13px; margin-top: 9px; font-weight: 700; }
@@ -37,6 +39,7 @@
 .build-gear-heading:after { content: ''; height: 1px; background: #ffffff18; flex: 1; }
 .build-example-level { display: block; color: #caa65f; font-size: 10px; margin-top: 10px; }
 .guide-layout article .build-pending { font-size: 13px; line-height: 1.7; color: #9f9b99; margin: 14px 0 0; }
+.guide-layout article .build-no-skills { font-size: 13px; line-height: 1.7; color: #c5b99f; margin: 0; }
 .guide-layout article .build-role-note { font-size: 13px; line-height: 1.8; color: #a49b8f; margin: 18px 0 0; }
 .build-reference-label { display: inline-block; margin-top: 12px; font-size: 10px; color: #d8b56f; border-bottom: 1px solid #a27b3c77; padding-bottom: 3px; }
 .officer-build-card .why-box { margin: 24px 0 0; background: #ffffff04; border-inline-start-color: #b48c45; box-shadow: none; }

@@ -280,6 +280,26 @@
       "format": "PNG",
       "width": 216,
       "height": 180
+    },
+    {
+      "file": "red-heat.png",
+      "officer": "Red Heat",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/red-heat",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-freedom_15-UI_Officer_head_icon_43_1_a78fcbcb-cd19-499a-92f5-01e4de91eb8f.png?v=1787834019&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "fighting-falcon.png",
+      "officer": "Fighting Falcon",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/fighting-falcon",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-profile-order-26.png?v=1787146826&width=480",
+      "format": "PNG",
+      "width": 136,
+      "height": 192,
+      "retrieved": "2026-10-30"
     }
   ]
 }

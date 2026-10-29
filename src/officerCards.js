@@ -1,5 +1,8 @@
 import {baseBufferLoadout} from './baseBuffer';
 import {vanyaLoadouts} from './vanyaBuilds';
+import {mergedArtilleryCopy} from './mergedArtillery';
+
+export const noSkillsCopy={ru:'Нет навыков для обучения в этой сборке.',en:'No skills to train for this build.',vi:'Không có kỹ năng cần huấn luyện trong đội hình này.',ar:'لا توجد مهارات للتدريب في هذا التجهيز.'};
 
 export const cardCopy = {
   ru:{requirements:'Комплектация',leader:'Командир',aide:'Помощник',officer:'Офицер',skills:'Обучаемые навыки',gear:'Снаряжение',pending:'Навыки и снаряжение пока не указаны.',rolesNote:'Роли командира и помощника для этой пары ещё не назначены.',reference:'Образец SyndiCate',referenceNote:'Комплектация по образцу SyndiCate. Уровень 40 показан на скриншоте; подпись допускает любой уровень снаряжения.',example:'Иллюстрация',exampleLevel:'На примере: 40',types:{infantry:'Пехота',light:'Лёгкий танк',mbt:'Основной боевой танк',superheavy:'Сверхтяжёлый танк',helicopter:'Вертолёт',howitzer:'Гаубица',rocket:'Ракетная установка',antitank:'Противотанковое орудие'},modes:{attack:'Атакующая',tank:'Танкующая',field:'Поле',b2b:'B2B · штурм',garrison:'Гарнизон'}},
@@ -9,9 +12,11 @@ export const cardCopy = {
 };
 
 export const unitExamples={infantry:'SR-556',light:'M6 Linebacker',mbt:'Leopard 2',superheavy:'P.1500 Monster',helicopter:'AH-64E Apache',howitzer:'M777',rocket:'TOS-2 Tosochka',antitank:'PzH-2000'};
+unitExamples.artillery='M777 / TOS-2';
+for(const lang of Object.keys(cardCopy))cardCopy[lang].types.artillery=mergedArtilleryCopy[lang].type;
 
 export function cardContext(groupId='') {
-  const type=['light','mbt','superheavy','helicopter','howitzer','rocket','antitank'].find(type=>groupId.startsWith(type))||'infantry';
+  const type=['light','mbt','superheavy','helicopter','howitzer','rocket','antitank','artillery'].find(type=>groupId.startsWith(type))||'infantry';
   const mode=['garrison','b2b','field','attack','tank'].find(mode=>groupId.split('-').includes(mode));
   return {type,mode};
 }

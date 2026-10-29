@@ -7,9 +7,17 @@ export const vanyaCopy={
 
 export const helicopterSkillGroup={id:'helicopter-skills',category:null,badge:Object.fromEntries(Object.entries(vanyaCopy).map(([lang,t])=>[lang,t.badge])),pairs:[['lady-shadow','madame-havoc']]};
 const gear=(name)=>({name});
-function build(title,leaderSkills,leaderGear,aideSkills,aideGear,anyLevel=false){return {source:'vanya-gefesto',title,copy:Object.fromEntries(Object.entries(vanyaCopy).map(([lang,t])=>[lang,{credit:t.credit,note:anyLevel?t.anyNote:t.fixedNote,level:anyLevel?t.anyLevel:t.fixedLevel}])),officers:[{skills:leaderSkills.map(gear),gear:gear(leaderGear)},{skills:aideSkills.map(gear),gear:gear(aideGear)}]};}
+function build(title,leaderSkills,leaderGear,aideSkills,aideGear,anyLevel=false,noAideSkills=false){return {source:'vanya-gefesto',title,copy:Object.fromEntries(Object.entries(vanyaCopy).map(([lang,t])=>[lang,{credit:t.credit,note:anyLevel?t.anyNote:t.fixedNote,level:anyLevel?t.anyLevel:t.fixedLevel}])),officers:[{skills:leaderSkills.map(gear),gear:gear(leaderGear)},{skills:aideSkills.map(gear),gear:gear(aideGear),noSkillsToTrain:noAideSkills}]};}
+
+const baseBurnLounge=build('Base Burn / Field · Full Lounge',['Know Thyself','Invictus'],'Helios-I Exo Gloves',["Kuran’s Eye",'Adrenalin'],'All-Seer Drone');
 
 export const vanyaLoadouts={
+  'antitank-garrison:steel-angel+lady-shadow':build('Angel + Shadow · Garrison ATG',['Pledged Brothers','Serrated Blades'],'Tactical Knife',['Artillery Advisor','Resolute Fighter'],'Tiger Knuckles'),
+  'artillery-field-p2w:red-heat+fighting-falcon':build('Heat + Fighting Falcon · Burn DMG',["Highlander’s Grit",'Adrenalin'],'Sheriff Shotgun',['Covert Connections','Dual Dominance'],'Helios-I Exo Gloves'),
+  'artillery-field-p2w:silent-thunder+madame-vindicta':baseBurnLounge,
+  'artillery-b2b-p2w:silent-thunder+madame-vindicta':baseBurnLounge,
+  'artillery-b2b-f2p:futurus-venturer+eye-of-providence':build('Base Burn Tapping · Complete F2P',['Charisma','Know Thyself'],'Sand Table Kit',[],'All-Seer Drone',false,true),
+  'artillery-garrison:stinger-fist+red-heat':build('Stinger + Heat · Turtle Splash DMG',['Know Thyself','Adrenalin'],'Sheriff Shotgun',['Charisma','Automation Protocols'],'Helios-I Exo Gloves'),
   'tank-f2p:everbloom+angel-of-light':build('Everbloom + Angel of Light · Tanking / 1 Lounge Skill',['Tribal Tenacity','Absolute Justice'],'Bulwark Shield',['Crimebuster','Full Suppression'],'Omni Keycard'),
   'tank-f2p:scavenger+everbloom':build('Scavenger + Everbloom · Tanking / AOE Buff / 1 Lounge Skill',['Tribal Tenacity','Absolute Justice'],'Bulwark Shield',['Crimebuster','Explosive Expression'],'Omni Keycard'),
   'helicopter-f2p:haymaker+margarita':build('Haymaker + Margarita · Dodge Rate / 1 Lounge Skill',['Mirage Cover','Cold Hearted'],'War Cry Tactical Air Throat Mic',['Artillery Advisor','Tactical Blueprint'],'Tiger Knuckles',true),

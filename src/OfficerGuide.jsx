@@ -11,7 +11,7 @@ export default function OfficerGuide({lang,data,groups,officers,prefix,links}) {
       <article><p className="lesson-source">{t.origin}</p>
         <section id={`${prefix}-0`}><h2>{t.headings[0]}</h2><p>{t.overview}</p><Why lang={lang}>{t.overviewWhy}</Why></section>
         {groups.map((group,i)=><section id={`${prefix}-${i+1}`} data-build-group={group.id} key={group.id}>
-          <span id={`builds-${group.id}`} aria-hidden="true"/>
+          {[group.id,...(group.aliases||[])].map(id=><span id={`builds-${id}`} aria-hidden="true" key={id}/>)}
           <div className={`tank-section-heading tank-section-${group.category||'garrison'}`}><span>{group.badge?.[lang]||(group.category?group.category.toUpperCase():t.garrison)}</span><h2>{t.headings[i+1]}</h2></div>
           <p>{t.groupIntros[i]}</p><Why lang={lang}>{t.groupWhys[i]}</Why>
           <div className="tank-pair-grid">{group.pairs.map((pair,index)=><OfficerPair key={pair.join('-')} pair={pair} groupId={group.id} officers={officers} lang={lang} label={`${group.badge?.[lang]||(group.category?group.category.toUpperCase():t.garrison)} / ${t.variant} ${String(index+1).padStart(2,'0')}`} reason={t.reasons[i][index]}/>)}</div>

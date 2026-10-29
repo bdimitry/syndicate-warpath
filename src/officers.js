@@ -1,5 +1,7 @@
 // Shared identities keep names consistent across troop guides.
 export const officers = {
+  'red-heat':{ru:'Красная жара',en:'Red Heat',name:'Fiona Kelly'},
+  'fighting-falcon':{ru:'Боевой сокол',en:'Fighting Falcon',name:'Aliya Yumagulova',portrait:{width:136,height:192}},
   margarita:{ru:'Маргарита',en:'Margarita',name:'Matilde Sanchez'},
   'golden-eagle':{ru:'Золотой орёл',en:'Golden Eagle',name:'Jake Barnes'},
   'lady-shadow': {ru:'Госпожа теней',en:'Lady Shadow',name:'Mulian'},
