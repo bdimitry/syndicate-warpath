@@ -35,7 +35,7 @@ The only external runtime resource is Google Fonts; system fonts provide a fallb
 
 ### Infantry officer pairs
 
-`?page=infantry&lang=ru` presents seven SyndiCate compositions in Russian, English, Vietnamese and Arabic (RTL). Attacking F2P: Rogue Edge + Lady Shadow; Rogue Edge + Herald of Peace. Attacking P2W: Wings of Wanderlust + Rogue Edge; Wings of Wanderlust + Lady Shadow. Tanking F2P: Everbloom + Angel of Light; Everbloom + Scavenger. Tanking P2W: The Arbitrator + Everbloom. Every pair has a skill-based explanation and relevant conditions. Categories and order follow the supplied alliance plan, not a tested ranking. Portrait provenance is in `public/officers/SOURCES.json`; assets are PNG.
+`?page=infantry&lang=ru` presents seven SyndiCate compositions in Russian, English, Vietnamese and Arabic (RTL). Attacking F2P: Rogue Edge + Lady Shadow; Rogue Edge + Herald of Peace. Attacking P2W: Wings of Wanderlust + Rogue Edge; Wings of Wanderlust + Lady Shadow. Tanking F2P: Everbloom + Angel of Light; Scavenger + Everbloom. Tanking P2W: The Arbitrator + Everbloom. Every pair has a skill-based explanation and relevant conditions. Categories and order follow the supplied alliance plan, not a tested ranking. Portrait provenance is in `public/officers/SOURCES.json`; assets are PNG.
 
 ### Artillery officer pairs
 
@@ -58,3 +58,5 @@ Vanya Gefesto supplied the Helicopter garrison/Base Buffer pairing. Gridlock Arc
 ### Additional Vanya Gefesto loadouts
 
 Seven unique authored builds are represented without duplicating repeated Base Buffer entries. `src/vanyaBuilds.js` stores six added/updated loadouts; Base Buffer remains in `src/baseBuffer.js`. Helicopter: Haymaker + Margarita (F2P, dodge/normal attacks, gear may be any level); Lady Shadow + Madame Havoc (skill damage, unspecified spending category, any gear level). Light Tank: Haymaker leads Lady Shadow; Haymaker leads Desert Jaeger; Desert Jaeger leads Steel Phoenix; Rapier leads Golden Eagle (F2P). Existing spending categories and unmentioned alternatives are retained. Explicit leader/aide order supersedes earlier unassigned order within the relevant category only. Margarita and Golden Eagle portraits are verified PNG assets. Names, trained skills and gear follow the submitted list, while guaranteed kills and universal doubled defenses are not asserted. Infantry and artillery pairings remain unchanged.
+
+Infantry tanking loadouts supplied by Vanya Gefesto: Everbloom leads Angel of Light (Tribal Tenacity + Absolute Justice / Crimebuster + Full Suppression); Scavenger leads Everbloom (Tribal Tenacity + Absolute Justice / Crimebuster + Explosive Expression). Both use Bulwark Shield on the leader and Omni Keycard on the aide, listed at Lv 40. They fill existing tanking cards rather than add duplicates; the Scavenger pair order is updated. All four languages explain the group-support conditions and awakening requirement.

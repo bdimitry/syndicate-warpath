@@ -10,6 +10,8 @@ const gear=(name)=>({name});
 function build(title,leaderSkills,leaderGear,aideSkills,aideGear,anyLevel=false){return {source:'vanya-gefesto',title,copy:Object.fromEntries(Object.entries(vanyaCopy).map(([lang,t])=>[lang,{credit:t.credit,note:anyLevel?t.anyNote:t.fixedNote,level:anyLevel?t.anyLevel:t.fixedLevel}])),officers:[{skills:leaderSkills.map(gear),gear:gear(leaderGear)},{skills:aideSkills.map(gear),gear:gear(aideGear)}]};}
 
 export const vanyaLoadouts={
+  'tank-f2p:everbloom+angel-of-light':build('Everbloom + Angel of Light · Tanking / 1 Lounge Skill',['Tribal Tenacity','Absolute Justice'],'Bulwark Shield',['Crimebuster','Full Suppression'],'Omni Keycard'),
+  'tank-f2p:scavenger+everbloom':build('Scavenger + Everbloom · Tanking / AOE Buff / 1 Lounge Skill',['Tribal Tenacity','Absolute Justice'],'Bulwark Shield',['Crimebuster','Explosive Expression'],'Omni Keycard'),
   'helicopter-f2p:haymaker+margarita':build('Haymaker + Margarita · Dodge Rate / 1 Lounge Skill',['Mirage Cover','Cold Hearted'],'War Cry Tactical Air Throat Mic',['Artillery Advisor','Tactical Blueprint'],'Tiger Knuckles',true),
   'helicopter-skills:lady-shadow+madame-havoc':build('Lady Shadow + Madame Havoc · Skill Damage Build',['Adrenalin',"Highlander’s Grit"],'Sheriff Shotgun',['Invictus','Dual Dominance'],'Sand Table Kit',true),
   'light-f2p:haymaker+lady-shadow':build('Haymaker + Shadow · Pure F2P Build',['Meld Into Shadows','Cold Hearted'],'Painter Rocket Launcher',['Artillery Advisor','Tactical Blueprint'],'Tiger Knuckles'),
