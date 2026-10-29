@@ -1,0 +1,5 @@
+.living-banner{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:0}
+.living-banner.is-ready{opacity:1}
+.hero-shade{z-index:1;pointer-events:none}
+@media(max-width:600px){.living-banner{height:410px}}
+@media(prefers-reduced-motion:reduce){.living-banner{display:none}}

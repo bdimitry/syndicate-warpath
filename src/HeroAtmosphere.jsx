@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import './fleet.css';
+import LivingBanner from './LivingBanner';
 
 const labels={
   ru:['Приостановить анимацию','Включить анимацию'],
@@ -10,10 +10,7 @@ const labels={
 export default function HeroAtmosphere({lang}){
   const [paused,setPaused]=useState(false);
   return <>
-    <div className="hero-fleet" aria-hidden="true">
-      {['near','far','return'].map(depth=><div key={depth} className={`hero-ship hero-ship-${depth}`}><img src={`${import.meta.env.BASE_URL}scene/battlecruiser.png`} alt="" width="768" height="256"/><span className="ship-engine"/></div>)}
-    </div>
-    <div className="hero-atmosphere" aria-hidden="true">{Array.from({length:8},(_,i)=><i key={i} style={{'--spark':i}}/>)}</div>
+    <LivingBanner paused={paused}/>
     <button className="motion-toggle" aria-pressed={paused} onClick={()=>{
       const next=!paused;
       document.querySelector('.hero')?.classList.toggle('hero-paused',next);
