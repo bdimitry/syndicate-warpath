@@ -61,13 +61,13 @@ export const parts = {
         "id": "campaign",
         "title": "Галочка авторазбора бронзы в кампании",
         "paragraphs": [
-          "В окне получения наград кампании найди настройку автоматического разбора бронзовых деталей. Включённая галочка означает, что получаемая бронза будет превращаться в материалы вместо накопления ненужных готовых деталей. Она автоматизирует переработку добычи, а не повышает качество выпадения.",
+          "На основном экране кампании, внизу слева, включи «Автоматически разбирать детали уровня Медь». «Медь» — название бронзовой ступени в показанном интерфейсе. Галочка превращает соответствующие получаемые детали в материалы вместо накопления готовых предметов; качество выпадения она не повышает.",
           "Для игрока, уже перешедшего на более сильные детали, это полезная ежедневная привычка: бронза становится сырьём для дальнейшего изготовления. Без авторазбора материал не исчезает — он остаётся в неразобранных деталях, которые придётся переработать вручную."
         ],
         "bullets": [
-          "Открой кампанию и окно накопленных наград.",
-          "Найди именно авторазбор бронзовых деталей и включи его.",
-          "После получения наград проверь материалы и сохранение настройки.",
+          "Открой основной экран кампании.",
+          "Внизу слева включи «Автоматически разбирать детали уровня Медь».",
+          "Получи доступные награды, затем проверь материалы и сохранение настройки.",
           "Старую накопленную бронзу проверь отдельно в разборе: не рассчитывай, что галочка очистит весь инвентарь."
         ],
         "callout": "На самом старте сначала закрой пустые слоты доступной экипировкой. Если бронза ещё нужна для боя, оставь нужные экземпляры до включения авторазбора."
@@ -234,7 +234,7 @@ export const parts = {
         "callout": "Перед современной конверсией проверь итоговую совместимость детали. Сначала план, потом необратимый обмен."
       }
     ],
-    "evidence": "Разбор, фильтры и примеры магазинов показаны на скриншотах игрока. Механик и конверсия сверены с публикациями Lilith; перфекты — с материалами сообщества. Скриншоты кампании и изготовления пока не предоставлены: эти разделы остаются текстовыми. Цены и наличие на изображениях не являются постоянными условиями магазинов."
+    "evidence": "Расположение зданий, авторазбор кампании, конверсия, разбор и магазины показаны на скриншотах игрока. Механик сверён с публикациями Lilith; перфекты — с материалами сообщества. Скриншот изготовления пока не предоставлен. Цены и наличие на изображениях — примеры с аккаунта, а не постоянные условия магазинов."
   },
   "en": {
     "title": "Parts: turn bronze into a stronger loadout",
@@ -267,14 +267,14 @@ export const parts = {
         "id": "campaign",
         "title": "The campaign bronze auto-disassembly checkbox",
         "paragraphs": [
-          "Find the automatic bronze part disassembly setting in the campaign reward collection window. With it enabled, eligible incoming bronze parts become crafting materials instead of accumulating as finished items. It automates recycling; it does not improve drop quality.",
+          "On the main campaign screen, enable “Автоматически разбирать детали уровня Медь” at the bottom left. “Медь” is Copper, the bronze tier discussed here. This recycles eligible incoming parts into materials rather than storing finished items; it does not improve drop quality.",
           "Once you use stronger equipment, this is a useful daily habit. With the box unchecked, materials are not lost: they remain tied up in parts until you dismantle them manually."
         ],
         "bullets": [
-          "Open campaign rewards.",
-          "Enable the setting specifically for bronze parts.",
-          "Claim rewards, then check your materials and whether the setting persists.",
-          "Inspect older stored bronze separately; do not assume the checkbox clears all inventory."
+          "Open the main campaign screen.",
+          "Enable Copper part auto-disassembly at the bottom left.",
+          "Claim available rewards, then check your materials and whether the setting persists.",
+          "Inspect older bronze separately; do not assume the checkbox clears all inventory."
         ],
         "callout": "At the very beginning, fill empty equipment slots first. Keep any bronze you still need before enabling automatic recycling."
       },
@@ -440,7 +440,7 @@ export const parts = {
         "callout": "Check the resulting part’s compatibility before modern conversion. Plan before an irreversible exchange."
       }
     ],
-    "evidence": "Dismantling, filters and store examples use player-provided screenshots. Mechanic and conversion were checked against Lilith posts; perfect crafting uses community sources. Campaign and crafting screenshots have not been supplied, so those sections remain text-only. Prices and stock shown are not permanent store conditions."
+    "evidence": "Building locations, campaign auto-disassembly, conversion, dismantling and stores use player-provided screenshots. Mechanic was checked against Lilith posts; perfect crafting uses community sources. A crafting screenshot has not yet been supplied. Prices and stock are account examples, not permanent store conditions."
   },
   "vi": {
     "title": "Linh kiện: từ đồng đến bộ trang bị mạnh",
@@ -473,14 +473,14 @@ export const parts = {
         "id": "campaign",
         "title": "Ô tự tháo linh kiện đồng trong chiến dịch",
         "paragraphs": [
-          "Trong cửa sổ nhận thưởng chiến dịch, tìm tùy chọn tự tháo linh kiện đồng. Khi bật, linh kiện đồng mới đủ điều kiện được đổi thành vật liệu thay vì tích lại thành trang bị. Tính năng này tự động tái chế, không tăng chất lượng đồ rơi.",
+          "Ở màn hình chiến dịch chính, bật “Автоматически разбирать детали уровня Медь” ở góc dưới trái. “Медь” là đồng, tức bậc bronze trong hướng dẫn. Tùy chọn tái chế linh kiện mới phù hợp thành vật liệu thay vì tích trang bị; không tăng chất lượng đồ rơi.",
           "Khi đã dùng trang bị tốt hơn, đây là thói quen hữu ích hằng ngày. Nếu không bật, vật liệu không mất đi mà vẫn nằm trong linh kiện chưa tháo."
         ],
         "bullets": [
-          "Mở thưởng tích lũy chiến dịch.",
-          "Bật đúng tùy chọn tự tháo linh kiện đồng.",
-          "Nhận thưởng rồi kiểm tra vật liệu và việc lưu tùy chọn.",
-          "Kiểm tra đồ đồng cũ riêng trong mục tháo; đừng cho rằng ô này dọn toàn bộ kho."
+          "Mở màn hình chiến dịch chính.",
+          "Bật tự tháo linh kiện Đồng ở góc dưới trái.",
+          "Nhận thưởng hiện có rồi kiểm tra vật liệu và việc lưu tùy chọn.",
+          "Kiểm tra đồng cũ riêng; đừng mặc định ô này dọn toàn bộ kho."
         ],
         "callout": "Lúc mới chơi, ưu tiên lấp ô trang bị trống. Giữ đồ đồng còn cần trước khi bật tự tháo."
       },
@@ -646,7 +646,7 @@ export const parts = {
         "callout": "Kiểm tra linh kiện đầu ra trước chuyển đổi hiện đại. Lên kế hoạch trước thao tác không thể hoàn tác."
       }
     ],
-    "evidence": "Tháo, bộ lọc và ví dụ cửa hàng dùng ảnh người chơi cung cấp. Thợ máy và chuyển đổi đối chiếu bài Lilith; perfect dựa nguồn cộng đồng. Chưa có ảnh chiến dịch và chế tạo nên các mục đó vẫn chỉ có văn bản. Giá và hàng trong ảnh không phải điều kiện cố định."
+    "evidence": "Vị trí công trình, tự tháo chiến dịch, chuyển đổi, tháo và cửa hàng dùng ảnh người chơi. Thợ máy đối chiếu bài Lilith; perfect theo nguồn cộng đồng. Chưa có ảnh chế tạo. Giá và tồn kho chỉ là ví dụ tài khoản, không phải điều kiện cố định."
   },
   "ar": {
     "title": "القطع: من البرونز إلى تجهيز أقوى",
@@ -679,13 +679,13 @@ export const parts = {
         "id": "campaign",
         "title": "خيار التفكيك التلقائي للبرونز في الحملة",
         "paragraphs": [
-          "ابحث عن خيار تفكيك القطع البرونزية تلقائيًا في نافذة استلام مكافآت الحملة. عند تفعيله تتحول القطع البرونزية الجديدة المشمولة إلى مواد بدل تراكمها كقطع جاهزة. إنه يؤتمت إعادة التدوير ولا يرفع جودة الغنائم.",
+          "فعّل “Автоматически разбирать детали уровня Медь” أسفل يسار شاشة الحملة الرئيسية. تعني “Медь” النحاس، وهي درجة البرونز المقصودة هنا. يحول الخيار القطع الجديدة المشمولة إلى مواد بدل تراكمها كقطع جاهزة، ولا يزيد جودة الغنائم.",
           "بعد الانتقال لتجهيز أقوى يصبح عادة يومية مفيدة. إذا كان الخيار معطلًا فلا تضيع المواد، بل تبقى داخل قطع لم تُفكك بعد."
         ],
         "bullets": [
-          "افتح مكافآت الحملة المتراكمة.",
-          "فعّل الخيار الخاص بالقطع البرونزية تحديدًا.",
-          "استلم المكافآت وافحص المواد وحفظ الإعداد.",
+          "افتح شاشة الحملة الرئيسية.",
+          "فعّل التفكيك التلقائي للنحاس أسفل اليسار.",
+          "استلم المكافآت المتاحة وافحص المواد وحفظ الإعداد.",
           "افحص البرونز القديم منفصلًا؛ لا تفترض أن الخيار ينظف المخزون كله."
         ],
         "callout": "في البداية املأ خانات التجهيز الفارغة أولًا. احتفظ بالبرونز الذي تحتاجه قبل تفعيل التفكيك التلقائي."
@@ -852,6 +852,6 @@ export const parts = {
         "callout": "تحقق من توافق القطعة الناتجة قبل التحويل الحديث. خطط قبل التبادل غير القابل للتراجع."
       }
     ],
-    "evidence": "التفكيك والمرشحات وأمثلة المتاجر موضحة بصور اللاعب. روجع الميكانيكي والتحويل مع منشورات Lilith، والبيرفكت مع مصادر المجتمع. لم تُقدَّم صور الحملة والتصنيع بعد، لذلك يبقى شرحها نصيًا. الأسعار والمخزون الظاهران ليسا شروطًا ثابتة للمتاجر."
+    "evidence": "مواقع المباني والتفكيك التلقائي للحملة والتحويل والتفكيك والمتاجر موضحة بصور اللاعب. روجع الميكانيكي مع منشورات Lilith والبيرفكت مع مصادر المجتمع. لم تُقدّم صورة التصنيع بعد. الأسعار والمخزون أمثلة من الحساب وليست شروطًا ثابتة."
   }
 };
