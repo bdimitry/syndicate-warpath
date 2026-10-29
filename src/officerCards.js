@@ -1,4 +1,5 @@
 import {baseBufferLoadout} from './baseBuffer';
+import {vanyaLoadouts} from './vanyaBuilds';
 
 export const cardCopy = {
   ru:{requirements:'Комплектация',leader:'Командир',aide:'Помощник',officer:'Офицер',skills:'Обучаемые навыки',gear:'Снаряжение',pending:'Навыки и снаряжение пока не указаны.',rolesNote:'Роли командира и помощника для этой пары ещё не назначены.',reference:'Образец SyndiCate',referenceNote:'Комплектация по образцу SyndiCate. Уровень 40 показан на скриншоте; подпись допускает любой уровень снаряжения.',example:'Иллюстрация',exampleLevel:'На примере: 40',types:{infantry:'Пехота',light:'Лёгкий танк',mbt:'Основной боевой танк',superheavy:'Сверхтяжёлый танк',helicopter:'Вертолёт',howitzer:'Гаубица',rocket:'Ракетная установка',antitank:'Противотанковое орудие'},modes:{attack:'Атакующая',tank:'Танкующая',field:'Поле',b2b:'B2B · штурм',garrison:'Гарнизон'}},
@@ -18,6 +19,7 @@ export function cardContext(groupId='') {
 // Coordinates reference the unchanged user JPEGs, never generated replacements.
 const icon=(name,atlas,x,y,size)=>({name,atlas,x,y,size});
 export const referenceLoadouts={
+  ...vanyaLoadouts,
   'helicopter-garrison:gridlock-architect+uncle-ivankov':baseBufferLoadout,
   'superheavy-b2b-f2p:iron-cavalier+dawn-anthem':{
     source:'superheavy',

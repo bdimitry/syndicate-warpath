@@ -1,19 +1,20 @@
 import { officers } from './officers';
 import { armorExpansion } from './armorExpansion';
 import {baseBufferGroup,baseBufferCopy} from './baseBuffer';
+import {helicopterSkillGroup,vanyaCopy} from './vanyaBuilds';
 
 // Latest alliance list; card order does not assign commander/aide positions.
 export const tankGroups = [
-  {id:'light-f2p',category:'f2p',pairs:[['lady-shadow','haymaker'],['rapier','haymaker'],['lady-shadow','rapier']]},
-  {id:'light-p2w',category:'p2w',pairs:[['catseye','haymaker'],['desert-jaeger','steel-phoenix'],['desert-jaeger','haymaker']]},
+  {id:'light-f2p',category:'f2p',pairs:[['haymaker','lady-shadow'],['rapier','haymaker'],['lady-shadow','rapier'],['rapier','golden-eagle']]},
+  {id:'light-p2w',category:'p2w',pairs:[['catseye','haymaker'],['desert-jaeger','steel-phoenix'],['haymaker','desert-jaeger']]},
   {id:'mbt-field-f2p',category:'f2p',pairs:[['lady-shadow','haymaker'],['lady-shadow','madame-havoc']]},
   {id:'mbt-field-p2w',category:'p2w',pairs:[['desert-jaeger','haymaker'],['catseye','haymaker'],['wings-of-wanderlust','lady-shadow']]},
   {id:'mbt-b2b-f2p',category:'f2p',pairs:[['iron-cavalier','dawn-anthem']]},
   {id:'mbt-b2b-p2w',category:'p2w',pairs:[['the-arbitrator','iron-cavalier']]},
   {id:'mbt-garrison',category:null,pairs:[['uncle-ivankov','gridlock-architect']]},
-  {"id":"helicopter-f2p","category":"f2p","pairs":[["haymaker","lady-shadow"]]},
+  {"id":"helicopter-f2p","category":"f2p","pairs":[["haymaker","lady-shadow"],["haymaker","margarita"]]},
   {"id":"helicopter-p2w","category":"p2w","pairs":[["haymaker","desert-jaeger"]]},
-  baseBufferGroup,
+  baseBufferGroup,helicopterSkillGroup,
   {"id":"superheavy-b2b-f2p","category":"f2p","pairs":[["iron-cavalier","dawn-anthem"]]},
   {"id":"superheavy-b2b-p2w","category":"p2w","pairs":[["the-arbitrator","iron-cavalier"]]},
 ];
@@ -117,5 +118,12 @@ const baseTanks = {
 export const tanks = Object.fromEntries(Object.entries(baseTanks).map(([lang,t])=>{
   const extra=armorExpansion[lang], buffer=baseBufferCopy[lang];
   const insertBuffer=(items,value)=>[...items.slice(0,2),value,...items.slice(2)];
-  return [lang,{...t,title:extra.title,intro:extra.intro.replace(/^18 /,'19 '),tag:extra.tag,headings:[extra.overviewHeading,...t.headings.slice(1,8),...insertBuffer(extra.headings,buffer.heading),...t.headings.slice(8)],groupIntros:[...t.groupIntros,...insertBuffer(extra.groupIntros,buffer.intro)],groupWhys:[...t.groupWhys,...insertBuffer(extra.groupWhys,buffer.why)],reasons:[...t.reasons,...insertBuffer(extra.reasons,[buffer.reason])],upcoming:extra.upcoming,checks:[extra.check,...t.checks.slice(1)],artilleryLink:extra.artilleryLink}];
+  const result={...t,title:extra.title,intro:extra.intro.replace(/^\d+ /,`${tankGroups.reduce((total,group)=>total+group.pairs.length,0)} `),tag:extra.tag,headings:[extra.overviewHeading,...t.headings.slice(1,8),...insertBuffer(extra.headings,buffer.heading),...t.headings.slice(8)],groupIntros:[...t.groupIntros,...insertBuffer(extra.groupIntros,buffer.intro)],groupWhys:[...t.groupWhys,...insertBuffer(extra.groupWhys,buffer.why)],reasons:[...t.reasons,...insertBuffer(extra.reasons,[buffer.reason])],upcoming:extra.upcoming,checks:[extra.check,...t.checks.slice(1)],artilleryLink:extra.artilleryLink};
+  const added=vanyaCopy[lang];
+  result.headings.splice(11,0,added.heading);
+  result.groupIntros[0]=added.lightIntro;result.groupIntros[7]=added.heliIntro;
+  result.reasons[0]=[...result.reasons[0],added.eagleWhy];
+  result.reasons[7]=[...result.reasons[7],added.margaritaWhy];
+  result.groupIntros.splice(10,0,added.intro);result.groupWhys.splice(10,0,added.why);result.reasons.splice(10,0,[added.reason]);
+  return [lang,result];
 }));

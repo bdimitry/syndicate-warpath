@@ -262,6 +262,24 @@
       "format": "PNG",
       "width": 216,
       "height": 180
+    },
+    {
+      "file": "margarita.png",
+      "officer": "Margarita",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/margarita",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-power_23-UI_Officer_head_icon_74_1_df0af03b-e317-4f3d-8d5a-507922646a7c.png?v=1787833222&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
+    },
+    {
+      "file": "golden-eagle.png",
+      "officer": "Golden Eagle",
+      "sourcePage": "https://warpath-planet.com/blogs/officers/golden-eagle",
+      "sourceImage": "https://warpath-planet.com/cdn/shop/articles/officer-freedom_13-UI_Officer_head_icon_33_1_472ef8eb-618f-44ab-a2c3-d4a95565a01f.png?v=1787830901&width=480",
+      "format": "PNG",
+      "width": 216,
+      "height": 180
     }
   ]
 }
