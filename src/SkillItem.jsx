@@ -2,7 +2,7 @@ import React,{useId,useState} from 'react';
 import {skillIcons} from './skillIcons';
 
 const copy={ru:{owner:'Офицер-источник'},en:{owner:'Source officer'},vi:{owner:'Sĩ quan gốc'},ar:{owner:'الضابط صاحب المهارة'}};
-const atlases={normal:{file:'normal-reference.jpg',width:975,height:1280},superheavy:{file:'superheavy-reference.jpg',width:1026,height:1280}};
+const atlases={gameLand2:{file:'../skills/game-land2-atlas.png',width:1156,height:972},normal:{file:'normal-reference.jpg',width:975,height:1280},superheavy:{file:'superheavy-reference.jpg',width:1026,height:1280}};
 
 export default function SkillItem({item,lang}){
   const skill=skillIcons[item.name],tooltipId=useId(),[open,setOpen]=useState(false);

@@ -1,5 +1,5 @@
 {
-  "note": "Unmodified game PNGs from the CDN used by the Warpath AFUNS catalog. Newer officer IDs and skill slots cross-checked against named officer profiles on Warpath Planet; no substitute artwork.",
+  "note": "Original game artwork from the AFUNS-linked CDN and the installed official Warpath PC client. Native Texture2D atlases are exported without redrawing or altering icon pixels, with named sprite frames from the game metadata. Missing artwork is never replaced by another skill.",
   "assets": [
     {
       "file": "absolute-justice.png",
@@ -288,64 +288,116 @@
       "width": 118,
       "height": 118,
       "retrieved": "2026-10-30"
+    },
+    {
+      "file": "game-land2-atlas.png",
+      "format": "PNG",
+      "width": 1156,
+      "height": 972,
+      "source": "Installed official Warpath PC client, ui_officerskill_land2_ab / UI_OfficerSkill_Land2_PNG",
+      "sourceMetadata": "ui_officerskill_land2_txt.txt",
+      "export": "Unmodified native Texture2D decoded to PNG using UnityPy. Sprite frames displayed with CSS; game files were not modified.",
+      "sprites": [
+        {
+          "name": "Pledged Brothers",
+          "sprite": "UI_Power_29_Skill_03.png",
+          "frame": {
+            "x": 602,
+            "y": 848,
+            "w": 118,
+            "h": 118
+          }
+        },
+        {
+          "name": "Kuran’s Eye",
+          "sprite": "UI_Order_26_Skill_04.png",
+          "frame": {
+            "x": 676,
+            "y": 484,
+            "w": 118,
+            "h": 118
+          }
+        },
+        {
+          "name": "Adaptive Sight",
+          "sprite": "UI_Freedom_34_Skill_03.png",
+          "frame": {
+            "x": 944,
+            "y": 122,
+            "w": 118,
+            "h": 118
+          }
+        },
+        {
+          "name": "Ruthless Takedown",
+          "sprite": "UI_Freedom_36_Skill_02.png",
+          "frame": {
+            "x": 242,
+            "y": 730,
+            "w": 118,
+            "h": 118
+          }
+        },
+        {
+          "name": "Shaped Charge",
+          "sprite": "UI_Freedom_34_Skill_02.png",
+          "frame": {
+            "x": 824,
+            "y": 242,
+            "w": 118,
+            "h": 118
+          }
+        },
+        {
+          "name": "Artillery Advisor",
+          "sprite": "UI_Power_31_Skill_02.png",
+          "frame": {
+            "x": 722,
+            "y": 844,
+            "w": 118,
+            "h": 118
+          }
+        },
+        {
+          "name": "Tactical Blueprint",
+          "sprite": "UI_Freedom_35_Skill_04.png",
+          "frame": {
+            "x": 316,
+            "y": 490,
+            "w": 118,
+            "h": 118
+          }
+        },
+        {
+          "name": "Sweetheart of the Troops",
+          "sprite": "UI_Freedom_37_Skill_03.png",
+          "frame": {
+            "x": 362,
+            "y": 610,
+            "w": 118,
+            "h": 118
+          }
+        },
+        {
+          "name": "Custom Warhead",
+          "sprite": "UI_Freedom_34_Skill_04.png",
+          "frame": {
+            "x": 944,
+            "y": 242,
+            "w": 118,
+            "h": 118
+          }
+        }
+      ],
+      "retrieved": "2026-10-30"
     }
   ],
-  "referenceCrops": {
-    "Artillery Advisor": {
-      "atlas": "normal",
-      "x": 526,
-      "y": 748,
-      "size": 66
-    },
-    "Tactical Blueprint": {
-      "atlas": "normal",
-      "x": 526,
-      "y": 831,
-      "size": 66
-    },
-    "Sweetheart of the Troops": {
-      "atlas": "superheavy",
-      "x": 118,
-      "y": 821,
-      "size": 70
-    },
-    "Custom Warhead": {
-      "atlas": "superheavy",
-      "x": 554,
-      "y": 821,
-      "size": 70
-    }
-  },
+  "referenceCrops": {},
   "missingArt": [
-    {
-      "name": "Pledged Brothers",
-      "officer": "Yardbird",
-      "source": "https://warpath-planet.com/blogs/officers/yardbird"
-    },
-    {
-      "name": "Kuran’s Eye",
-      "officer": "Fighting Falcon",
-      "source": "https://warpath-planet.com/blogs/officers/fighting-falcon"
-    },
     {
       "name": "Full Suppression",
       "officer": "Scavenger",
       "source": "https://warpath-planet.com/blogs/officers/scavenger"
-    },
-    {
-      "name": "Adaptive Sight",
-      "officer": "Haymaker",
-      "source": "https://warpath-planet.com/blogs/officers/haymaker"
-    },
-    {
-      "name": "Ruthless Takedown",
-      "officer": "Catseye",
-      "source": "https://warpath-planet.com/blogs/officers/catseye"
-    },
-    {
-      "name": "Shaped Charge",
-      "officer": "Haymaker",
-      "source": "https://warpath-planet.com/blogs/officers/haymaker"
     }
   ]
 }

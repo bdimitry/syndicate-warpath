@@ -8,7 +8,11 @@ export const skillIcons={
       "ar": "الجندي المبتدئ"
     },
     "personal": "Mateo Rossi",
-    "source": "https://warpath-planet.com/blogs/officers/yardbird"
+    "source": "https://warpath-planet.com/blogs/officers/yardbird",
+    "atlas": "gameLand2",
+    "x": 602,
+    "y": 848,
+    "size": 118
   },
   "Serrated Blades": {
     "file": "serrated-blades.png",
@@ -22,10 +26,10 @@ export const skillIcons={
     "source": "https://warpath-planet.com/blogs/officers/lord-of-order"
   },
   "Artillery Advisor": {
-    "atlas": "normal",
-    "x": 526,
-    "y": 748,
-    "size": 66,
+    "atlas": "gameLand2",
+    "x": 722,
+    "y": 844,
+    "size": 118,
     "owner": {
       "en": "Terrain Tactician",
       "ru": "Говорящая с ветром",
@@ -120,7 +124,11 @@ export const skillIcons={
       "ar": "الصقر المقاتل"
     },
     "personal": "Aliya Yumagulova",
-    "source": "https://warpath-planet.com/blogs/officers/fighting-falcon"
+    "source": "https://warpath-planet.com/blogs/officers/fighting-falcon",
+    "atlas": "gameLand2",
+    "x": 676,
+    "y": 484,
+    "size": 118
   },
   "Charisma": {
     "file": "charisma.png",
@@ -221,10 +229,10 @@ export const skillIcons={
     "source": "https://warpath-planet.com/blogs/officers/svalinn"
   },
   "Tactical Blueprint": {
-    "atlas": "normal",
-    "x": 526,
-    "y": 831,
-    "size": 66,
+    "atlas": "gameLand2",
+    "x": 316,
+    "y": 490,
+    "size": 118,
     "owner": {
       "en": "Gridlock Architect",
       "ru": "Железная роза",
@@ -264,7 +272,11 @@ export const skillIcons={
       "ar": "صانع الفوضى"
     },
     "personal": "Jackson Hays",
-    "source": "https://warpath-planet.com/blogs/officers/haymaker"
+    "source": "https://warpath-planet.com/blogs/officers/haymaker",
+    "atlas": "gameLand2",
+    "x": 944,
+    "y": 122,
+    "size": 118
   },
   "Ruthless Takedown": {
     "owner": {
@@ -274,7 +286,11 @@ export const skillIcons={
       "ar": "عين القطة"
     },
     "personal": "Elena Loch",
-    "source": "https://warpath-planet.com/blogs/officers/catseye"
+    "source": "https://warpath-planet.com/blogs/officers/catseye",
+    "atlas": "gameLand2",
+    "x": 242,
+    "y": 730,
+    "size": 118
   },
   "Deadeye": {
     "file": "deadeye.png",
@@ -317,7 +333,11 @@ export const skillIcons={
       "ar": "صانع الفوضى"
     },
     "personal": "Jackson Hays",
-    "source": "https://warpath-planet.com/blogs/officers/haymaker"
+    "source": "https://warpath-planet.com/blogs/officers/haymaker",
+    "atlas": "gameLand2",
+    "x": 824,
+    "y": 242,
+    "size": 118
   },
   "Best of the Best": {
     "file": "best-of-the-best.png",
@@ -353,10 +373,10 @@ export const skillIcons={
     "source": "https://warpath-planet.com/blogs/officers/madame-havoc"
   },
   "Sweetheart of the Troops": {
-    "atlas": "superheavy",
-    "x": 118,
-    "y": 821,
-    "size": 70,
+    "atlas": "gameLand2",
+    "x": 362,
+    "y": 610,
+    "size": 118,
     "owner": {
       "en": "Song of Triumph",
       "ru": "Песнь триумфа",
@@ -367,10 +387,10 @@ export const skillIcons={
     "source": "https://warpath-planet.com/blogs/officers/song-of-triumph"
   },
   "Custom Warhead": {
-    "atlas": "superheavy",
-    "x": 554,
-    "y": 821,
-    "size": 70,
+    "atlas": "gameLand2",
+    "x": 944,
+    "y": 242,
+    "size": 118,
     "owner": {
       "en": "Haymaker",
       "ru": "Стальная коса",
