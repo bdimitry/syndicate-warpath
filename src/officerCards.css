@@ -45,6 +45,7 @@
 .build-skill-tooltip > small { color:#aebdcd; font-size:11px; }
 .build-skill-tooltip:after { content:''; position:absolute; inset-inline:0; height:10px; top:100%; }
 .build-gear-item .build-item-icon { border-radius: 8px; border-color: #b88c3870; }
+.build-gear-item > img.build-item-icon { object-fit:contain; background:#0b0e14; }
 .guide-layout article .build-gear-heading { display: flex; gap: 12px; align-items: center; margin-top: 22px; }
 .build-gear-heading:after { content: ''; height: 1px; background: #ffffff18; flex: 1; }
 .build-example-level { display: block; color: #caa65f; font-size: 10px; margin-top: 10px; }

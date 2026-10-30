@@ -1,0 +1,130 @@
+{
+  "note": "Eight unmodified game gear PNGs from public AllClash articles and three native sprites from the previously saved official client atlas. Native asset names identify the mechanical hand, holographic map and tactical air radio. No redrawn icons; no game launch.",
+  "sourcePages": [
+    "https://www.allclash.com/best-build-for-rapier-in-warpath-skill-order-best-gear-training-skill/",
+    "https://www.allclash.com/best-build-for-eye-of-providence-in-warpath-skill-order-best-gear-training-skill/",
+    "https://www.allclash.com/best-build-for-red-heat-in-warpath-skill-order-best-gear-training-skill/"
+  ],
+  "assets": [
+    {
+      "name": "Tactical Knife",
+      "file": "warpath-tactical-knife.png",
+      "sourceImage": "https://www.allclash.com/wp-content/uploads/2025/12/warpath-tactical-knife.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300,
+      "displayName": "Tactical Knife",
+      "retrieved": "2026-10-30"
+    },
+    {
+      "name": "Tiger Knuckles",
+      "file": "warpath-tiger-knuckles.png",
+      "sourceImage": "https://www.allclash.com/wp-content/uploads/2025/12/warpath-tiger-knuckles.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300,
+      "displayName": "Tiger Knuckles",
+      "retrieved": "2026-10-30"
+    },
+    {
+      "name": "Sheriff Shotgun",
+      "file": "warpath-sheriff-shotgun.png",
+      "sourceImage": "https://www.allclash.com/wp-content/uploads/2025/12/warpath-sheriff-shotgun.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300,
+      "displayName": "Sheriff Shotgun",
+      "retrieved": "2026-10-30"
+    },
+    {
+      "name": "All-Seer Drone",
+      "file": "warpath-all-seer-drone.png",
+      "sourceImage": "https://www.allclash.com/wp-content/uploads/2025/12/warpath-all-seer-drone.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300,
+      "displayName": "All-Seer Drone",
+      "retrieved": "2026-10-30"
+    },
+    {
+      "name": "Sand Table Kit",
+      "file": "warpath-sand-table-kit.png",
+      "sourceImage": "https://www.allclash.com/wp-content/uploads/2025/12/warpath-sand-table-kit.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300,
+      "displayName": "Sand Table Kit",
+      "retrieved": "2026-10-30"
+    },
+    {
+      "name": "Bulwark Shield",
+      "file": "warpath-bulwark-shield.png",
+      "sourceImage": "https://www.allclash.com/wp-content/uploads/2025/12/warpath-bulwark-shield.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300,
+      "displayName": "Bulwark Shield",
+      "retrieved": "2026-10-30"
+    },
+    {
+      "name": "Painted Rocket Launcher",
+      "file": "warpath-painted-rocket-launcher.png",
+      "sourceImage": "https://www.allclash.com/wp-content/uploads/2025/12/warpath-painted-rocket-launcher.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300,
+      "displayName": "Painter Rocket Launcher",
+      "retrieved": "2026-10-30"
+    },
+    {
+      "name": "Omni Keycard",
+      "file": "warpath-omni-keycard.png",
+      "sourceImage": "https://www.allclash.com/wp-content/uploads/2025/12/warpath-omni-keycard.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300,
+      "displayName": "Omni Keycard",
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "game-gear-atlas.png",
+      "source": "Previously exported original PC client asset UI_New_Icon_Officer_PNG from ui_new_icon_officer_ab. No game launch performed for this change.",
+      "format": "PNG",
+      "width": 488,
+      "height": 966,
+      "frames": [
+        {
+          "name": "Helios-I Exo Gloves",
+          "sprite": "UI_Icon_Officer_Equipment_FlameMechHand.png",
+          "frame": {
+            "x": 110,
+            "y": 272,
+            "w": 52,
+            "h": 52
+          }
+        },
+        {
+          "name": "Sky Eye Holographic Field Map",
+          "sprite": "UI_Icon_Officer_Equipment_SkyHolographicMap.png",
+          "frame": {
+            "x": 56,
+            "y": 488,
+            "w": 52,
+            "h": 52
+          }
+        },
+        {
+          "name": "War Cry Tactical Air Throat Mic",
+          "sprite": "UI_Icon_Officer_Equipment_TacticalAirRadio.png",
+          "frame": {
+            "x": 164,
+            "y": 488,
+            "w": 52,
+            "h": 52
+          }
+        }
+      ],
+      "retrieved": "2026-10-30"
+    }
+  ]
+}

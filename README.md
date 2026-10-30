@@ -74,3 +74,7 @@ La Sirena and Steel Commodore are alternatives for the same slot, as clarified b
 ### Trained skill icons and hover details
 
 `src/skillIcons.js` maps all 34 currently specified trained skills to their original officer (call sign, personal name, and localized call sign). `SkillItem` opens these details on hover or keyboard focus without a click, and Escape dismisses the tooltip. Existing loadouts and gear remain unchanged. Twenty-four unmodified game PNGs are stored in `public/guides/officers/skills/`; nine more icons use the native PC client atlas `UI_OfficerSkill_Land2_PNG` exported without artwork changes. This covers 33 of the 34 specified skills, including Adaptive Sight and Ruthless Takedown. The former four JPEG icon crops also use the native atlas now. Provenance and the one currently unavailable image (Full Suppression, Scavenger) are documented in that directory’s SOURCES.json. Missing artwork stays text-only, with the same owner tooltip; no substitute icons are used.
+
+### Officer gear images
+
+Every specified gear item now has original raster artwork through `src/GearIcon.jsx` and `src/gearIcons.js`: 11 unique items across all authored loadouts. Eight PNGs come from public gear illustrations; three use the named native equipment sprites in the previously saved `UI_New_Icon_Officer_PNG` atlas. Source URLs and sprite coordinates are recorded in `public/guides/officers/gear/SOURCES.json`. The game is not launched for this workflow. Gear names, levels and loadout assignments are unchanged.
