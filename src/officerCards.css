@@ -36,6 +36,14 @@
 .build-item-list > li,.build-gear-item { display: flex; align-items: center; gap: 12px; min-width: 0; font-size: 17px; line-height: 1.4; color: #e7e5e1; }
 .build-item-list span[lang],.build-gear-item span[lang] { min-width: 0; overflow-wrap: anywhere; }
 .build-item-icon { display: block; width: 48px; height: 48px; flex-shrink: 0; background-repeat: no-repeat; border: 1px solid #9b855342; box-shadow: 0 0 0 1px #0006; }
+.build-item-list .build-skill { position:relative; outline-offset:5px; }
+.build-skill:focus-visible { outline:2px solid #d9b26c; border-radius:3px; }
+.build-skill > img.build-item-icon { object-fit:contain; }
+.build-skill-tooltip { position:absolute; z-index:20; inset-inline-start:0; bottom:calc(100% + 8px); width:max-content; max-width:100%; display:grid; gap:5px; padding:12px; border:1px solid #b18b4e; border-radius:10px; background:#11151d; box-shadow:0 8px 24px #0009; color:#f4ede0; font-size:13px; line-height:1.45; pointer-events:auto; overflow-wrap:anywhere; }
+.build-skill-tooltip > strong { color:#e4bd77; }
+.build-skill-tooltip > span { color:#a6aebb; font-size:10px; }
+.build-skill-tooltip > small { color:#aebdcd; font-size:11px; }
+.build-skill-tooltip:after { content:''; position:absolute; inset-inline:0; height:10px; top:100%; }
 .build-gear-item .build-item-icon { border-radius: 8px; border-color: #b88c3870; }
 .guide-layout article .build-gear-heading { display: flex; gap: 12px; align-items: center; margin-top: 22px; }
 .build-gear-heading:after { content: ''; height: 1px; background: #ffffff18; flex: 1; }

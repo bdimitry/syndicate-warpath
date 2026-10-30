@@ -1,0 +1,351 @@
+{
+  "note": "Unmodified game PNGs from the CDN used by the Warpath AFUNS catalog. Newer officer IDs and skill slots cross-checked against named officer profiles on Warpath Planet; no substitute artwork.",
+  "assets": [
+    {
+      "file": "absolute-justice.png",
+      "name": "Absolute Justice",
+      "officer": "The Arbitrator",
+      "personal": "Robert Brown",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Freedom_28_Skill_03.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "adrenalin.png",
+      "name": "Adrenalin",
+      "officer": "Professor Pain",
+      "personal": "Marcus Koch",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Power_11_Skill_04.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "armed-to-the-teeth.png",
+      "name": "Armed to the Teeth",
+      "officer": "Thorn Countess",
+      "personal": "Sofia de Moretti",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Power_10_Skill_02.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "automation-protocols.png",
+      "name": "Automation Protocols",
+      "officer": "Futurus Venturer",
+      "personal": "Gavrilo Jolic",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Order_19_Skill_02.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "best-of-the-best.png",
+      "name": "Best of the Best",
+      "officer": "Golden Eagle",
+      "personal": "Jake Barnes",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Freedom_13_Skill_04.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "brave-companion.png",
+      "name": "Brave Companion",
+      "officer": "Herald of Peace",
+      "personal": "Harmonix",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Freedom_20_Skill_04.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "charisma.png",
+      "name": "Charisma",
+      "officer": "Champion of the People",
+      "personal": "Antonina Shevchenko",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Order_02_Skill_04.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "cold-hearted.png",
+      "name": "Cold Hearted",
+      "officer": "Svalinn",
+      "personal": "Viktor Theodorsen",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Power_15_Skill_04.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "combat-focus.png",
+      "name": "Combat Focus",
+      "officer": "Steel Phoenix",
+      "personal": "Klaudia Nowak",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Power_18_Skill_04.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "covert-connections.png",
+      "name": "Covert Connections",
+      "officer": "Lady Shadow",
+      "personal": "Mulian",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Order_17_Skill_03.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "crimebuster.png",
+      "name": "Crimebuster",
+      "officer": "Lady Justice",
+      "personal": "Veronica Brown",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Freedom_09_Skill_04.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "deadeye.png",
+      "name": "Deadeye",
+      "officer": "Lady Justice",
+      "personal": "Veronica Brown",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Freedom_09_Skill_03.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "dual-dominance.png",
+      "name": "Dual Dominance",
+      "officer": "Frostfire",
+      "personal": "Viktor Ivanovich",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Order_22_Skill_03.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "explosive-expression.png",
+      "name": "Explosive Expression",
+      "officer": "Maestro",
+      "personal": "Emilio Solari",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Power_17_Skill_04.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "heavy-barrage.png",
+      "name": "Heavy Barrage",
+      "officer": "Iron Cavalier",
+      "personal": "Mikhail Baturin",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Order_20_Skill_04.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "highlanders-grit.png",
+      "name": "Highlander’s Grit",
+      "officer": "Silent Thunder",
+      "personal": "Dai Gong",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Order_23_Skill_03.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "invictus.png",
+      "name": "Invictus",
+      "officer": "Red Heat",
+      "personal": "Fiona Kelly",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Freedom_15_Skill_04.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "know-thyself.png",
+      "name": "Know Thyself",
+      "officer": "Eye of Providence",
+      "personal": "Aaron Matthews",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Freedom_11_Skill_02.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "meld-into-shadows.png",
+      "name": "Meld Into Shadows",
+      "officer": "Rapier",
+      "personal": "Ye Qiming",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Order_15_Skill_03.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "mirage-cover.png",
+      "name": "Mirage Cover",
+      "officer": "Desert Jaeger",
+      "personal": "Hans Seckler",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Power_25_Skill_03.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "resolute-fighter.png",
+      "name": "Resolute Fighter",
+      "officer": "Steel Phoenix",
+      "personal": "Klaudia Nowak",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Power_18_Skill_03.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "ruthless-outlaw.png",
+      "name": "Ruthless Outlaw",
+      "officer": "Madame Havoc",
+      "personal": "Kyra Adler",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Power_19_Skill_03.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "serrated-blades.png",
+      "name": "Serrated Blades",
+      "officer": "Lord of Order",
+      "personal": "Bekoe Yeboah",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Power_14_Skill_02.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    },
+    {
+      "file": "tribal-tenacity.png",
+      "name": "Tribal Tenacity",
+      "officer": "Dawn Anthem",
+      "personal": "Aminah Zanduni",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Freedom_30_Skill_04.png",
+      "sourceCatalog": "https://warpath.afuns.cc/en/officers",
+      "format": "PNG",
+      "width": 118,
+      "height": 118,
+      "retrieved": "2026-10-30"
+    }
+  ],
+  "referenceCrops": {
+    "Artillery Advisor": {
+      "atlas": "normal",
+      "x": 526,
+      "y": 748,
+      "size": 66
+    },
+    "Tactical Blueprint": {
+      "atlas": "normal",
+      "x": 526,
+      "y": 831,
+      "size": 66
+    },
+    "Sweetheart of the Troops": {
+      "atlas": "superheavy",
+      "x": 118,
+      "y": 821,
+      "size": 70
+    },
+    "Custom Warhead": {
+      "atlas": "superheavy",
+      "x": 554,
+      "y": 821,
+      "size": 70
+    }
+  },
+  "missingArt": [
+    {
+      "name": "Pledged Brothers",
+      "officer": "Yardbird",
+      "source": "https://warpath-planet.com/blogs/officers/yardbird"
+    },
+    {
+      "name": "Kuran’s Eye",
+      "officer": "Fighting Falcon",
+      "source": "https://warpath-planet.com/blogs/officers/fighting-falcon"
+    },
+    {
+      "name": "Full Suppression",
+      "officer": "Scavenger",
+      "source": "https://warpath-planet.com/blogs/officers/scavenger"
+    },
+    {
+      "name": "Adaptive Sight",
+      "officer": "Haymaker",
+      "source": "https://warpath-planet.com/blogs/officers/haymaker"
+    },
+    {
+      "name": "Ruthless Takedown",
+      "officer": "Catseye",
+      "source": "https://warpath-planet.com/blogs/officers/catseye"
+    },
+    {
+      "name": "Shaped Charge",
+      "officer": "Haymaker",
+      "source": "https://warpath-planet.com/blogs/officers/haymaker"
+    }
+  ]
+}
