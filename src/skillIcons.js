@@ -1,4 +1,4 @@
-// Game artwork only. Missing art stays text-only; never substitute another skill icon.
+// Original game artwork. Skill ownership is independent of the officer training it.
 export const skillIcons={
   "Pledged Brothers": {
     "owner": {
@@ -193,7 +193,8 @@ export const skillIcons={
       "ar": "النباش"
     },
     "personal": "Bruno Stahl",
-    "source": "https://warpath-planet.com/blogs/officers/scavenger"
+    "source": "https://warpath-planet.com/blogs/officers/scavenger",
+    "file": "full-suppression.png"
   },
   "Explosive Expression": {
     "file": "explosive-expression.png",
@@ -399,5 +400,71 @@ export const skillIcons={
     },
     "personal": "Jackson Hays",
     "source": "https://warpath-planet.com/blogs/officers/haymaker"
+  },
+  "Rapid Reload": {
+    "file": "rapid-reload.png",
+    "owner": {
+      "ru": "Валькирия",
+      "en": "Valkyrie",
+      "vi": "Valkyrie",
+      "ar": "Valkyrie"
+    },
+    "personal": "Kate Douglas",
+    "source": "https://warpath.afuns.cc/en/officers"
+  },
+  "Field Observation": {
+    "file": "field-observation.png",
+    "owner": {
+      "en": "Terrain Tactician",
+      "ru": "Говорящая с ветром",
+      "vi": "Quân Sư Địa Hình",
+      "ar": "خبيرة تكتيكات التضاريس"
+    },
+    "personal": "Alicia Fels",
+    "source": "https://warpath.afuns.cc/en/officers"
+  },
+  "Declared Strike": {
+    "file": "declared-strike.png",
+    "owner": {
+      "en": "Madame Havoc",
+      "ru": "Мадам Хаос",
+      "vi": "Quý Cô Đoạt Mạng",
+      "ar": "سيدة الفوضى"
+    },
+    "personal": "Kyra Adler",
+    "source": "https://warpath.afuns.cc/en/officers"
+  },
+  "Heat Core": {
+    "file": "heat-core.png",
+    "owner": {
+      "en": "Desert Jaeger",
+      "ru": "Егерь пустыни",
+      "vi": "Thợ Săn Sa Mạc",
+      "ar": "طائر الصحراء"
+    },
+    "personal": "Hans Seckler",
+    "source": "https://warpath.afuns.cc/en/officers"
+  },
+  "Loyal Battalion": {
+    "file": "loyal-battalion.png",
+    "owner": {
+      "ru": "Мадам Виндикта",
+      "en": "Madame Vindicta",
+      "vi": "Madame Vindicta",
+      "ar": "Madame Vindicta"
+    },
+    "personal": "Carolyn Heller",
+    "source": "https://warpath.afuns.cc/en/officers"
+  },
+  "Animosity": {
+    "file": "animosity.png",
+    "owner": {
+      "en": "Rapier",
+      "ru": "Рапира",
+      "vi": "Kiếm Mảnh Cạnh Sắc",
+      "ar": "السيف ذو الحدين"
+    },
+    "personal": "Ye Qiming",
+    "source": "https://warpath.afuns.cc/en/officers"
   }
 };

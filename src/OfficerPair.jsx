@@ -1,4 +1,5 @@
-import React from 'react';
+import React,{useState} from 'react';
+import {workbookLoadouts,workbookCopy} from './workbookLoadouts';
 import SkillItem from './SkillItem';
 import GearIcon from './GearIcon';
 import Why from './Why';
@@ -6,7 +7,8 @@ import {cardCopy,cardContext,unitExamples,referenceLoadouts,noSkillsCopy} from '
 import './officerCards.css';
 
 export default function OfficerPair({ pair, officers, lang, label, reason, groupId, featured = false }) {
-  const t=cardCopy[lang], context=cardContext(groupId), loadout=referenceLoadouts[`${groupId}:${pair.join('+')}`];
+  const t=cardCopy[lang], context=cardContext(groupId), key=`${groupId}:${pair.join('+')}`, original=referenceLoadouts[key];
+  const options=[...(original?[original]:[]),...(workbookLoadouts[key]||[])], [selected,setSelected]=useState(0), loadout=options[selected];
   const names=pair.map(id=>lang==='ru'?officers[id].ru:officers[id].en);
   const portraitSize=id=>officers[id].portrait||(id==='scavenger'?{width:136,height:192}:{width:216,height:180});
   return <div className={`tank-pair officer-build-card${featured ? ' tank-pair-featured' : ''}`} data-pair={pair.join('+')}>
@@ -23,10 +25,11 @@ export default function OfficerPair({ pair, officers, lang, label, reason, group
       {loadout?.title&&<p className="build-loadout-title" lang="en" dir="ltr">{loadout.title}</p>}
       <h3 className="build-pair-title"><bdi>{names[0]}</bdi><span aria-hidden="true"> + </span><bdi>{names[1]}</bdi></h3>
       <p className="build-requirements-title">{t.requirements}</p>
+      {options.length>1&&<label className="build-variant-select">{workbookCopy[lang].variant}<select value={selected} onChange={event=>setSelected(Number(event.target.value))}>{options.map((option,i)=><option key={i} value={i}>{option===original?workbookCopy[lang].original:`${workbookCopy[lang].variant} ${i+(original?0:1)}`}</option>)}</select></label>}
       <div className="build-role-grid">{pair.map((id,index)=><div className={`build-role-panel build-role-${index}`} key={id}>
-        <p className="build-role-label"><span aria-hidden="true"/>{loadout?(index===0?t.leader:t.aide):`${t.officer} ${String(index+1).padStart(2,'0')}`}</p>
+        <p className="build-role-label"><span aria-hidden="true"/>{loadout&&loadout.rolesAssigned!==false?(index===0?t.leader:t.aide):`${t.officer} ${String(index+1).padStart(2,'0')}`}</p>
         <strong className="build-role-name"><bdi>{names[index]}</bdi></strong>
-        {loadout?<><p className="build-field-label">{t.skills}</p>{loadout.officers[index].noSkillsToTrain?<p className="build-no-skills">{noSkillsCopy[lang]}</p>:<ul className="build-item-list">{loadout.officers[index].skills.map(item=><SkillItem key={item.name} item={item} lang={lang}/>)}</ul>}<p className="build-field-label build-gear-heading">{t.gear}</p><div className="build-gear-item" data-gear={loadout.officers[index].gear.name}><GearIcon name={loadout.officers[index].gear.name}/><span lang="en" dir="ltr">{loadout.officers[index].gear.name}</span></div><small className="build-example-level">{loadout.copy?loadout.copy[lang].level:t.exampleLevel}</small></>:<p className="build-pending">{t.pending}</p>}
+        {loadout?<><p className="build-field-label">{t.skills}</p>{loadout.officers[index].noSkillsToTrain?<p className="build-no-skills">{noSkillsCopy[lang]}</p>:<ul className="build-item-list">{loadout.officers[index].skills.map(item=><SkillItem key={item.name} item={item} lang={lang}/>)}</ul>}<p className="build-field-label build-gear-heading">{t.gear}</p>{loadout.officers[index].gear?<><div className="build-gear-item" data-gear={loadout.officers[index].gear.name}><GearIcon name={loadout.officers[index].gear.name}/><span lang="en" dir="ltr">{loadout.officers[index].gear.name}</span></div><small className="build-example-level">{loadout.copy?loadout.copy[lang].level:t.exampleLevel}</small></>:<p className="build-pending">{workbookCopy[lang].gear}</p>}</>:<p className="build-pending">{t.pending}</p>}
       </div>)}</div>
       <p className="build-role-note">{loadout?(loadout.copy?loadout.copy[lang].note:t.referenceNote):t.rolesNote}</p>
       {loadout&&<span className="build-reference-label">{loadout.copy?loadout.copy[lang].credit:t.reference}</span>}

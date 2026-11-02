@@ -77,3 +77,6 @@
   .build-item-list > li,.build-gear-item { gap: 7px; font-size: 13px; }
   .guide-layout article .build-field-label { font-size: 9px; letter-spacing: .5px; }
 }
+.build-variant-select{display:grid;gap:8px;margin:0 0 20px;color:#c2c5cd;font-size:.85rem}
+.build-variant-select select{width:100%;min-width:0;padding:10px;border:1px solid #66542d;border-radius:8px;background:#13171e;color:#f3f3f3;font:inherit}
+.build-variant-select select:focus-visible{outline:2px solid #e6b254;outline-offset:3px}

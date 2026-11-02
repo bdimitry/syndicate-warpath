@@ -399,5 +399,62 @@
       "officer": "Scavenger",
       "source": "https://warpath-planet.com/blogs/officers/scavenger"
     }
-  ]
+  ],
+  "workbookAdditions": {
+    "date": "2026-11-02",
+    "assets": [
+      {
+        "name": "Rapid Reload",
+        "owner": "Valkyrie",
+        "personal": "Kate Douglas",
+        "url": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Freedom_10_Skill_04.png",
+        "file": "rapid-reload.png"
+      },
+      {
+        "name": "Field Observation",
+        "owner": "Terrain Tactician",
+        "personal": "Alicia Fels",
+        "file": "field-observation.png",
+        "sourceWorkbook": "Наземные_офицеры_навыки_единая_палитра_A.xlsx",
+        "cell": "F9",
+        "embedded": "xl/media/image281.png"
+      },
+      {
+        "name": "Declared Strike",
+        "owner": "Madame Havoc",
+        "personal": "Kyra Adler",
+        "url": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Power_19_Skill_04.png",
+        "file": "declared-strike.png"
+      },
+      {
+        "name": "Heat Core",
+        "owner": "Desert Jaeger",
+        "personal": "Hans Seckler",
+        "url": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Power_25_Skill_02.png",
+        "file": "heat-core.png"
+      },
+      {
+        "name": "Loyal Battalion",
+        "owner": "Madame Vindicta",
+        "personal": "Carolyn Heller",
+        "url": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Power_21_Skill_02.png",
+        "file": "loyal-battalion.png"
+      },
+      {
+        "name": "Animosity",
+        "owner": "Rapier",
+        "personal": "Ye Qiming",
+        "url": "https://i.dmzgame.com/warpath/wiki/img/db/officer/UI_Order_15_Skill_04.png",
+        "file": "animosity.png"
+      }
+    ],
+    "fullSuppression": {
+      "file": "full-suppression.png",
+      "source": "User workbook Наземные_офицеры_навыки_единая_палитра_A.xlsx",
+      "sheet": "Офицеры",
+      "cell": "F49",
+      "embedded": "xl/media/image297.png",
+      "note": "Unchanged embedded game artwork; identified by Scavenger row and fourth skill column."
+    }
+  }
 }
