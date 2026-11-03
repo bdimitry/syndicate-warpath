@@ -1,3 +1,4 @@
+import {pageUrl} from './siteRoutes';
 import React from 'react';
 import { research } from './research';
 import './research.css';
@@ -10,7 +11,7 @@ export default function ResearchGuide({ lang }) {
   const why = rationale[lang];
   return <main id="guide" className="guide research-guide">
     <div className="guide-cover section">
-      <a className="text-link" href={`?lang=${lang}`}>← {t.back}</a>
+      <a className="text-link" href={pageUrl(lang)}>← {t.back}</a>
       <p className="eyebrow">SYNDICATE / {t.tag}</p>
       <h1>{t.title}</h1><p className="intro">{t.intro}</p>
     </div>
@@ -31,7 +32,7 @@ export default function ResearchGuide({ lang }) {
         <p className="lesson-warning">{t.reminder}</p>
         <p className="lesson-source">{t.attribution}</p>
         <p className="lesson-source"><a href="https://forum-global-share.lilithgame.com/warpath/post/40435/?lang=en-US">Warpath · Research / City Honors ↗</a></p>
-        <a className="text-link" href={`?lang=${lang}`}>← {t.back}</a>
+        <a className="text-link" href={pageUrl(lang)}>← {t.back}</a>
       </article>
     </div>
   </main>;

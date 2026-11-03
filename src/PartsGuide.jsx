@@ -1,3 +1,4 @@
+import {pageUrl} from './siteRoutes';
 import React from 'react';
 import { parts, partSources } from './parts';
 import './parts.css';
@@ -14,7 +15,7 @@ export default function PartsGuide({ lang }) {
   return (
     <main id="guide" className="guide parts-guide">
       <div className="guide-cover section">
-        <a className="text-link" href={`?lang=${lang}`}>← {t.back}</a>
+        <a className="text-link" href={pageUrl(lang)}>← {t.back}</a>
         <p className="eyebrow">SYNDICATE / {t.tag}</p>
         <h1>{t.title}</h1>
         <p className="intro">{t.intro}</p>
@@ -74,7 +75,7 @@ export default function PartsGuide({ lang }) {
             </section>
           ))}
           <p className="lesson-source">{t.evidence}</p>
-          <a className="text-link" href={`?lang=${lang}`}>← {t.back}</a>
+          <a className="text-link" href={pageUrl(lang)}>← {t.back}</a>
         </article>
       </div>
     </main>

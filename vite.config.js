@@ -1,2 +1,6 @@
 import { defineConfig } from 'vite';
-export default defineConfig({ base: './' });
+import {siteUrl} from './site.config.js';
+
+export default defineConfig(({command,isPreview}) => ({
+  base: command === 'build' || isPreview ? siteUrl.pathname : '/',
+}));

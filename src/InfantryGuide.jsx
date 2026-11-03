@@ -1,3 +1,4 @@
+import {pageUrl} from './siteRoutes';
 import React from 'react';
 import {directionLinks} from './airNaval';
 import { infantry, infantryGroups, infantryOfficers } from './infantry';
@@ -9,7 +10,7 @@ import {artillery} from './artillery';
 export default function InfantryGuide({ lang }) {
   const t = infantry[lang];
   return <main id="guide" className="guide tank-guide infantry-guide">
-    <div className="guide-cover section"><a className="text-link" href={`?lang=${lang}`}>← {t.back}</a><p className="eyebrow">SYNDICATE / {t.tag}</p><h1>{t.title}</h1><p className="intro">{t.intro}</p></div>
+    <div className="guide-cover section"><a className="text-link" href={pageUrl(lang)}>← {t.back}</a><p className="eyebrow">SYNDICATE / {t.tag}</p><h1>{t.title}</h1><p className="intro">{t.intro}</p></div>
     <div className="guide-layout section"><aside><p className="eyebrow">{t.toc}</p><nav aria-label={t.toc}>{t.headings.map((heading,i)=><a href={`#infantry-${i}`} key={heading}><span>0{i+1}</span>{heading}</a>)}</nav></aside>
       <article><p className="lesson-source">{t.origin}</p>
         <section id="infantry-0"><h2>{t.headings[0]}</h2><p>{t.roles}</p><Why lang={lang}>{t.rolesWhy}</Why></section>
@@ -20,7 +21,7 @@ export default function InfantryGuide({ lang }) {
         </section>)}
         <section id="infantry-5"><h2>{t.headings[5]}</h2><ul className="lesson-checks">{t.checks.map(text=><li key={text}>{text}</li>)}</ul><Why lang={lang}>{t.chooseWhy}</Why></section>
         <section id="infantry-6"><h2>{t.headings[6]}</h2><p>{t.note}</p><ul className="event-sources">{Object.entries(infantryOfficers).map(([id,officer])=><li key={id}><a href={`https://warpath-planet.com/blogs/officers/${id}`} lang="en" dir="ltr">{officer.en} ↗</a></li>)}</ul></section>
-        <div className="officer-guide-links">{directionLinks(lang,"infantry").map(link=><a className="text-link" key={link.page} href={`?page=${link.page}&lang=${lang}`}>{link.label}</a>)}</div>
+        <div className="officer-guide-links">{directionLinks(lang,"infantry").map(link=><a className="text-link" key={link.page} href={pageUrl(lang, link.page)}>{link.label}</a>)}</div>
       </article>
     </div>
   </main>;

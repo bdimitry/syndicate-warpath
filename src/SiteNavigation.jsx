@@ -1,3 +1,4 @@
+import {pageUrl} from './siteRoutes';
 import React, {useEffect, useRef, useState} from 'react';
 import './siteNavigation.css';
 
@@ -71,10 +72,10 @@ export default function SiteNavigation({lang, page, guides, homeLabels}) {
           <input ref={searchInput} type="search" aria-label={search} placeholder={search} value={query} onChange={event => setQuery(event.target.value)}/>
           <div className="site-nav-groups">{groups.map(([heading, ids]) => {
             const visible = ids.filter(matches);
-            return visible.length > 0 && <div key={heading}><h3>{heading}</h3><ul>{visible.map(id => <li key={id}><a aria-current={id === page ? 'page' : undefined} href={id === 'calculator' ? `?page=construction&lang=${lang}#construction-calculator` : `?page=${id}&lang=${lang}`} onClick={() => dialog.current.close()}>{items[id].title}<span aria-hidden="true">↗</span></a></li>)}</ul></div>;
+            return visible.length > 0 && <div key={heading}><h3>{heading}</h3><ul>{visible.map(id => <li key={id}><a aria-current={id === page ? 'page' : undefined} href={id === 'calculator' ? `${pageUrl(lang, 'construction')}#construction-calculator` : pageUrl(lang, id)} onClick={() => dialog.current.close()}>{items[id].title}<span aria-hidden="true">↗</span></a></li>)}</ul></div>;
           })}</div>
           {!Object.keys(items).some(matches) && <p role="status">{empty}</p>}
-          {!query.trim() && <div className="site-nav-home">{['manual','approach','alliance'].map((id,index) => <a key={id} href={`?lang=${lang}#${id}`} onClick={() => dialog.current.close()}>{homeLabels[index]}</a>)}</div>}
+          {!query.trim() && <div className="site-nav-home">{['manual','approach','alliance'].map((id,index) => <a key={id} href={`${pageUrl(lang)}#${id}`} onClick={() => dialog.current.close()}>{homeLabels[index]}</a>)}</div>}
         </> : <ul className="site-nav-sections">{sections.map(({href, title}) => <li key={href}><a href={href} aria-current={href === active ? 'location' : undefined} onClick={() => dialog.current.close()}>{title}</a></li>)}</ul>}
       </div>
     </dialog>

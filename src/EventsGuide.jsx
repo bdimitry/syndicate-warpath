@@ -1,3 +1,4 @@
+import {pageUrl} from './siteRoutes';
 import React from 'react';
 import { events, eventSources } from './events';
 import Why from './Why';
@@ -28,7 +29,7 @@ export default function EventsGuide({ lang }) {
   const why = rationale[lang].events;
   return <main id="guide" className="guide">
     <div className="guide-cover section">
-      <a className="text-link" href={`?lang=${lang}`}>← {t.back}</a>
+      <a className="text-link" href={pageUrl(lang)}>← {t.back}</a>
       <p className="eyebrow">SYNDICATE / {t.tag}</p>
       <h1>{t.title}</h1><p className="intro">{t.intro}</p>
     </div>
@@ -54,7 +55,7 @@ export default function EventsGuide({ lang }) {
         <section id="event-4"><h2>{t.headings[4]}</h2><p className="lesson-source">{t.sources}</p><Why lang={lang}>{why.sources}</Why>
           <ul className="event-sources">{eventSources.map(([label, url]) => <li key={url}><a href={url}>{label} ↗</a></li>)}</ul>
         </section>
-        <a className="text-link" href={`?lang=${lang}`}>← {t.back}</a>
+        <a className="text-link" href={pageUrl(lang)}>← {t.back}</a>
       </article>
     </div>
   </main>;

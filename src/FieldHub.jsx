@@ -1,3 +1,4 @@
+import {pageUrl} from './siteRoutes';
 import React from 'react';
 import {content, languages} from './content';
 import {rationale} from './rationale';
@@ -20,7 +21,7 @@ const guideRoutes = ['construction','units','research','parts','events'];
 export default function FieldHub({lang, setLang, guides}) {
   const t = content[lang];
   const [headquarters, builds, progression, tools, calculatorInfo, soon] = labels[lang];
-  const link = route => `?page=${route}&lang=${lang}`;
+  const link = route => pageUrl(lang, route);
   const calculator = `${link('construction')}#construction-calculator`;
   return <main className="field-hub">
     <section className="hub-hero" aria-labelledby="hub-title">
