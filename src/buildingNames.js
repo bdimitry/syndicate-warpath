@@ -6,11 +6,17 @@ const labels = {
   ar: ['مركز القيادة','ثكنة','المركز الهندسي','مركز الأبحاث','برج المراقبة','القاعدة الجوية','ثكنة الاحتياط','مكتب اتصال التحالف','السور','الخزانة','مصنع الصلب','مخزن النفط الخام','حظيرة الطائرات','بطارية الدفاع الجوي','حوض بناء السفن','السور المحصن'],
 };
 
-// IDs come from the same cost table as buildingCosts.json.
+// The cost table reuses some IDs across buildings with identical cost schedules.
 const groups = [
-  ['1'], ['2','3','4','5','6'], ['7'], ['8'], ['9'], ['10'], ['11'], ['12'], ['13'],
-  ['14','15','16','17'], ['18','19','20','21'], ['22','23','24','25'],
-  ['26','27','28'], ['29'], ['30','31','32'], ['33','34','35','36'],
+  ['Command Center'], ['No.1 Barracks','No.2 Barracks','No.3 Barracks','No.4 Barracks','No.5 Barracks'],
+  ['Engineering Center'], ['Research Center'], ['Watchtower'], ['Air Force Base'],
+  ['Reserves Barracks'], ['Alliance Liaison Office'], ['Wall'],
+  ['Treasury','TreasuryⅡ','Treasury Ⅲ','TreasuryⅣ'],
+  ['Steelworks','SteelworksⅡ','SteelworksⅢ','SteelworksⅣ'],
+  ['Crude Oil Reserve','Crude Oil ReserveⅡ','Crude Oil ReserveⅢ','Crude Oil ReserveⅣ'],
+  ['Hangar 1','Hangar 2','Hangar 3'], ['AA Firebase'],
+  ['No.1 Shipyard','No.2 Shipyard','No.3 Shipyard'],
+  ['Fortified Wall','Fortified WallⅡ','Fortified Wall Ⅲ','Fortified Wall Ⅳ'],
 ];
 const roman = ['', ' II', ' III', ' IV'];
 const numberedGroups = new Set([1,12,14]);
@@ -23,5 +29,5 @@ const names = Object.fromEntries(Object.entries(labels).map(([lang, translated])
 ]));
 
 export function buildingName(building, lang) {
-  return names[lang]?.[building.id] ?? building.name;
+  return names[lang]?.[building.name] ?? building.name;
 }

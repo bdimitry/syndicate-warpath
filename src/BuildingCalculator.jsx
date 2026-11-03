@@ -1,8 +1,16 @@
 import React, {useState} from 'react';
-import buildings from './buildingCosts.json';
+import buildingCosts from './buildingCosts.json';
 import {buildingName} from './buildingNames';
 import Why from './Why';
 import './buildingCalculator.css';
+
+// Preserve existing saved plans for the first building using each cost ID.
+const seenCostIds = new Set();
+const buildings = buildingCosts.map(building => {
+  if (seenCostIds.has(building.id)) return {...building, id: `${building.id}:${building.name}`};
+  seenCostIds.add(building.id);
+  return building;
+});
 
 const source = 'https://i.dmzgame.com/warpath/wiki/json/db-building-en.json';
 const key = 'iron-atlas-build-plan-v1';
