@@ -7,6 +7,8 @@ import {calculatorTitle} from './BuildingCalculator';
 const labels = {
   ru: ['Полевой штаб','Офицерские сборки','Развитие и ресурсы','Инструменты','Стоимость улучшений и нехватка ресурсов','Раздел готовится'],
   en: ['Field headquarters','Officer builds','Progression and resources','Tools','Upgrade costs and resource shortages','In preparation'],
+  pl: ["Sztab polowy","Zestawy oficerów","Postęp i zasoby","Narzędzia","Koszty aktualizacji i niedobory zasobów","W przygotowaniu"],
+  pt: ["Quartel-general de campo","Formações de oficiais","Progressão e recursos","Ferramentas","Custos de atualização e escassez de recursos","Em preparação"],
   vi: ['Sở chỉ huy','Đội hình sĩ quan','Phát triển và tài nguyên','Công cụ','Chi phí nâng cấp và tài nguyên còn thiếu','Đang chuẩn bị'],
   ar: ['المقر الميداني','تشكيلات الضباط','التطوير والموارد','الأدوات','تكاليف الترقية والموارد الناقصة','قيد الإعداد'],
 };

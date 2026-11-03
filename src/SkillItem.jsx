@@ -1,8 +1,12 @@
 import React,{useId,useState} from 'react';
 import {skillIcons} from './skillIcons';
 
-const copy={ru:{owner:'Офицер-источник'},en:{owner:'Source officer'},vi:{owner:'Sĩ quan gốc'},ar:{owner:'الضابط صاحب المهارة'}};
-const workbookLabel={ru:'Навык из таблицы · название уточняется',en:'Workbook skill · name pending',vi:'Kỹ năng từ bảng · chưa xác nhận tên',ar:'مهارة من الجدول · الاسم قيد التحقق'};
+const copy={ru:{owner:'Офицер-источник'},en:{owner:'Source officer'},
+  pl: {owner:"Oficer źródłowy"},
+  pt: {owner:"Oficial de origem"},vi:{owner:'Sĩ quan gốc'},ar:{owner:'الضابط صاحب المهارة'}};
+const workbookLabel={ru:'Навык из таблицы · название уточняется',en:'Workbook skill · name pending',
+  pl: "Umiejętność zeszytu · nazwa w oczekiwaniu",
+  pt: "Habilidade da pasta de trabalho · nome pendente",vi:'Kỹ năng từ bảng · chưa xác nhận tên',ar:'مهارة من الجدول · الاسم قيد التحقق'};
 const atlases={gameLand2:{file:'../skills/game-land2-atlas.png',width:1156,height:972},normal:{file:'normal-reference.jpg',width:975,height:1280},superheavy:{file:'superheavy-reference.jpg',width:1026,height:1280}};
 
 export default function SkillItem({item,lang}){

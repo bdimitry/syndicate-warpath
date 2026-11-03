@@ -5,7 +5,7 @@ import {rationale} from './rationale';
 
 
 function StageTimes({ lang, text }) {
-  const locale = { ru: 'ru', en: 'en-GB', vi: 'vi', ar: 'ar' }[lang];
+  const locale = lang === 'en' ? 'en-GB' : lang;
   const today = new Date();
   const formatter = new Intl.DateTimeFormat(locale, {
     hour: '2-digit', minute: '2-digit', hourCycle: 'h23',

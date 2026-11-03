@@ -442,6 +442,418 @@ export const parts = {
     ],
     "evidence": "Building locations, campaign auto-disassembly, conversion, dismantling and stores use player-provided screenshots. Mechanic was checked against Lilith posts; perfect crafting uses community sources. A crafting screenshot has not yet been supplied. Prices and stock are account examples, not permanent store conditions."
   },
+  pl: {
+    "title": "Części: zamień brąz w silniejszy ładunek",
+    "intro": "Zbuduj stałe dostawy materiałów, przekształć nadwyżki planów i wyposaż swoją jednostkę główną do jej rzeczywistej pracy.",
+    "tag": "WYPOSAŻENIE / ROZWÓJ",
+    "back": "Powrót do domu",
+    "toc": "W tym przewodniku",
+    "ready": "Przeczytaj przewodnik",
+    "sourceLabel": "Przeczytaj więcej",
+    "summary": [
+      "Włącz automatyczny demontaż brązu kampanii.",
+      "Konwertuj nadwyżki srebra i niechciane plany po ich sprawdzeniu.",
+      "Zbuduj przydatny zestaw, zanim zaczniesz szukać doskonałego rzemiosła."
+    ],
+    "sections": [
+      {
+        "id": "materials",
+        "title": "Projekty, materiały i gotowe części",
+        "paragraphs": [
+          "Plan określa, co możesz wytworzyć. Materiały płacą za rzemiosło. Gotowa część stanowi wyposażenie jednostki i zapewnia statystyki. Posiadanie planów nie oznacza, że ​​masz wystarczającą ilość materiałów do pełnego wyposażenia.",
+          "Materiały części różnią się od kół zębatych do modyfikacji jednostek i materiałów budowlanych. Przeczytaj opisy przedmiotów. Materiały niższej jakości można syntetyzować w wyższej jakości; przed potwierdzeniem sprawdź aktualny współczynnik i dodatkowe koszty."
+        ],
+        "bullets": [
+          "Otwórz skrzynie wyboru dla określonego niedoboru.",
+          "Zachowaj uniwersalne materiały dla typu, którego Ci brakuje.",
+          "Nie syntetyzuj całego zapasu bez planu rzemieślniczego."
+        ]
+      },
+      {
+        "id": "campaign",
+        "title": "Brązowe pole wyboru automatycznego demontażu kampanii",
+        "paragraphs": [
+          "Na głównym ekranie kampanii włącz opcję „Автоматически разбирать детали уровня Медь” w lewym dolnym rogu. „Медь” to miedź, omawiany tutaj poziom brązu. W ten sposób kwalifikujące się części są przetwarzane na materiały, zamiast przechowywać gotowe elementy; nie poprawia jakości kropli.",
+          "Gdy użyjesz mocniejszego sprzętu, stanie się to przydatnym codziennym nawykiem. Jeśli to pole jest odznaczone, materiały nie zostaną utracone: pozostaną powiązane w częściach, dopóki nie zdemontujesz ich ręcznie."
+        ],
+        "bullets": [
+          "Otwórz główny ekran kampanii.",
+          "Włącz automatyczny demontaż części miedzianej w lewym dolnym rogu.",
+          "Odbierz dostępne nagrody, a następnie sprawdź swoje materiały i czy ustawienie nadal występuje.",
+          "Sprawdź osobno starszy brąz; nie zakładaj, że pole wyboru czyści wszystkie zasoby."
+        ],
+        "callout": "Na samym początku zapełnij najpierw puste sloty na sprzęt. Zachowaj cały potrzebny brąz przed włączeniem automatycznego recyklingu."
+      },
+      {
+        "id": "blueprints",
+        "title": "Konwertuj nadwyżki planów",
+        "paragraphs": [
+          "Kiedy srebrne części nie będą już służyć twojej podstawowej armii, zamień nadwyżki srebrnych planów. Zrób to samo z typami jednostek spoza planu rozwoju. Nie gromadź przedmiotów, których nie potrzebujesz.",
+          "Ścieżka: baza → Warsztat części → Konwersja / Konwersja planu. Wpis może znajdować się nad budynkiem lub w jego menu, w zależności od wersji. Konwersja zamienia plany w punkty badawcze, które wydajesz w sklepie konwersji. Nie jest to bezpośrednia wymiana planów jeden do jednego."
+        ],
+        "bullets": [
+          "Otwórz konwersję planu w warsztacie części.",
+          "Filtruj według obozu i typu jednostki. Ten zrzut ekranu nie ma osobnego filtra jakości; sprawdź jakość srebra na kartach planów.",
+          "Wybierz niechciane przedmioty i indywidualnie sprawdzaj rzadkie plany oraz podgląd punktów.",
+          "Potwierdź konwersję i otwórz jej sklep.",
+          "Kup potrzebne plany lub materiały. Losowa skrzynia różni się od selektora."
+        ],
+        "example": {
+          "title": "Przykład: armia skupiona na artylerii",
+          "text": "Zamień nadwyżki srebra i plany na jednostki, których nie planujesz użyć, a następnie skieruj punkty na artylerię. Zachowaj plany potrzebne do przyszłej drugiej armii lub nowoczesnej konwersji. Sprawdź złoto + i ++ indywidualnie."
+        },
+        "callout": "Nigdy nie wybieraj na ślepo każdego złotego planu. Najpierw sprawdź obecną i przyszłą kompatybilność, uniwersalne gniazda i nowoczesne opcje konwersji.",
+        "sources": [
+          "conversion",
+          "workshop"
+        ]
+      },
+      {
+        "id": "perfect",
+        "title": "Zrozumienie „idealnego” rzemiosła",
+        "paragraphs": [
+          "„Doskonały” to wspólnotowe określenie udanego rezultatu rzemiosła. Odróżnij poziom jakości (złoto, złoto +, złoto ++) od wartości statystyki w jej możliwym zakresie. Dopasowanie kolorów nie gwarantuje dopasowania statystyk.",
+          "W przypadku klasycznych części lepszy wynik wytwarzania może oznaczać złotą część + ze złotego planu lub złotą ++ część ze złotego + planu. Są to możliwe pomyślne wyniki, a nie gwarantowany przepis na ulepszenie wyposażonego przedmiotu. Maksymalna statystyka w obrębie poziomu różni się od przejścia do następnego poziomu.",
+          "Rzemiosło może dać lepszy wynik. Odpowiedni zwykły projekt złota może zatem nadal przydać się przy kolejnej próbie. Aktualizacja nie jest gwarantowana: użyj aktualnych informacji o grze w celu sprawdzenia szans i warunków, a nie twierdzenia, że ​​stała liczba niepowodzeń gwarantuje sukces.",
+          "Najpierw wyposaż się w funkcjonalne wyposażenie. Następnie wybierz ważną część i porównaj koszt nowej próby z podglądem demontażu. Uzyskanie ulepszonego planu i uzyskanie lepszego wyniku w rzemiośle to oddzielne wyniki, a nie gwarantowany łańcuch."
+        ],
+        "example": {
+          "title": "Przykład bez wymyślonych kursów",
+          "text": "Jeśli posiadasz już przydatny złoty pistolet, porównaj kolejną próbę z wytworzeniem brakującego zabezpieczenia lub silnika. Powtarzające się wytwarzanie nie powinno pozostawiać jednostki głównej bez działającego wyposażenia."
+        },
+        "callout": "Znaki jakości plus nie są poziomami mechanika. Złoto ++ nadal potrzebuje odpowiednich statystyk i kompatybilności jednostek.",
+        "sources": [
+          "perfect"
+        ]
+      },
+      {
+        "id": "choice",
+        "title": "Wybierz części odpowiadające roli jednostki",
+        "paragraphs": [
+          "Zacznij od roli, następnie statystyk, kompatybilności, obozu i kosztu. Całkowita moc i czerwone kropki to wskazówki, a nie pełna decyzja. Porównaj w tej samej jednostce z tymi samymi oficerami i wzmocnieniami.",
+          "Przeczytaj każdą linię statystyk. Premie płaskie i procenty różnią się. Obrażenia celu, przeładowanie, celność, penetracja, zasięg, mobilność i odporność mają znaczenie tylko tam, gdzie faktycznie istnieją i mają zastosowanie do danej jednostki."
+        ],
+        "rows": [
+          [
+            "Artyleria / sprzedawca uszkodzeń",
+            "Nadaj priorytet przydatnym statystykom ofensywnym, zachowując jednocześnie wystarczającą przeżywalność i mobilność, aby kontynuować ostrzał."
+          ],
+          [
+            "Czołg / linia frontu",
+            "Przetrwanie w obliczu ataków, których faktycznie wymaga: HP, zbroja i odpowiednie odporności."
+          ],
+          [
+            "Jednostka mobilna",
+            "Zrównoważ obrażenia, szybkość i przetrwanie w ramach zadania."
+          ],
+          [
+            "Siły Powietrzne i Marynarka Wojenna",
+            "Używaj kompatybilnych części specyficznych dla danej klasy; obciążenie naziemne nie jest szablonem uniwersalnym."
+          ]
+        ],
+        "callout": "Sprawdź bonusy obozowe i ograniczenia slotów na karcie. Nie wybieraj wyłącznie według koloru.",
+        "sources": [
+          "workshop"
+        ]
+      },
+      {
+        "id": "mechanic",
+        "title": "Mechanik: Siła ognia i HP",
+        "paragraphs": [
+          "Part Mechanic zwiększa premie do siły ognia i HP z wyposażonych części. Nie zwiększa również penetracji, głębokości pancerza, zasięgu, celności, szybkości ruchu ani przeładowania.",
+          "Siła ognia nie jest ostatecznym uszkodzeniem pokazanym w raporcie bitwy: cele, opór i inne mnożniki nadal mają znaczenie. „Obrażenia i HP” to skrót; Siła ognia i HP są bardziej precyzyjne.",
+          "Priorytetowo traktuj klucze dla swojej głównej jednostki bojowej. Postęp dotyczy tej jednostki, a nie automatycznie całej armii. Nowoczesne jednostki mają oddzielne systemy ofensywne i defensywne; ich bezpośrednie zyski i częściowe premie nie są poziomem jakości wyposażonego przedmiotu."
+        ],
+        "example": {
+          "title": "Odczytaj efekt poprawnie",
+          "text": "W przypadku części z siłą ognia i penetracją Mechanik wzmacnia odpowiednią premię do siły ognia, a nie penetrację o ten sam procent. W przypadku części z HP i szybkością poprawia HP, a nie prędkość."
+        },
+        "sources": [
+          "mechanic",
+          "modern"
+        ]
+      },
+      {
+        "id": "dismantle",
+        "title": "Demontaż i ponowne wykorzystanie materiałów",
+        "paragraphs": [
+          "Demontaż niszczy gotową część i zwraca zasoby pokazane na jej podglądzie. Uwalnia materiały z przestarzałych pozycji, nadwyżek i nieudanych prób. Konwersja projektu, demontaż części i renowacja jednostki to różne operacje.",
+          "Otwórz warsztat części lub zakład demontażu, wybierz demontaż części, przefiltruj i wybierz niechciany przedmiot. Sprawdź, czy potrzebuje go inna jednostka i przeczytaj całą listę zwrotów. Jeśli to konieczne, najpierw go zdejmij, a następnie potwierdź.",
+          "Zrzut ekranu udostępniony przez gracza w grze stwierdza: demontaż złota ++ zwraca 50% wydanych materiałów; inne części zwracają wszystkie materiały. Plany nie podlegają zwrotowi. Dlatego też przetworzenie wymaga nowego planu, nawet gdy wszystkie materiały zostaną zwrócone. Sprawdź osobno podgląd pod kątem innych kosztów."
+        ],
+        "bullets": [
+          "Niepotrzebny brąz to zwykły surowiec.",
+          "Wymień działającą część przed podjęciem decyzji, co zrobić ze starą.",
+          "Wyklucz rzadkie złoto +/++ i przydatne duplikaty z selekcji zbiorczej.",
+          "Porównaj nowe rzemiosło z rzeczywistym zyskiem, a nie z pierwotnym kosztem wytworzenia."
+        ],
+        "sources": [
+          "recycling",
+          "workshop"
+        ]
+      },
+      {
+        "id": "sources",
+        "title": "Skąd wziąć plany i materiały",
+        "paragraphs": [
+          "Sprawdź, czy nagrodą jest gotowa część, plan, fragmenty planu lub materiały. Nie są one wymienne. Zapasy sklepu, limity i odblokowania zależą od postępu i aktywnego wydarzenia."
+        ],
+        "rows": [
+          [
+            "Sklep Sojuszu",
+            "Poszukaj przydatnych skrzyń z planami. Niektóre akcje wymagają badań sojuszu."
+          ],
+          [
+            "Sklep Arena",
+            "Sprawdź dostępne plany i skrzynie pod kątem innych ważnych zastosowań waluty areny."
+          ],
+          [
+            "Sklep konwersji",
+            "Zamień nadwyżki planów w punkty badawcze umożliwiające ukierunkowane zakupy. Poziomy jakości mogą mieć różne warunki wymiany."
+          ],
+          [
+            "Kampania",
+            "Wykonuj misje, zbieraj nagrody i przetwarzaj niechciany brąz, aby uzyskać stałą bazę materialną."
+          ],
+          [
+            "Inwazja spadochroniarzy",
+            "Priorytet SyndiCate w przypadku części: nagrody obejmują plany i materiały. Weź udział w uzgodnionym starcie, pomóż sojusznikom w obronie i odbierz dostępne nagrody osobiste i sojusznicze. Jest to rekomendacja sojuszu, a nie uniwersalna kalkulacja zysku."
+          ],
+          [
+            "Inne wydarzenia i sklepy",
+            "Wymiany sezonowe i wydarzenia związane z planami; Jurisdiction i cotygodniowe nagrody za materiały. Sprawdź aktualne oferty kampanii, VIP i Czarnego Rynku."
+          ]
+        ],
+        "callout": "Nie przegap Spadochroniarzy, czekając na idealny zrzut. Sprawdź nagrody za swój poziom trudności i weź udział we wspólnej obronie.",
+        "sources": [
+          "invasion",
+          "workshop",
+          "conversion"
+        ]
+      },
+      {
+        "id": "routine",
+        "title": "Lista kontrolna SyndiCate",
+        "bullets": [
+          "Odbierz nagrody z kampanii i skonfiguruj automatyczny demontaż brązu.",
+          "Wybierz swoją główną jednostkę i część docelową przed otwarciem skrzyń wyboru.",
+          "Po sprawdzeniu przekonwertuj nadwyżkę srebra i niechciane typy jednostek.",
+          "Rola i funkcjonalne wyposażenie są ważniejsze niż kolor i całkowita moc.",
+          "Przeczytaj zwrot demontażu, zwłaszcza dla złota ++.",
+          "Gromadź zapasy w określonym celu, odwiedzaj spadochroniarzy i sprawdzaj sklepy.",
+          "Jeśli wydarzenie oceniane jest za wytwarzanie lub demontaż, dopasuj je do kalendarza; nie twórz bezużytecznych przedmiotów tylko dla punktów."
+        ],
+        "callout": "Sprawdź zgodność powstałej części przed nowoczesną konwersją. Zaplanuj przed nieodwracalną wymianą."
+      }
+    ],
+    "evidence": "Lokalizacje budynków, automatyczny demontaż kampanii, konwersja, demontaż i sklepy korzystają ze zrzutów ekranu dostarczonych przez graczy. Mechanik został sprawdzony pod kątem stanowisk Lilith; doskonałe rzemiosło korzysta ze źródeł społecznościowych. Zrzut ekranu rzemiosła nie został jeszcze dostarczony. Ceny i stany magazynowe są przykładami kont, a nie stałymi warunkami sklepu."
+  },
+  pt: {
+    "title": "Peças: transforme o bronze em um carregamento mais forte",
+    "intro": "Construa um suprimento constante de materiais, converta projetos excedentes e equipe sua unidade principal para o trabalho real.",
+    "tag": "EQUIPAMENTO / DESENVOLVIMENTO",
+    "back": "De volta para casa",
+    "toc": "Neste guia",
+    "ready": "Leia o guia",
+    "sourceLabel": "Leia mais",
+    "summary": [
+      "Ative a desmontagem automática da campanha bronze.",
+      "Converta prata excedente e projetos indesejados após verificá-los.",
+      "Construa um carregamento útil antes de perseguir artesanato perfeito."
+    ],
+    "sections": [
+      {
+        "id": "materials",
+        "title": "Plantas, materiais e peças acabadas",
+        "paragraphs": [
+          "Um projeto define o que você pode criar. Os materiais pagam pela elaboração. Uma peça finalizada equipa uma unidade e fornece estatísticas. Possuir projetos não significa que você tenha materiais suficientes para um carregamento completo.",
+          "Os materiais das peças são diferentes das engrenagens de modificação da unidade e dos materiais de construção. Leia as descrições dos itens. Materiais de qualidade inferior podem ser sintetizados em qualidades superiores; verifique a relação atual e o custo extra antes de confirmar."
+        ],
+        "bullets": [
+          "Abra baús de escolha para uma escassez específica.",
+          "Guarde materiais universais para o tipo que falta.",
+          "Não sintetize todo o seu estoque sem um plano de elaboração."
+        ]
+      },
+      {
+        "id": "campaign",
+        "title": "A caixa de seleção de desmontagem automática bronze da campanha",
+        "paragraphs": [
+          "Na tela principal da campanha, habilite “Автоматически разбирать детали уровня Медь” no canto inferior esquerdo. “Медь” é Cobre, o nível bronze discutido aqui. Isso recicla as peças recebidas elegíveis em materiais, em vez de armazenar itens acabados; não melhora a qualidade da gota.",
+          "Depois de usar um equipamento mais forte, este é um hábito diário útil. Com a caixa desmarcada, os materiais não se perdem: eles ficam amarrados em partes até serem desmontados manualmente."
+        ],
+        "bullets": [
+          "Abra a tela principal da campanha.",
+          "Ative a desmontagem automática da peça de cobre no canto inferior esquerdo.",
+          "Reivindique as recompensas disponíveis e verifique seus materiais e se a configuração persiste.",
+          "Inspecione o bronze mais antigo separadamente; não presuma que a caixa de seleção limpa todo o inventário."
+        ],
+        "callout": "No início, preencha primeiro os slots de equipamento vazios. Guarde o bronze que ainda precisar antes de ativar a reciclagem automática."
+      },
+      {
+        "id": "blueprints",
+        "title": "Converter projetos excedentes",
+        "paragraphs": [
+          "Quando as peças de prata não servirem mais ao seu exército principal, converta os projetos de prata excedentes. Faça o mesmo com tipos de unidades fora do seu plano de desenvolvimento. Não acumule itens que você não tem utilidade.",
+          "Caminho: base → Oficina de peças → Conversão/Conversão de Blueprint. A entrada pode estar acima do edifício ou dentro do seu menu, dependendo da versão. A conversão transforma projetos em pontos de pesquisa, que você gasta na Loja de Conversão. Não é uma troca direta de projetos um por um."
+        ],
+        "bullets": [
+          "Abra a conversão do Blueprint no Workshop de peças.",
+          "Filtre por acampamento e tipo de unidade. Esta captura de tela não possui filtro de qualidade separado; inspecione a qualidade da prata nos cartões de planta.",
+          "Selecione itens indesejados e inspecione projetos raros e a visualização do ponto individualmente.",
+          "Confirme a conversão e abra sua loja.",
+          "Compre plantas ou materiais necessários. Um baú aleatório é diferente de um seletor."
+        ],
+        "example": {
+          "title": "Exemplo: um exército focado em artilharia",
+          "text": "Converta o excedente de prata e projetos para unidades que você não planeja usar e, em seguida, direcione os pontos para a artilharia. Mantenha os projetos necessários para um futuro segundo exército ou uma conversão moderna. Inspecione ouro + e ++ individualmente."
+        },
+        "callout": "Nunca selecione cegamente cada projeto dourado. Verifique primeiro a compatibilidade atual e futura, slots universais e opções de conversão modernas.",
+        "sources": [
+          "conversion",
+          "workshop"
+        ]
+      },
+      {
+        "id": "perfect",
+        "title": "Compreendendo o artesanato “perfeito”",
+        "paragraphs": [
+          "“Perfeito” é um termo comunitário para um resultado de elaboração bem-sucedido. Distinga o nível de qualidade (ouro, ouro +, ouro ++) do valor estatístico dentro de sua faixa possível. As cores correspondentes não garantem estatísticas correspondentes.",
+          "Para peças clássicas, um resultado de fabricação aprimorado pode significar uma peça dourada + de um projeto dourado ou uma peça dourada ++ de um projeto dourado +. Esses são possíveis resultados bem-sucedidos, não uma receita garantida para atualizar um item equipado. Uma estatística máxima dentro de um nível é diferente de passar para o próximo nível.",
+          "O artesanato pode produzir um resultado melhorado. Um modelo relevante de ouro comum pode, portanto, ainda ser útil para outra tentativa. Uma atualização não é garantida: use as informações atuais do jogo para probabilidades e condições, e não afirmações de que um número fixo de falhas garante o sucesso.",
+          "Primeiro equipe um carregamento funcional. Em seguida, escolha uma peça importante e compare o custo de uma nova tentativa com a prévia da desmontagem. Obter um projeto aprimorado e um melhor resultado de elaboração são resultados separados, não uma cadeia garantida."
+        ],
+        "example": {
+          "title": "Um exemplo sem probabilidades inventadas",
+          "text": "Se você já possui uma arma de ouro útil, compare outra tentativa com a criação de uma proteção ou motor ausente. A elaboração repetida não deve deixar sua unidade principal sem um equipamento funcional."
+        },
+        "callout": "Os sinais de qualidade plus não são níveis mecânicos. Gold ++ ainda precisa das estatísticas corretas e da compatibilidade de unidades.",
+        "sources": [
+          "perfect"
+        ]
+      },
+      {
+        "id": "choice",
+        "title": "Escolha as peças para a função da unidade",
+        "paragraphs": [
+          "Comece com a função, depois estatísticas, compatibilidade, acampamento e custo. A potência total e os pontos vermelhos são dicas, não uma decisão completa. Compare na mesma unidade com os mesmos oficiais e buffs.",
+          "Leia cada linha de estatísticas. Os bônus fixos e as porcentagens diferem. Dano ao alvo, recarga, precisão, penetração, alcance, mobilidade e resistência importam apenas onde eles realmente existem e se aplicam a essa unidade."
+        ],
+        "rows": [
+          [
+            "Artilharia / negociante de danos",
+            "Priorize estatísticas ofensivas úteis, mantendo ao mesmo tempo sobrevivência e mobilidade suficientes para continuar atirando."
+          ],
+          [
+            "Tanque / linha de frente",
+            "Sobrevivência contra os ataques necessários: HP, armadura e resistências apropriadas."
+          ],
+          [
+            "Unidade móvel",
+            "Equilibre dano, velocidade e sobrevivência para a missão."
+          ],
+          [
+            "Força Aérea e Marinha",
+            "Use peças específicas de classe compatíveis; um carregamento terrestre não é um modelo universal."
+          ]
+        ],
+        "callout": "Verifique os bônus do acampamento e as restrições de slots no cartão. Não escolha apenas pela cor.",
+        "sources": [
+          "workshop"
+        ]
+      },
+      {
+        "id": "mechanic",
+        "title": "Mecânico: Poder de Fogo e HP",
+        "paragraphs": [
+          "Part Mechanic aumenta os bônus de poder de fogo e HP das peças equipadas. Também não multiplica penetração, profundidade de armadura, alcance, precisão, velocidade de movimento ou recarga.",
+          "O poder de fogo não é o dano final mostrado em um relatório de batalha: alvos, resistência e outros multiplicadores ainda são importantes. “Dano e HP” é uma abreviação; Poder de fogo e HP são mais precisos.",
+          "Priorize as chaves inglesas para sua unidade de combate principal. O progresso aplica-se a essa unidade e não automaticamente a todo o exército. As unidades modernas possuem sistemas ofensivos e defensivos separados; seus ganhos diretos e bônus parciais não correspondem ao nível de qualidade do item equipado."
+        ],
+        "example": {
+          "title": "Leia o efeito corretamente",
+          "text": "Para uma parte com Poder de Fogo e penetração, o Mecânico fortalece o bônus de Poder de Fogo aplicável, e não a penetração na mesma porcentagem. Para uma parte com HP e velocidade, melhora o HP, não a velocidade."
+        },
+        "sources": [
+          "mechanic",
+          "modern"
+        ]
+      },
+      {
+        "id": "dismantle",
+        "title": "Desmontagem e reutilização de materiais",
+        "paragraphs": [
+          "A desmontagem destrói uma peça acabada e devolve os recursos mostrados em sua visualização. Libera materiais de itens desatualizados, cópias excedentes e tentativas frustradas. A conversão do projeto, a desmontagem de peças e a restauração da unidade são operações diferentes.",
+          "Abra a Oficina de Peças ou Central de Desmontagem, escolha a desmontagem da peça, filtre e selecione um item indesejado. Verifique se outra unidade precisa e leia toda a lista de devoluções. Desequipe-o primeiro, se necessário, e depois confirme.",
+          "A captura de tela do jogo fornecida pelo jogador afirma: desmontar ouro ++ retorna 50% dos materiais gastos; outras peças devolvem todos os materiais. Os projetos não são devolvidos. A reconstrução, portanto, precisa de um novo plano, mesmo quando todos os materiais retornam. Verifique a visualização separadamente para quaisquer outros custos."
+        ],
+        "bullets": [
+          "O bronze desnecessário é uma matéria-prima comum.",
+          "Substitua uma peça funcional antes de decidir o que fazer com a antiga.",
+          "Exclua ouro raro +/++ e duplicatas úteis da seleção em massa.",
+          "Compare uma nova embarcação com o retorno real, não com o custo de fabricação original."
+        ],
+        "sources": [
+          "recycling",
+          "workshop"
+        ]
+      },
+      {
+        "id": "sources",
+        "title": "Onde obter plantas e materiais",
+        "paragraphs": [
+          "Verifique se a recompensa é uma peça acabada, projeto, fragmentos de projeto ou materiais. Eles não são intercambiáveis. O estoque da loja, os limites e os desbloqueios dependem do progresso e do evento ativo."
+        ],
+        "rows": [
+          [
+            "Loja da Aliança",
+            "Procure baús de projetos úteis. Algumas ações requerem pesquisa de aliança."
+          ],
+          [
+            "Loja Arena",
+            "Verifique os projetos e baús disponíveis em relação a outros usos importantes da moeda da arena."
+          ],
+          [
+            "Loja de conversão",
+            "Transforme projetos excedentes em pontos de pesquisa para compras direcionadas. Os níveis de qualidade podem ter diferentes condições de troca."
+          ],
+          [
+            "Campanha",
+            "Progrida em missões, colete recompensas e recicle bronze indesejado para obter uma base material estável."
+          ],
+          [
+            "Invasão de pára-quedistas",
+            "Uma prioridade SyndiCate para peças: as recompensas incluem projetos e materiais. Participe do início combinado, ajude os aliados a defender e reivindique recompensas pessoais e de aliança disponíveis. Esta é uma recomendação de aliança, não um cálculo de lucro universal."
+          ],
+          [
+            "Outros eventos e lojas",
+            "Trocas sazonais e eventos de projeto; Jurisdiction e recompensas semanais por materiais. Verifique as ofertas atuais da Campanha, VIP e Mercado Negro."
+          ]
+        ],
+        "callout": "Não perca os pára-quedistas enquanto espera por uma queda perfeita. Confira as recompensas de acordo com sua dificuldade e contribua para a defesa compartilhada.",
+        "sources": [
+          "invasion",
+          "workshop",
+          "conversion"
+        ]
+      },
+      {
+        "id": "routine",
+        "title": "Lista de verificação SyndiCate",
+        "bullets": [
+          "Reivindique recompensas de campanha e mantenha a desmontagem automática do bronze configurada.",
+          "Escolha sua unidade principal e parte alvo antes de abrir baús de escolha.",
+          "Converta prata excedente e tipos de unidades indesejadas após a verificação.",
+          "A função e a carga funcional são mais importantes do que a cor e a potência total.",
+          "Leia a declaração de desmontagem, especialmente para ouro ++.",
+          "Armazene com um propósito, atenda aos pára-quedistas e verifique as lojas.",
+          "Se um evento for pontuado por elaboração ou desmontagem, alinhe-o com o calendário; não crie itens inúteis apenas para ganhar pontos."
+        ],
+        "callout": "Verifique a compatibilidade da peça resultante antes da conversão moderna. Planeje antes de uma troca irreversível."
+      }
+    ],
+    "evidence": "Locais de construção, desmontagem automática de campanha, conversão, desmontagem e lojas usam capturas de tela fornecidas pelo jogador. O mecânico foi verificado nos postos de Lilith; a elaboração perfeita usa fontes da comunidade. Uma captura de tela de artesanato ainda não foi fornecida. Preços e estoque são exemplos de contas, não condições permanentes de armazenamento."
+  },
   "vi": {
     "title": "Linh kiện: từ đồng đến bộ trang bị mạnh",
     "intro": "Duy trì nguồn vật liệu, đổi bản vẽ dư và chọn linh kiện đúng vai trò cho đơn vị chủ lực.",

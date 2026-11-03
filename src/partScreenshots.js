@@ -327,6 +327,170 @@ export const screenshotCopy = {
       }
     }
   },
+  pl: {
+    "zoom": "Powiększ zrzut ekranu",
+    "close": "Zamknij",
+    "original": "Otwórz oryginał",
+    "note": "Zrzuty ekranu dostarczone przez gracza. Interfejs gry jest w języku rosyjskim; ceny, stany magazynowe i rabaty ilustrują to konto, a nie stałe warunki sklepu.",
+    "items": {
+      "conversion-filter": {
+        "title": "Krok 2. Odfiltruj niechciane plany",
+        "alt": "Filtr konwersji planów z wybranymi wszystkimi obozami i wyświetlanymi typami jednostek.",
+        "points": [
+          "Filtruj wpis. To okno kontroluje, które plany są wyświetlane; filtrowanie niczego nie konwertuje.",
+          "Kategorie kampowe i uniwersalne. Przejrzyj uniwersalne plany osobno: uniwersalny nie oznacza niechciany.",
+          "Typ jednostki. Każdy typ jest obecnie sprawdzany. Na przykład, aby zachować plany haubic, wyświetl tylko niechciane typy i odznacz „Гаубицы” (Haubice). Sprawdź jakość srebra na kartach; ten ekran nie ma oddzielnego filtra jakości.",
+          "Naciśnij „ОК”, wróć do kart i sprawdź faktyczny wybór przed zatwierdzeniem konwersji. Filtr wyświetlania nie chroni przed nieprawidłowym wyborem zbiorczym."
+        ]
+      },
+      "conversion-store": {
+        "title": "Krok 3. Wydaj punkty w sklepie konwersji",
+        "alt": "Sklep konwersji z oddzielnymi saldami 650 i 2000, skrzyniami z planami i materiałami oraz kluczami płatnerskimi.",
+        "points": [
+          "Po konwersji otwórz „Магазин конверсии” po lewej stronie. Tutaj wybierasz nagrody, a nie plany do poświęcenia.",
+          "Te dwie waluty są odrębne. Na tym koncie znajduje się 650 niebieskich i 2000 brązowych punktów. Nie dodawaj ich razem; dopasuj ikonę ceny do ikony salda.",
+          "Skrzynia z materiałami kosztuje 800 niebieskich punktów; sąsiednia skrzynia ze schematami kosztuje 1800. Saldo 650 jest niewystarczające. Przeczytaj opis: skrzynia nie gwarantuje wyboru konkretnej części.",
+          "Skrzynia ze schematem czołgu średniego kosztuje 6000 brązowych punktów, więc 2000 to za mało. Wybierz rodzaj jednostki, której potrzebujesz i porównaj koszty i zapasy. Pokazany tutaj klucz jest przeznaczony dla mechanika, a nie klucza do zmiany biegów z kalendarza wydarzeń."
+        ]
+      },
+      "dismantling": {
+        "title": "Demontaż: zwroty i straty",
+        "alt": "Zakład demontażu, zakładka demontażu części oraz zasady zwrotu materiałów i planów w grze.",
+        "points": [
+          "Otwórz zakład demontażu → „Разборка детали” (Demontaż części). Różni się to od demontażu jednostki, resetowania i zakładki „Улучшенный разбор”.",
+          "Zasada w grze: złoto ++ zwraca 50% wydanych materiałów; inne części zwracają wszystkie materiały. Plany nie podlegają zwrotowi.",
+          "Widoczne są tu trzy części. To, że znajduje się na liście, nie oznacza, że ​​każda część jest niechciana. Zawsze przeglądaj opcję Szybki wybór, szczególnie w przypadku rzadkich części i przydatnych duplikatów.",
+          "„Разобрать” potwierdza zniszczenie. Przykład: ze 100 materiałów wydanych na złoto ++, 50 zwróci; przebudowa wymaga brakujących materiałów i nowego planu. To obliczenie ilustruje regułę, a nie podgląd zwrotu pokazany na tym zrzucie ekranu."
+        ]
+      },
+      "alliance-store": {
+        "title": "Sklep Sojuszu: kup dla swojej armii",
+        "alt": "Sklep z wkładami sojuszu z różnymi skrzyniami ze schematami jednostek.",
+        "points": [
+          "Monety kontrybucyjne płacą za te oferty. Przykładowe saldo to 173; porównaj to z ceną skrzyni.",
+          "Skrzynia z planem haubicy kosztuje tutaj 2360, podczas gdy wiele innych typów jednostek kosztuje 4720. Takie są ceny w tej ofercie. Nie kupuj nieistotnego typu jednostki tylko dlatego, że jest dostępna.",
+          "Skrzynie z materiałami i skrzynie ze schematami rozwiązują różne niedobory. „Распродано” oznacza wyprzedane; sprawdź licznik odświeżania."
+        ]
+      },
+      "arena-store": {
+        "title": "Sklep Arena: plany, materiały i mechanik",
+        "alt": "Sklep Arena ze skrzyniami, kluczami płatnerskimi, cenami i wyprzedanymi etykietami.",
+        "points": [
+          "Kilka skrzyń ma podobne nazwy. Otwórz każdy opis przed zakupem: projekt lub materiały, jaka jakość, losowa czy do wyboru?",
+          "Klucze płatnerskie rozwijają mechanikę, a nie bezpośrednio wytwarzają części. Poniższe tryby są komponentami jednostek, a nie materiałami do częściowego wytwarzania.",
+          "Rabaty, zapasy i licznik czasu należą do rotacji tego sklepu. Nadaj priorytet swojej podstawowej armii, zamiast kupować wszystko na wyprzedaży."
+        ]
+      },
+      "base-workshop": {
+        "title": "Znajdź warsztat i zakład demontażu",
+        "alt": "Baza z warsztatem części w pobliżu środka i zakładem demontażu w lewym górnym rogu.",
+        "points": [
+          "Budynek oznaczony jako „Мастерская запчастей” to warsztat części. Poszukaj tutaj rzemiosła i wejścia do konwersji schematu.",
+          "„Разборочный комплекс” to odrębny budynek: Zakład Demontażu z pokazaną wcześniej zakładką demontażu części. Te budynki i operacje różnią się."
+        ]
+      },
+      "campaign-auto-disassembly": {
+        "title": "Kampania: włącz automatyczny demontaż części miedzianych",
+        "alt": "Ekran kampanii z zaznaczonym polem wyboru Automatyczny demontaż części miedzianych w lewym dolnym rogu.",
+        "points": [
+          "Pole wyboru znajduje się bezpośrednio w lewym dolnym rogu głównego ekranu kampanii: „Автоматически разбирать детали уровня Медь”. Tutaj jest to włączone. „Медь” oznacza miedź, brązowy poziom omawiany w tym przewodniku.",
+          "Skumulowany obszar nagród znajduje się na prawo od środka i obecnie zawiera informację o wszystkich zdobytych nagrodach. Pole wyboru umożliwia ponowne wykorzystanie odpowiedniego łupu; nie zamienia przedmiotów w złoto, nie poprawia jakości wypadania ani nie kupuje energii."
+        ]
+      },
+      "conversion-selection": {
+        "title": "Krok 1. Otwórz konwersję i sprawdź karty",
+        "alt": "Główny ekran konwersji planu z dwiema kartami planów, filtrem i przyciskiem potwierdzenia.",
+        "points": [
+          "Otwórz „Конвертировать”. Opis po lewej stronie wyjaśnia, że ​​plany stają się punktami badań lub zaawansowanymi badaniami dla Sklepu konwersji.",
+          "Karty przedstawiają działo lotnicze NS-37 i plan 48-nabojowej wyrzutni rakiet. Ilustrują interfejs, a nie zalecenie zniszczenia tych konkretnych elementów. Sprawdź każdy z planów jednostki.",
+          "Otwórz „Фильтр”, aby filtrować według typu obozu i jednostki. Następny zrzut ekranu wyjaśnia te ustawienia.",
+          "Użyj „Конвертировать” dopiero po sprawdzeniu aktualnego wyboru. Przed potwierdzeniem sprawdź wydane plany i zdobytą walutę; odwiedź sklep po konwersji."
+        ]
+      }
+    }
+  },
+  pt: {
+    "zoom": "Ampliar captura de tela",
+    "close": "Fechar",
+    "original": "Abrir original",
+    "note": "Capturas de tela fornecidas pelo jogador. A IU do jogo está em russo; preços, estoque e descontos ilustram essa conta, e não condições permanentes de loja.",
+    "items": {
+      "conversion-filter": {
+        "title": "Passo 2. Filtrar projetos indesejados",
+        "alt": "Filtro de conversão do projeto com todos os acampamentos e tipos de unidades exibidos selecionados.",
+        "points": [
+          "Entrada de filtro. Esta janela controla quais plantas são mostradas; a filtragem não converte nada.",
+          "Categorias camp e universais. Revise os projetos universais separadamente: universal não significa indesejado.",
+          "Tipo de unidade. Cada tipo está atualmente verificado. Por exemplo, para manter os projetos dos obuses, exiba apenas os tipos indesejados e desmarque “Гаубицы” (Obuses). Verifique a qualidade da prata nos cartões; esta tela não possui filtro de qualidade separado.",
+          "Pressione “ОК”, retorne aos cartões e inspecione a seleção real antes de confirmar a conversão. Um filtro de exibição não protege contra uma seleção em massa incorreta."
+        ]
+      },
+      "conversion-store": {
+        "title": "Passo 3. Gaste pontos na Loja de Conversão",
+        "alt": "Loja de conversão com saldos separados de 650 e 2.000, projetos e baús de materiais e chaves de armeiro.",
+        "points": [
+          "Após a conversão, abra “Магазин конверсии” à esquerda. Aqui você escolhe as recompensas, não os projetos a serem sacrificados.",
+          "As duas moedas são separadas. Esta conta possui 650 pontos azuis e 2.000 pontos marrons. Não os adicione; combine o ícone de preço com o ícone de saldo.",
+          "O baú de materiais custa 800 pontos azuis; o baú de planta adjacente custa 1.800. Um saldo de 650 é insuficiente. Leia a descrição: um baú não garante a seleção de uma peça específica.",
+          "O baú de planta de tanque médio custa 6.000 pontos marrons, então 2.000 são insuficientes. Escolha o tipo de unidade que você precisa e compare custo e estoque. A chave mostrada aqui é para o Mecânico, não uma chave de engrenagem do calendário de eventos."
+        ]
+      },
+      "dismantling": {
+        "title": "Desmontagem: retornos e perdas",
+        "alt": "Planta de desmontagem, guia de desmontagem de peças e regra de devolução de material e projeto do jogo.",
+        "points": [
+          "Abra a Central de Desmontagem → “Разборка детали” (Desmontagem de peças). Isso difere da desmontagem da unidade, da reinicialização e da guia “Executar o trabalho”.",
+          "A regra do jogo: ouro ++ retorna 50% dos materiais gastos; outras peças devolvem todos os materiais. Os projetos não são devolvidos.",
+          "Três partes são visíveis aqui. Estar listado não significa que todas as partes sejam indesejadas. Sempre revise a Seleção Rápida, especialmente para peças raras e duplicatas úteis.",
+          "“Разобрать” confirma a destruição. Exemplo: de 100 materiais gastos em ouro++, 50 retornam; a reconstrução precisa dos materiais que faltam e de um novo projeto. Este cálculo ilustra a regra, não uma visualização do retorno mostrada nesta captura de tela."
+        ]
+      },
+      "alliance-store": {
+        "title": "Loja da Aliança: compre para o seu exército",
+        "alt": "Loja de contribuições da Aliança com diferentes baús de projetos de unidades.",
+        "points": [
+          "As moedas de contribuição pagam por essas ofertas. O saldo do exemplo é 173; compare-o com o preço do peito.",
+          "O baú do projeto do obus custa 2.360 aqui, enquanto muitos outros tipos de unidades custam 4.720. Não compre um tipo de unidade irrelevante só porque está disponível.",
+          "Baús de materiais e baús de projetos resolvem diferentes carências. “Распродано” significa esgotado; verifique o cronômetro de atualização."
+        ]
+      },
+      "arena-store": {
+        "title": "Arena Store: plantas, materiais e mecânica",
+        "alt": "Arena Store com baús, Chaves de Armeiro, preços e etiquetas esgotadas.",
+        "points": [
+          "Vários baús têm nomes semelhantes. Abra cada descrição antes de comprar: planta ou materiais, qual qualidade, aleatória ou selecionável?",
+          "As Chaves do Armeiro desenvolvem Mecânica em vez de fabricar peças diretamente. As engrenagens abaixo são componentes de unidades e não materiais de fabricação de peças.",
+          "Os descontos, o estoque e o cronômetro pertencem a esse rodízio de lojas. Priorize seu exército principal em vez de comprar tudo à venda."
+        ]
+      },
+      "base-workshop": {
+        "title": "Encontre a oficina e a planta de desmontagem",
+        "alt": "Base com a Oficina de Peças próxima ao centro e a Planta de Desmontagem no canto superior esquerdo.",
+        "points": [
+          "O edifício denominado “Мастерская запчастей” é a Oficina de Peças. Procure aqui a elaboração e a entrada para a conversão do projeto.",
+          "O “Разборочный комплекс” é um edifício separado: a Planta de Desmontagem com a guia de desmontagem de peças mostrada anteriormente. Esses edifícios e operações são diferentes."
+        ]
+      },
+      "campaign-auto-disassembly": {
+        "title": "Campanha: habilite a desmontagem automática de peças de cobre",
+        "alt": "Tela da campanha com a caixa de seleção de desmontagem automática da peça de cobre habilitada no canto inferior esquerdo.",
+        "points": [
+          "A caixa de seleção está diretamente no canto inferior esquerdo da tela principal da campanha: “Автоматически разбирать детали уровня Медь”. Está habilitado aqui. “Медь” significa Cobre, o nível de bronze discutido neste guia.",
+          "A área de recompensas acumuladas está à direita do centro e atualmente indica todas as recompensas reivindicadas. A caixa de seleção recicla o saque relevante; não transforma itens em ouro, não melhora a qualidade das gotas nem compra energia."
+        ]
+      },
+      "conversion-selection": {
+        "title": "Passo 1. Abra a conversão e inspecione os cartões",
+        "alt": "Tela principal de conversão de blueprint com dois cartões de blueprint, filtro e botão de confirmação.",
+        "points": [
+          "Abra “Converter”. A descrição à esquerda explica que os projetos se tornam pontos de pesquisa ou pesquisa avançada para a Loja de Conversão.",
+          "As cartas mostram um canhão de aeronave NS-37 e um projeto de lançador de foguetes de 48 tiros. Eles ilustram a interface, não uma recomendação para destruir esses itens específicos. Verifique cada um em relação ao seu plano de unidade.",
+          "Abra “Фильтр” para filtrar por acampamento e tipo de unidade. A próxima captura de tela explica essas configurações.",
+          "Use “Конвертировать” somente após revisar sua seleção real. Verifique os projetos gastos e a moeda ganha antes de confirmar; visite a loja após a conversão."
+        ]
+      }
+    }
+  },
   "vi": {
     "zoom": "Phóng to ảnh",
     "close": "Đóng",

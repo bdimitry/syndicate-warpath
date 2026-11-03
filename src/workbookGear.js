@@ -63,6 +63,50 @@ export const workbookGearCopy={
     },
     "choice": "Each main row offers two items to choose from. They are not assigned one per officer."
   },
+  pl: {
+    "heading": "Postęp w sprzęcie",
+    "purple": "Fioletowy sprzęt · wybierz opcję",
+    "target": "Bieg docelowy · wybierz opcję",
+    "alternatives": "Alternatywy",
+    "note": "Użyj odpowiedniego fioletowego sprzętu, gdy opcja celu jest niedostępna. Elementy umieszczone osobno po prawej stronie skoroszytu stanowią dodatkowe zamienniki. Nie musisz zbierać wszystkich pokazanych przedmiotów. To jest plan SyndiCate; sprawdź indywidualne bonusy w grze.",
+    "credit": "Sprzęt: skoroszyt SyndiCate",
+    "skillsPending": "Wyszkolone umiejętności nie zostały jeszcze określone.",
+    "roles": "Role lidera i pomocnika nie zostały jeszcze przydzielone.",
+    "skillsNote": "Umiejętności odpowiadają portretom i pozycjom ikon. Wybierz kompletny wariant; Autor nie określił mieszania umiejętności w rzędach. Role przywódcy i pomocnika są nieokreślone.",
+    "items": {
+      "knife": "Nóż",
+      "knuckles": "Knykcie",
+      "tablet": "Tablet",
+      "shotgun": "Strzelba",
+      "map": "Mapa",
+      "launcher": "Wyrzutnia rakiet",
+      "headset": "Zestaw słuchawkowy",
+      "shield": "Tarcza"
+    },
+    "choice": "W każdym głównym rzędzie znajdują się dwie pozycje do wyboru. Nie przydziela się im jednego na funkcjonariusza."
+  },
+  pt: {
+    "heading": "Progressão de marcha",
+    "purple": "Equipamento roxo · escolha uma opção",
+    "target": "Equipamento alvo · escolha uma opção",
+    "alternatives": "Alternativas",
+    "note": "Use equipamento roxo adequado enquanto a opção de alvo estiver indisponível. Os itens colocados separadamente à direita da apostila são substituições adicionais. Você não precisa coletar todos os itens mostrados. Este é o plano de SyndiCate; verifique os bônus individuais no jogo.",
+    "credit": "Equipamento: pasta de trabalho SyndiCate",
+    "skillsPending": "As habilidades treinadas ainda não foram especificadas.",
+    "roles": "As funções de líder e assessor ainda não foram atribuídas.",
+    "skillsNote": "As habilidades seguem os retratos e as posições dos ícones. Escolha uma variante completa; misturar habilidades entre linhas não foi especificado pelo autor. As funções de líder e assessor não são especificadas.",
+    "items": {
+      "knife": "Faca",
+      "knuckles": "Nós dos dedos",
+      "tablet": "Tábua",
+      "shotgun": "Espingarda",
+      "map": "Mapa",
+      "launcher": "Lançador de foguetes",
+      "headset": "Fone de ouvido",
+      "shield": "Escudo"
+    },
+    "choice": "Cada linha principal oferece dois itens para você escolher. Eles não são atribuídos um por oficial."
+  },
   "vi": {
     "heading": "Trang bị theo giai đoạn",
     "purple": "Trang bị tím · chọn một phương án",

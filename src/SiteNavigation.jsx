@@ -4,6 +4,8 @@ import './siteNavigation.css';
 const labels = {
   ru: ['Разделы','Поиск по разделам','На этой странице','Закрыть','Ничего не найдено','Развитие базы','Офицерские сборки','Калькулятор строительства','Наверх'],
   en: ['Explore','Search guides','On this page','Close','No results','Base progression','Officer builds','Building calculator','Back to top'],
+  pl: ["Sekcje","Szukaj w poradnikach","Na tej stronie","Zamknij","Brak wyników","Podstawowa progresja","Zestawy oficerów","Kalkulator budowy","Wróć na górę"],
+  pt: ["Seções","Pesquisar guias","Nesta página","Fechar","Nenhum resultado","Progressão básica","Formações de oficiais","Calculadora de construção","Voltar ao topo"],
   vi: ['Khám phá','Tìm hướng dẫn','Trên trang này','Đóng','Không có kết quả','Phát triển căn cứ','Đội hình sĩ quan','Máy tính xây dựng','Về đầu trang'],
   ar: ['الأقسام','ابحث في الأدلة','في هذه الصفحة','إغلاق','لا توجد نتائج','تطوير القاعدة','تشكيلات الضباط','حاسبة البناء','العودة إلى الأعلى'],
 };
