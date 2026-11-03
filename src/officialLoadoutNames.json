@@ -1,0 +1,596 @@
+{
+  "Pledged Brothers": {
+    "key": "OfficerSkillDesc#skill_name#32930",
+    "labels": {
+      "en": "Pledged Brothers",
+      "ru": "Побратимы",
+      "pl": "Bracia w przysiędze",
+      "pt": "Irmãos Jurados",
+      "vi": "Huynh Đệ Kết Nghĩa",
+      "ar": "الإخوة المتعاهدون"
+    }
+  },
+  "Serrated Blades": {
+    "key": "OfficerSkillDesc#skill_name#31420",
+    "labels": {
+      "en": "Serrated Blades",
+      "ru": "Рифленые клинки",
+      "pl": "Ząbkowane ostrza",
+      "pt": "Lâminas Serrilhadas",
+      "vi": "Kiếm Răng Cưa",
+      "ar": "شفرات مسننة"
+    }
+  },
+  "Artillery Advisor": {
+    "key": "OfficerSkillDesc#skill_name#33120",
+    "labels": {
+      "en": "Artillery Advisor",
+      "ru": "Артиллерийский советник",
+      "pl": "Doradztwo artyleryjskie",
+      "pt": "Conselheira de Artilharia",
+      "vi": "Cố Vấn Pháo Binh",
+      "ar": "مستشارة المدفعية"
+    }
+  },
+  "Resolute Fighter": {
+    "key": "OfficerSkillDesc#skill_name#31830",
+    "labels": {
+      "en": "Resolute Fighter",
+      "ru": "Решительный боец",
+      "pl": "Śmiała wojowniczka",
+      "pt": "Guerreiro Resoluto",
+      "vi": "Chiến Binh Kiên Trung",
+      "ar": "المقاتل الحازم"
+    }
+  },
+  "Highlander’s Grit": {
+    "key": "OfficerSkillDesc#skill_name#22330",
+    "labels": {
+      "en": "Highlander's Grit",
+      "ru": "Стойкость горца",
+      "pl": "Górskie zacięcie",
+      "pt": "Resiliência do Montanhês",
+      "vi": "Hậu Duệ Cao Nguyên",
+      "ar": "شجاعة رجل الجبال"
+    }
+  },
+  "Adrenalin": {
+    "key": "OfficerSkillDesc#skill_name#31140",
+    "labels": {
+      "en": "Adrenalin",
+      "ru": "Адреналин",
+      "pl": "Adrenalina",
+      "pt": "Adrenalina",
+      "vi": "Adrenalin",
+      "ar": "الأدرينالين"
+    }
+  },
+  "Covert Connections": {
+    "key": "OfficerSkillDesc#skill_name#21731",
+    "labels": {
+      "en": "Covert Connections",
+      "ru": "Тайные связи",
+      "pl": "Tajne koneksje",
+      "pt": "Conexões Secretas",
+      "vi": "Kết Nối Bí Mật",
+      "ar": "الاتصالات السرية"
+    }
+  },
+  "Dual Dominance": {
+    "key": "OfficerSkillDesc#skill_name#22230",
+    "labels": {
+      "en": "Dual Dominance",
+      "ru": "Двойное превосходство",
+      "pl": "Podwójna dominacja",
+      "pt": "Domínio Duplo",
+      "vi": "Thống Trị Song Hành",
+      "ar": "الهيمنة المزدوجة"
+    }
+  },
+  "Know Thyself": {
+    "key": "OfficerSkillDesc#skill_name#11120",
+    "labels": {
+      "en": "Know Thyself",
+      "ru": "Знай себя",
+      "pl": "Introspekcja",
+      "pt": "Conhece a Ti Mesmo",
+      "vi": "Biết Rõ Bản Thân",
+      "ar": "اعرف نفسك"
+    }
+  },
+  "Invictus": {
+    "key": "OfficerSkillDesc#skill_name#11540",
+    "labels": {
+      "en": "Invictus",
+      "ru": "Непобедимый",
+      "pl": "Zwycięstwo",
+      "pt": "Invicto",
+      "vi": "Bất Khuất",
+      "ar": "مهيمن"
+    }
+  },
+  "Kuran’s Eye": {
+    "key": "OfficerSkillDesc#skill_name#22640",
+    "labels": {
+      "en": "Kuran's Eye",
+      "ru": "Глаз Курана",
+      "pl": "Oko Kurana",
+      "pt": "Olho de Kuran",
+      "vi": "Ưng Nhãn Kuran",
+      "ar": "عين كوران"
+    }
+  },
+  "Charisma": {
+    "key": "OfficerSkillDesc#skill_name#20240",
+    "labels": {
+      "en": "Charisma",
+      "ru": "Харизма",
+      "pl": "Charyzma",
+      "pt": "Carisma",
+      "vi": "Khí Chất Lãnh Đạo",
+      "ar": "الجاذبية"
+    }
+  },
+  "Automation Protocols": {
+    "key": "OfficerSkillDesc#skill_name#21920",
+    "labels": {
+      "en": "Automation Protocols",
+      "ru": "Протоколы автоматизации",
+      "pl": "Protokoły automatyzacji",
+      "pt": "Protocolos de Automação",
+      "vi": "Giao Thức Tự Động",
+      "ar": "بروتوكولات التشغيل الآلي"
+    }
+  },
+  "Tribal Tenacity": {
+    "key": "OfficerSkillDesc#skill_name#13040",
+    "labels": {
+      "en": "Tribal Tenacity",
+      "ru": "Племенная стойкость",
+      "pl": "Plemienna wytrwałość",
+      "pt": "Tenacidade Tribal",
+      "vi": "Ý Chí Bộ Tộc",
+      "ar": "صلابة القبيلة"
+    }
+  },
+  "Absolute Justice": {
+    "key": "OfficerSkillDesc#skill_name#12830",
+    "labels": {
+      "en": "Absolute Justice",
+      "ru": "Абсолютное правосудие",
+      "pl": "Absolutna sprawiedliwość",
+      "pt": "Justiça Absoluta",
+      "vi": "Công Lý Tuyệt Đối",
+      "ar": "العدالة المطلقة"
+    }
+  },
+  "Crimebuster": {
+    "key": "OfficerSkillDesc#skill_name#11040",
+    "labels": {
+      "en": "Crimebuster",
+      "ru": "Борец с преступностью",
+      "pl": "Pogromczyni przestępczości",
+      "pt": "Justiceiro",
+      "vi": "Triệt Phá Tội Phạm",
+      "ar": "محطم الجريمة"
+    }
+  },
+  "Full Suppression": {
+    "key": "OfficerSkillDesc#skill_name#22840",
+    "labels": {
+      "en": "Full Suppression",
+      "ru": "Полное подавление",
+      "pl": "Pełna neutralizacja",
+      "pt": "Supressão Total",
+      "vi": "Áp Chế Toàn Diện",
+      "ar": "قمع كامل"
+    }
+  },
+  "Explosive Expression": {
+    "key": "OfficerSkillDesc#skill_name#31740",
+    "labels": {
+      "en": "Explosive Expression",
+      "ru": "Взрывная экспрессия",
+      "pl": "Wybuchowa ekspresja",
+      "pt": "Expressão Explosiva",
+      "vi": "Dễ Cháy Dễ Nổ",
+      "ar": "التعبير المتفجر"
+    }
+  },
+  "Mirage Cover": {
+    "key": "OfficerSkillDesc#skill_name#32530",
+    "labels": {
+      "en": "Mirage Cover",
+      "ru": "Прикрытие миражом",
+      "pl": "Płaszcz mirażu",
+      "pt": "Disfarce de Miragem",
+      "vi": "Ảo Ảnh Che Giấu",
+      "ar": "غطاء السراب"
+    }
+  },
+  "Cold Hearted": {
+    "key": "OfficerSkillDesc#skill_name#31540",
+    "labels": {
+      "en": "Cold Hearted",
+      "ru": "Хладнокровие",
+      "pl": "Bezwzględność",
+      "pt": "Coração de Gelo",
+      "vi": "Xạ Thủ Tim Lạnh",
+      "ar": "القلب البارد"
+    }
+  },
+  "Tactical Blueprint": {
+    "key": "OfficerSkillDesc#skill_name#13540",
+    "labels": {
+      "en": "Tactical Blueprint",
+      "ru": "Тактический чертеж",
+      "pl": "Plan taktyczny",
+      "pt": "Esquema Tático",
+      "vi": "Thiết Kế Chiến Thuật",
+      "ar": "خطة تكتيكية"
+    }
+  },
+  "Meld Into Shadows": {
+    "key": "OfficerSkillDesc#skill_name#21530",
+    "labels": {
+      "en": "Meld Into Shadows",
+      "ru": "Раствориться в тенях",
+      "pl": "W objęciach cieni",
+      "pt": "Oculto nas Sombras",
+      "vi": "Hòa Mình Vào Bóng Tối",
+      "ar": "الانغماس في الظلال"
+    }
+  },
+  "Combat Focus": {
+    "key": "OfficerSkillDesc#skill_name#31840",
+    "labels": {
+      "en": "Combat Focus",
+      "ru": "Боевой фокус",
+      "pl": "Koncentracja bojowa",
+      "pt": "Foco no Combate",
+      "vi": "Tập Trung Chiến Đấu",
+      "ar": "تركيز القتال"
+    }
+  },
+  "Adaptive Sight": {
+    "key": "OfficerSkillDesc#skill_name#13430",
+    "labels": {
+      "en": "Adaptive Sight",
+      "ru": "Адаптивный прицел",
+      "pl": "Adaptacyjny celownik",
+      "pt": "Mira Adaptativa",
+      "vi": "Trang Bị Ngắm Thích Ứng",
+      "ar": "المنظار المتكيف"
+    }
+  },
+  "Ruthless Takedown": {
+    "key": "OfficerSkillDesc#skill_name#13620",
+    "labels": {
+      "en": "Ruthless Takedown",
+      "ru": "Дерзкий отъем",
+      "pl": "Bezwzględne powalenie",
+      "pt": "Derrubada Implacável",
+      "vi": "Mưu Trí Cướp Đoạt",
+      "ar": "الإطاحة القاسية"
+    }
+  },
+  "Deadeye": {
+    "key": "OfficerSkillDesc#skill_name#11030",
+    "labels": {
+      "en": "Deadeye",
+      "ru": "Орлиный глаз",
+      "pl": "Strzelec wyborowy",
+      "pt": "Mira Fatal",
+      "vi": "Thiện Xạ",
+      "ar": "رامٍ ماهر"
+    }
+  },
+  "Brave Companion": {
+    "key": "OfficerSkillDesc#skill_name#12040",
+    "labels": {
+      "en": "Brave Companion",
+      "ru": "Отважный компаньон",
+      "pl": "Odważny towarzysz",
+      "pt": "Companheiro Corajoso",
+      "vi": "Bạn Đồng Hành Dũng Cảm",
+      "ar": "المساعد الشجاع"
+    }
+  },
+  "Heavy Barrage": {
+    "key": "OfficerSkillDesc#skill_name#22040",
+    "labels": {
+      "en": "Heavy Barrage",
+      "ru": "Шквальный залп",
+      "pl": "Nieustający ostrzał",
+      "pt": "Barragem Pesada",
+      "vi": "Đại Pháo Oanh Tạc",
+      "ar": "الوابل الثقيل"
+    }
+  },
+  "Shaped Charge": {
+    "key": "OfficerSkillDesc#skill_name#13420",
+    "labels": {
+      "en": "Shaped Charge",
+      "ru": "Кумулятивный заряд",
+      "pl": "Ładunek kumulacyjny",
+      "pt": "Carga Moldada",
+      "vi": "Thuốc Nổ Định Hình",
+      "ar": "الشحنة المتشكلة"
+    }
+  },
+  "Best of the Best": {
+    "key": "OfficerSkillDesc#skill_name#11340",
+    "labels": {
+      "en": "Best of the Best",
+      "ru": "Лучший из лучших",
+      "pl": "Najlepsi z najlepszych",
+      "pt": "Melhor dos Melhores",
+      "vi": "Vô Địch Thiên Hạ",
+      "ar": "الأفضل بين الجميع"
+    }
+  },
+  "Armed to the Teeth": {
+    "key": "OfficerSkillDesc#skill_name#31020",
+    "labels": {
+      "en": "Armed to the Teeth",
+      "ru": "Вооружены до зубов",
+      "pl": "Uzbrojeni po zęby",
+      "pt": "Armado até os Dentes",
+      "vi": "Vũ Trang Tận Răng",
+      "ar": "مدججين بالسلاح"
+    }
+  },
+  "Ruthless Outlaw": {
+    "key": "OfficerSkillDesc#skill_name#31930",
+    "labels": {
+      "en": "Ruthless Outlaw",
+      "ru": "Безжалостный изгой",
+      "pl": "Bezwzględna banitka",
+      "pt": "Proscrita Impiedosa",
+      "vi": "Tội Phạm Liều Mạng",
+      "ar": "الإجرام الشرس"
+    }
+  },
+  "Sweetheart of the Troops": {
+    "key": "OfficerSkillDesc#skill_name#13730",
+    "labels": {
+      "en": "Sweetheart of the Troops",
+      "ru": "Войсковое сердце",
+      "pl": "Ulubienica żołnierzy",
+      "pt": "Queridinha das Tropas",
+      "vi": "Bóng Hồng Quân Ngũ",
+      "ar": "حبيبة الجنود"
+    }
+  },
+  "Custom Warhead": {
+    "key": "OfficerSkillDesc#skill_name#13440",
+    "labels": {
+      "en": "Custom Warhead",
+      "ru": "Специальная боеголовка",
+      "pl": "Niestandardowa głowica bojowa",
+      "pt": "Ogiva Personalizada",
+      "vi": "Đầu Đạn Cải Tiến",
+      "ar": "رأس حربي مخصص"
+    }
+  },
+  "Rapid Reload": {
+    "key": "OfficerSkillDesc#skill_name#10940",
+    "labels": {
+      "en": "Rapid Reload",
+      "ru": "Быстрая перезарядка",
+      "pl": "Szybkie przeładowanie",
+      "pt": "Recarga Rápida",
+      "vi": "Nạp Đạn Cấp Tốc",
+      "ar": "تلقيم سريع"
+    }
+  },
+  "Field Observation": {
+    "key": "OfficerSkillDesc#skill_name#33140",
+    "labels": {
+      "en": "Field Observation",
+      "ru": "Полевое наблюдение",
+      "pl": "Obserwacja polowa",
+      "pt": "Observação de Campo",
+      "vi": "Quan Sát Chiến Trường",
+      "ar": "المراقبة الميدانية"
+    }
+  },
+  "Declared Strike": {
+    "key": "OfficerSkillDesc#skill_name#31940",
+    "labels": {
+      "en": "Declared Strike",
+      "ru": "Объявленный удар",
+      "pl": "Zapowiedziany atak",
+      "pt": "Agressão Declarada",
+      "vi": "Công Kích Báo Trước",
+      "ar": "الهجوم المعلن"
+    }
+  },
+  "Heat Core": {
+    "key": "OfficerSkillDesc#skill_name#32520",
+    "labels": {
+      "en": "Heat Core",
+      "ru": "Тепловое ядро",
+      "pl": "Jądro skwaru",
+      "pt": "Centro de Calor",
+      "vi": "Pháo Cát Sục Sôi",
+      "ar": "مصدر الحرارة"
+    }
+  },
+  "Loyal Battalion": {
+    "key": "OfficerSkillDesc#skill_name#32120",
+    "labels": {
+      "en": "Loyal Battalion",
+      "ru": "Преданный батальон",
+      "pl": "Lojalny batalion",
+      "pt": "Batalhão Leal",
+      "vi": "Vệ Đội Trung Thành",
+      "ar": "الكتيبة الموالية"
+    }
+  },
+  "Animosity": {
+    "key": "OfficerSkillDesc#skill_name#21540",
+    "labels": {
+      "en": "Animosity",
+      "ru": "Вражда",
+      "pl": "Animozja",
+      "pt": "Animosidade",
+      "vi": "Hận Thù Chất Chứa",
+      "ar": "العداء"
+    }
+  },
+  "Tactical Knife": {
+    "key": "OfficerEquitment#equitment_name#10001",
+    "labels": {
+      "en": "Tactical Knife",
+      "ru": "Тактический нож",
+      "pl": "Nóż taktyczny",
+      "pt": "Faca Tática",
+      "vi": "Dao Găm Chiến Thuật",
+      "ar": "سكين تكتيكي"
+    }
+  },
+  "Tiger Knuckles": {
+    "key": "OfficerEquitment#equitment_name#10002",
+    "labels": {
+      "en": "Tiger Knuckles",
+      "ru": "Тигриный кастет",
+      "pl": "Tygrysi kastet",
+      "pt": "Soco do Tigre",
+      "vi": "Tay Đấm Hổ Sắt",
+      "ar": "سكين النمر"
+    }
+  },
+  "Sheriff Shotgun": {
+    "key": "OfficerEquitment#equitment_name#20003",
+    "labels": {
+      "en": "Sheriff Shotgun",
+      "ru": "Дробовик «Шериф»",
+      "pl": "Strzelba szeryfa",
+      "pt": "Espingarda do Xerife",
+      "vi": "Súng Shotgun Cảnh Sát Trưởng",
+      "ar": "بندقية المأمور"
+    }
+  },
+  "All-Seer Drone": {
+    "key": "OfficerEquitment#equitment_name#20001",
+    "labels": {
+      "en": "All-Seer Drone",
+      "ru": "Дрон «Всевидящий»",
+      "pl": "Dron Wszechwidzący",
+      "pt": "Drone que Tudo Vê",
+      "vi": "Drone Mắt Pháo Binh",
+      "ar": "طائرة المراقبة لكل شيء المسيّرة"
+    }
+  },
+  "Sand Table Kit": {
+    "key": "OfficerEquitment#equitment_name#10003",
+    "labels": {
+      "en": "Sand Table Kit",
+      "ru": "Набор песочной карты",
+      "pl": "Pustynny zestaw",
+      "pt": "Kit de Mesa Tática",
+      "vi": "Sa Bàn Di Động",
+      "ar": "عدة الطاولة الرملية"
+    }
+  },
+  "Bulwark Shield": {
+    "key": "OfficerEquitment#equitment_name#20004",
+    "labels": {
+      "en": "Bulwark Shield",
+      "ru": "Щит «Бастион»",
+      "pl": "Tarcza Bastion",
+      "pt": "Escudo Baluarte",
+      "vi": "Khiên Bất Khuất",
+      "ar": "درع الحصن"
+    }
+  },
+  "Painter Rocket Launcher": {
+    "key": "OfficerEquitment#equitment_name#20002",
+    "labels": {
+      "en": "Painter Rocket Launcher",
+      "ru": "Ракетница «Художник»",
+      "pl": "Wyrzutnia rakietowa Malarz",
+      "pt": "Lança-foguetes Pintor",
+      "vi": "Súng Phóng Tên Lửa Chiến Ấn",
+      "ar": "قاذفة صواريخ الرسام"
+    }
+  },
+  "Omni Keycard": {
+    "key": "OfficerEquitment#equitment_name#10004",
+    "labels": {
+      "en": "Omni Keycard",
+      "ru": "Универсальная ключ-карта",
+      "pl": "Uniwersalna karta",
+      "pt": "Chave Omni",
+      "vi": "Thẻ Khóa Quân Dụng",
+      "ar": "المفتاح المدمج"
+    }
+  },
+  "Helios-I Exo Gloves": {
+    "key": "OfficerEquitment#equitment_name#30001",
+    "labels": {
+      "en": "Helios-I Exo Gloves",
+      "ru": "Экзоперчатки «Гелиос-I»",
+      "pl": "Egzorękawice Helios-I",
+      "pt": "Luvas Exo Helios-I",
+      "vi": "Găng Khung Xương Helios-I",
+      "ar": "قفازات Helios-I Exo"
+    }
+  },
+  "Sky Eye Holographic Field Map": {
+    "key": "OfficerEquitment#equitment_name#30004",
+    "labels": {
+      "en": "Sky Eye Holographic Field Map",
+      "ru": "Голографическая карта «Небесный взор»",
+      "pl": "Holograficzna mapa terenowa Sky Eye",
+      "pt": "Mapa de Campo Holográfico Olho dos Céus",
+      "vi": "Bản Đồ Chiến Trường Hologram Thiên Nhãn",
+      "ar": "خريطة المجال الهولوغرافي لعين السماء"
+    }
+  },
+  "War Cry Tactical Air Throat Mic": {
+    "key": "OfficerEquitment#equitment_name#20011",
+    "labels": {
+      "en": "War Cry Tactical Air Throat Mic",
+      "ru": "Тактический ларингофон «Боевой клич»",
+      "pl": "Taktyczny mikrofon krtaniowy Zew bitwy",
+      "pt": "Laringofone Tático Grito de Guerra",
+      "vi": "Micro Áp Họng Chiến Thuật Tiếng Thét Xung Trận",
+      "ar": "ميكروفون صرخة الحرب التكتيكي الجوي"
+    }
+  },
+  "Underworld Protection": {
+    "key": "OfficerSkillDesc#skill_name#21620",
+    "labels": {
+      "en": "Underworld Protection",
+      "ru": "Подпольная защита",
+      "pl": "Ochrona półświatka",
+      "pt": "Proteção do Submundo",
+      "vi": "Bảo Vệ Thế Giới Ngầm",
+      "ar": "حماية العالم السفلي"
+    }
+  },
+  "Formidable Defense": {
+    "key": "OfficerSkillDesc#skill_name#11930",
+    "labels": {
+      "en": "Formidable Defense",
+      "ru": "Эффективная защита",
+      "pl": "Nieprzełamana obrona",
+      "pt": "Defesa Formidável",
+      "vi": "Phòng Thủ Ghê Gớm",
+      "ar": "الدفاع المحكم"
+    }
+  },
+  "Resilient Charge": {
+    "key": "OfficerSkillDesc#skill_name#13020",
+    "labels": {
+      "en": "Resilient Charge",
+      "ru": "Стойкая атака",
+      "pl": "Nieustępliwy szturm",
+      "pt": "Investida Resiliente",
+      "vi": "Xung Kích Bền Bỉ",
+      "ar": "الهجوم المرن"
+    }
+  }
+}

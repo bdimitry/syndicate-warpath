@@ -11,16 +11,16 @@ export const workbookCopy={
 const make=(rows)=>rows.map(row=>({source:'syndicate-workbooks',rolesAssigned:false,officers:[{skills:row.slice(0,2).filter(Boolean).map(skill=>typeof skill==='string'?{name:skill}:skill)},{skills:row.slice(2).filter(Boolean).map(skill=>typeof skill==='string'?{name:skill}:skill)}],copy:Object.fromEntries(Object.entries(workbookCopy).map(([lang,t])=>[lang,{credit:t.credit,note:t.note}]))}));
 const normal=['Meld Into Shadows','Artillery Advisor','Cold Hearted','Tactical Blueprint'];
 const heavy=['Meld Into Shadows','Heavy Barrage','Armed to the Teeth','Full Suppression'];
-const workbookIcon=(id)=>({name:`workbook-${id}`,workbookIcon:`workbook-${id}.png`});
+const workbookIcon=(id,name)=>({name,workbookIcon:`workbook-${id}.png`});
 // The workbook shows Iron Cavalier first. The site lists The Arbitrator first.
-const assaultP2w=['Sweetheart of the Troops','Full Suppression','Ruthless Outlaw',workbookIcon(135)];
+const assaultP2w=['Sweetheart of the Troops','Full Suppression','Ruthless Outlaw',workbookIcon(135,'Resilient Charge')];
 export const workbookLoadouts={
  'mbt-b2b-f2p:iron-cavalier+dawn-anthem':make([['Ruthless Outlaw','Crimebuster','Sweetheart of the Troops','Full Suppression']]),
  'mbt-b2b-p2w:the-arbitrator+iron-cavalier':make([assaultP2w]),
  // The workbook shows Gridlock Architect before Uncle Ivankov. Row 13 only supplies Gridlock's skills.
  'mbt-garrison:uncle-ivankov+gridlock-architect':make([
-  ['Sweetheart of the Troops',workbookIcon(79),'Shaped Charge','Best of the Best'],
-  [null,null,'Shaped Charge',workbookIcon(62)],
+  ['Sweetheart of the Troops',workbookIcon(79,'Formidable Defense'),'Shaped Charge','Best of the Best'],
+  [null,null,'Shaped Charge',workbookIcon(62,'Underworld Protection')],
  ]),
  'helicopter-f2p:haymaker+lady-shadow':make([normal]),
  'helicopter-p2w:haymaker+desert-jaeger':make([normal,heavy]),
