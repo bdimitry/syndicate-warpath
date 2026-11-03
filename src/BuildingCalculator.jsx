@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import buildings from './buildingCosts.json';
+import {buildingName} from './buildingNames';
 import Why from './Why';
 import './buildingCalculator.css';
 
@@ -63,18 +64,18 @@ export default function BuildingCalculator({lang}) {
   return <section id="construction-calculator" className="building-calculator">
     <h2>{title}</h2>
     <label>{buildingLabel}<select value={selection} onChange={event => setSelection(event.target.value)}>
-      {buildings.map(building => <option key={building.id} value={building.id} lang="en">{building.name}</option>)}
+      {buildings.map(building => <option key={building.id} value={building.id}>{buildingName(building, lang)}</option>)}
     </select></label>
     <div className="building-plan">{visible.map(building => {
       const {current, target} = range(building, plan);
-      return <fieldset key={building.id}><legend lang="en"><bdi>{building.name}</bdi></legend>
+      return <fieldset key={building.id}><legend><bdi>{buildingName(building, lang)}</bdi></legend>
         <label>{currentLabel}<input type="number" min="0" max={building.max} value={current} onChange={event => update(building, 'current', event.target.value)}/></label>
         <label>{targetLabel}<input type="number" min={current} max={building.max} value={target} onChange={event => update(building, 'target', event.target.value)}/></label>
       </fieldset>;
     })}</div>
     <label>{totalLabel}<select value={focus} onChange={event => setFocus(event.target.value)}>
       <option value="">{all}</option>
-      {buildings.map(building => <option key={building.id} value={building.id} lang="en">{building.name}</option>)}
+      {buildings.map(building => <option key={building.id} value={building.id}>{buildingName(building, lang)}</option>)}
     </select></label>
     {!hasUpgrades && <p>{empty}</p>}
     {incomplete && <p role="status">{missing}</p>}
