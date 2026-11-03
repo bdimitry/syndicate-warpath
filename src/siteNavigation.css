@@ -23,15 +23,27 @@ body:has(.site-nav-dialog[open]) { overflow:hidden; }
 .guide-layout aside nav { gap:4px; }
 .guide-layout aside a { padding:6px 8px; border-radius:6px; }
 .site-nav-top { position:fixed; z-index:7; inset-inline-end:16px; inset-block-end:16px; display:grid; place-items:center; min-width:44px; }
-.manual .card { border-radius:12px; }
-.manual .card p { color:#bdb6ac; font-size:13px; }
-.manual .card-body { margin-block-start:24px; padding-block-end:18px; }
+.manual .cards { gap:12px; }
+.manual .card { display:flex; flex-direction:column; min-height:0; border-radius:10px; padding:14px 16px; }
+.manual .card-events { grid-column:auto; }
+.manual .card-top { flex-direction:row; align-items:center; }
+.manual .card-number { font-size:19px; }
+.manual .card .status { font-size:10px; padding:3px 6px; }
+.manual .card-body { margin-block:10px 8px; padding-inline-end:14px; }
+.manual .card h3 { font-size:17px; line-height:1.35; margin-block:0 5px; text-wrap:initial; }
+.manual .card p,.manual .card .card-lead { color:#bdb6ac; font-size:12px; line-height:1.5; margin:0; }
+.manual .card p { display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; overflow:hidden; }
+.manual .card .card-lead { margin-block-end:4px; color:#eee0d1; }
+.manual .card-arrow { font-size:15px; inset-inline-end:13px; bottom:10px; }
+.manual .tank-portrait-rail { margin-block-start:auto; padding-inline-end:18px; }
+.manual .tank-portrait-rail img { width:32px; height:27px; object-fit:contain; }
 .manual .card:hover { border-color:#bb9560; }
 .skip { z-index:10; }
 @media(max-width:900px) {
   .header nav { display:none; }
   .guide-layout aside { display:none; }
   .header { padding-block:8px; }
+  .manual .cards { grid-template-columns:repeat(2,minmax(0,1fr)); }
 }
 @media(max-width:600px) {
   html { scroll-padding-top:120px; }
@@ -40,4 +52,7 @@ body:has(.site-nav-dialog[open]) { overflow:hidden; }
   .site-nav-controls button { flex:1; padding:6px; font-size:12px; }
   .site-nav-groups { grid-template-columns:1fr; }
   .header .language { margin-inline-start:auto; }
+  .manual .cards { grid-template-columns:1fr; gap:8px; }
+  .manual .card { padding:11px 13px; }
+  .manual .card-body { margin-block:6px; }
 }
