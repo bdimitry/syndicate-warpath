@@ -2,16 +2,19 @@ import React from 'react';
 import {construction} from './construction';
 import {constructionEconomy} from './constructionEconomy';
 import Why from './Why';
+import BuildingCalculator, {calculatorTitle} from './BuildingCalculator';
 import './research.css';
 
 export default function ConstructionGuide({lang}) {
   const t=construction[lang], e=constructionEconomy[lang];
   const navigation=t.headings.map((heading,i)=>({id:`construction-${i}`,heading:heading.replace(/^\d+ · /,'')}));
   navigation.splice(5,0,{id:'construction-freeze',heading:e.freezeTitle},{id:'construction-speed',heading:e.speedTitle});
+  navigation.unshift({id:'construction-calculator',heading:calculatorTitle(lang)});
   return <main id="guide" className="guide research-guide construction-guide">
     <div className="guide-cover section"><a className="text-link" href={`?lang=${lang}`}>← {t.back}</a><p className="eyebrow">SYNDICATE / {t.tag}</p><h1>{t.title}</h1><p className="intro">{t.intro}</p></div>
     <div className="guide-layout section"><aside><p className="eyebrow">{t.toc}</p><nav aria-label={t.toc}>{navigation.map(({id,heading},i)=><a href={`#${id}`} key={id}><span>{String(i+1).padStart(2,'0')}</span>{heading}</a>)}</nav></aside>
       <article>
+        <BuildingCalculator lang={lang}/>
         <section id="construction-0"><h2>{t.headings[0]}</h2><p>{t.principle}</p><Why lang={lang}>{t.principleWhy}</Why></section>
         {t.stages.map((stage,i)=><section id={`construction-${i+1}`} key={stage.title}><p className="eyebrow">{String(i+1).padStart(2,'0')} / SYNDICATE</p><h2>{stage.title}</h2><p>{stage.text}</p><Why lang={lang}>{stage.why}</Why><div className="research-gate"><strong>{t.checkLabel}</strong><p>{stage.check}</p></div></section>)}
         {['freeze','speed'].map(section=><section id={`construction-${section}`} key={section}><h2>{e[`${section}Title`]}</h2><p>{e[`${section}Intro`]}</p>{e[section].map(item=><div className="construction-decision" key={item.title}><h3>{item.title}</h3><p>{item.text}</p><Why lang={lang}>{item.why}</Why><p><strong>{e.exceptionLabel}: </strong>{item.exception}</p></div>)}</section>)}

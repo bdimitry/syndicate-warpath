@@ -1,0 +1,6 @@
+.building-calculator label { display:grid; gap:6px; min-width:0; }
+.building-calculator input,.building-calculator select { width:100%; min-width:0; box-sizing:border-box; padding:8px; color:inherit; background:#15171c; border:1px solid #8b7651; border-radius:6px; font:inherit; }
+.building-plan { display:grid; gap:12px; margin-block:16px; }
+.building-plan fieldset { min-width:0; margin:0; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; padding:12px; border:1px solid #8b7651; border-radius:8px; }
+.building-resources { padding:0; list-style:none; display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr)); gap:12px; }
+.building-resources li { display:grid; gap:8px; padding:12px; border:1px solid #8b7651; border-radius:8px; }
