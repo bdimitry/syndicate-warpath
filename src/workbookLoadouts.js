@@ -6,10 +6,23 @@ export const workbookCopy={
  vi:{variant:'Kỹ năng từ bảng',original:'Trang bị ban đầu',credit:'Bảng SyndiCate',note:'Kỹ năng theo chân dung và vị trí biểu tượng trong bảng. Chưa chỉ định vai trò chỉ huy/trợ lý và trang bị. Chọn trọn một phương án; tác giả chưa chỉ định việc trộn kỹ năng giữa các hàng.',gear:'Chưa chỉ định trang bị.'},
  ar:{variant:'مهارات الجدول',original:'التجهيز الأصلي',credit:'جداول SyndiCate',note:'تتبع المهارات الصور ومواضع الأيقونات في الجدول. لم تُحدد أدوار القائد والمساعد أو المعدات. اختر بديلاً كاملاً؛ لم يحدد المؤلف مزج المهارات بين الصفوف.',gear:'لم تُحدد المعدات.'}
 };
-const make=(rows)=>rows.map(row=>({source:'syndicate-workbooks',rolesAssigned:false,officers:[{skills:row.slice(0,2).map(name=>({name}))},{skills:row.slice(2).map(name=>({name}))}],copy:Object.fromEntries(Object.entries(workbookCopy).map(([lang,t])=>[lang,{credit:t.credit,note:t.note}]))}));
+const make=(rows)=>rows.map(row=>({source:'syndicate-workbooks',rolesAssigned:false,officers:[{skills:row.slice(0,2).filter(Boolean).map(skill=>typeof skill==='string'?{name:skill}:skill)},{skills:row.slice(2).filter(Boolean).map(skill=>typeof skill==='string'?{name:skill}:skill)}],copy:Object.fromEntries(Object.entries(workbookCopy).map(([lang,t])=>[lang,{credit:t.credit,note:t.note}]))}));
 const normal=['Meld Into Shadows','Artillery Advisor','Cold Hearted','Tactical Blueprint'];
 const heavy=['Meld Into Shadows','Heavy Barrage','Armed to the Teeth','Full Suppression'];
+const workbookIcon=(id)=>({name:`workbook-${id}`,workbookIcon:`workbook-${id}.png`});
+// The workbook shows Iron Cavalier first. The site lists The Arbitrator first.
+const assaultP2w=['Sweetheart of the Troops','Full Suppression','Ruthless Outlaw',workbookIcon(135)];
 export const workbookLoadouts={
+ 'mbt-b2b-f2p:iron-cavalier+dawn-anthem':make([['Ruthless Outlaw','Crimebuster','Sweetheart of the Troops','Full Suppression']]),
+ 'mbt-b2b-p2w:the-arbitrator+iron-cavalier':make([assaultP2w]),
+ // The workbook shows Gridlock Architect before Uncle Ivankov. Row 13 only supplies Gridlock's skills.
+ 'mbt-garrison:uncle-ivankov+gridlock-architect':make([
+  ['Sweetheart of the Troops',workbookIcon(79),'Shaped Charge','Best of the Best'],
+  [null,null,'Shaped Charge',workbookIcon(62)],
+ ]),
+ 'helicopter-f2p:haymaker+lady-shadow':make([normal]),
+ 'helicopter-p2w:haymaker+desert-jaeger':make([normal,heavy]),
+ 'superheavy-b2b-p2w:the-arbitrator+iron-cavalier':make([assaultP2w]),
  'light-f2p:rapier+haymaker':make([['Rapid Reload','Artillery Advisor','Covert Connections','Tactical Blueprint'],['Field Observation','Heavy Barrage','Declared Strike','Full Suppression']]),
  'light-f2p:lady-shadow+rapier':make([['Shaped Charge','Artillery Advisor','Cold Hearted','Tactical Blueprint'],['Shaped Charge','Heavy Barrage','Declared Strike','Full Suppression']]),
  'light-p2w:catseye+haymaker':make([['Meld Into Shadows','Artillery Advisor','Covert Connections','Tactical Blueprint'],['Meld Into Shadows','Heavy Barrage','Declared Strike','Full Suppression'],['Heat Core','Loyal Battalion','Animosity','Full Suppression']]),

@@ -3,11 +3,14 @@ import {workbookLoadouts,workbookCopy} from './workbookLoadouts';
 import SkillItem from './SkillItem';
 import GearIcon from './GearIcon';
 import Why from './Why';
+import WorkbookGear from './WorkbookGear.jsx';
+import {workbookGear,workbookGearCopy} from './workbookGear';
 import {cardCopy,cardContext,unitExamples,referenceLoadouts,noSkillsCopy} from './officerCards';
 import './officerCards.css';
 
 export default function OfficerPair({ pair, officers, lang, label, reason, groupId, featured = false }) {
   const t=cardCopy[lang], context=cardContext(groupId), key=`${groupId}:${pair.join('+')}`, original=referenceLoadouts[key];
+  const stagedGear=workbookGear[key], gearCopy=workbookGearCopy[lang];
   const options=[...(original?[original]:[]),...(workbookLoadouts[key]||[])], [selected,setSelected]=useState(0), loadout=options[selected];
   const names=pair.map(id=>lang==='ru'?officers[id].ru:officers[id].en);
   const portraitSize=id=>officers[id].portrait||(id==='scavenger'?{width:136,height:192}:{width:216,height:180});
@@ -29,9 +32,10 @@ export default function OfficerPair({ pair, officers, lang, label, reason, group
       <div className="build-role-grid">{pair.map((id,index)=><div className={`build-role-panel build-role-${index}`} key={id}>
         <p className="build-role-label"><span aria-hidden="true"/>{loadout&&loadout.rolesAssigned!==false?(index===0?t.leader:t.aide):`${t.officer} ${String(index+1).padStart(2,'0')}`}</p>
         <strong className="build-role-name"><bdi>{names[index]}</bdi></strong>
-        {loadout?<><p className="build-field-label">{t.skills}</p>{loadout.officers[index].noSkillsToTrain?<p className="build-no-skills">{noSkillsCopy[lang]}</p>:<ul className="build-item-list">{loadout.officers[index].skills.map(item=><SkillItem key={item.name} item={item} lang={lang}/>)}</ul>}<p className="build-field-label build-gear-heading">{t.gear}</p>{loadout.officers[index].gear?<><div className="build-gear-item" data-gear={loadout.officers[index].gear.name}><GearIcon name={loadout.officers[index].gear.name}/><span lang="en" dir="ltr">{loadout.officers[index].gear.name}</span></div><small className="build-example-level">{loadout.copy?loadout.copy[lang].level:t.exampleLevel}</small></>:<p className="build-pending">{workbookCopy[lang].gear}</p>}</>:<p className="build-pending">{t.pending}</p>}
+        {loadout?<><p className="build-field-label">{t.skills}</p>{loadout.officers[index].noSkillsToTrain?<p className="build-no-skills">{noSkillsCopy[lang]}</p>:loadout.officers[index].skills.length===0?<p className="build-pending">{gearCopy.skillsPending}</p>:<ul className="build-item-list">{loadout.officers[index].skills.map(item=><SkillItem key={item.name} item={item} lang={lang}/>)}</ul>}{(!stagedGear||loadout.officers[index].gear)&&<p className="build-field-label build-gear-heading">{t.gear}</p>}{loadout.officers[index].gear?<><div className="build-gear-item" data-gear={loadout.officers[index].gear.name}><GearIcon name={loadout.officers[index].gear.name}/><span lang="en" dir="ltr">{loadout.officers[index].gear.name}</span></div><small className="build-example-level">{loadout.copy?loadout.copy[lang].level:t.exampleLevel}</small></>:!stagedGear&&<p className="build-pending">{workbookCopy[lang].gear}</p>}</>:<p className="build-pending">{stagedGear?gearCopy.skillsPending:t.pending}</p>}
       </div>)}</div>
-      <p className="build-role-note">{loadout?(loadout.copy?loadout.copy[lang].note:t.referenceNote):t.rolesNote}</p>
+      {stagedGear&&<WorkbookGear gear={stagedGear} lang={lang}/>}
+      <p className="build-role-note">{loadout?(stagedGear&&loadout.source==='syndicate-workbooks'?gearCopy.skillsNote:loadout.copy?loadout.copy[lang].note:t.referenceNote):t.rolesNote}</p>
       {loadout&&<span className="build-reference-label">{loadout.copy?loadout.copy[lang].credit:t.reference}</span>}
       <Why lang={lang}>{reason}</Why>
     </div>

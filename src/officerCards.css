@@ -80,3 +80,18 @@
 .build-variant-select{display:grid;gap:8px;margin:0 0 20px;color:#c2c5cd;font-size:.85rem}
 .build-variant-select select{width:100%;min-width:0;padding:10px;border:1px solid #66542d;border-radius:8px;background:#13171e;color:#f3f3f3;font:inherit}
 .build-variant-select select:focus-visible{outline:2px solid #e6b254;outline-offset:3px}
+.workbook-gear { margin-top:24px; padding:20px; border:1px solid #a5895140; border-radius:14px; background:#ffffff03; }
+.guide-layout article .workbook-gear h4 { margin:0 0 16px; color:#e6c68b; font-size:18px; }
+.workbook-gear-stages { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+.workbook-gear-stage { min-width:0; padding:14px; border:1px solid #b18b4e55; border-radius:10px; }
+.workbook-gear-purple { border-color:#a279c466; background:#8e52bc0a; }
+.workbook-gear-alternatives { grid-column:1/-1; border-style:dashed; }
+.guide-layout article .workbook-gear h5 { margin:0 0 12px; font-size:14px; line-height:1.5; color:#e2cc9e; }
+.guide-layout article .workbook-gear-purple h5 { color:#c5a4e8; }
+.workbook-gear ul { display:flex; flex-wrap:wrap; gap:16px; list-style:none; margin:0; padding:0; }
+.workbook-gear li { display:flex; flex:1 1 100px; align-items:center; gap:8px; min-width:0; font-size:13px; color:#e4dfd7; }
+.workbook-gear li img { width:56px; height:56px; object-fit:contain; flex-shrink:0; background:#16191f; border-radius:8px; }
+.workbook-gear li span { overflow-wrap:anywhere; }
+.guide-layout article .workbook-gear p { margin:14px 0 0; color:#b9b0a2; font-size:13px; line-height:1.7; }
+.workbook-gear small { display:block; margin-top:12px; color:#c7ac76; }
+@media(max-width:600px) { .workbook-gear { padding:14px; } .workbook-gear-stages { grid-template-columns:minmax(0,1fr); } .workbook-gear li { flex-basis:160px; } }

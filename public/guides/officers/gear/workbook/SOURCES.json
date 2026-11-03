@@ -1,0 +1,50 @@
+{
+  "knife.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A (3).xlsx",
+    "embeddedImage": "xl/media/image298.png",
+    "format": "PNG",
+    "sha256": "550ac275f016bca8d17a11ecbe62b4ea449bba440c90fa19b582c1a8827e6627"
+  },
+  "shotgun.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A (3).xlsx",
+    "embeddedImage": "xl/media/image300.png",
+    "format": "PNG",
+    "sha256": "d3746ca11adee57d8d2d3a668c7ba6664e92132021b55eb95d07cb845a9af3ed"
+  },
+  "knuckles.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A (3).xlsx",
+    "embeddedImage": "xl/media/image301.png",
+    "format": "PNG",
+    "sha256": "c71cc0b9330fa7425ae3ccbc2f3882518f6319f947bd9e9ffa6bc22c6899095b"
+  },
+  "tablet.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A (3).xlsx",
+    "embeddedImage": "xl/media/image302.png",
+    "format": "PNG",
+    "sha256": "e1645db661bb6f28fcd73ee48f32a3c6b25cc15aa21b8b1c5a03bd4c4dc2c0cf"
+  },
+  "launcher.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A (3).xlsx",
+    "embeddedImage": "xl/media/image304.png",
+    "format": "PNG",
+    "sha256": "a3d6bdd156201d71c88faba7430a25c39cf52e4278328ebc96d7f5b2ea7c3e97"
+  },
+  "map.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A (3).xlsx",
+    "embeddedImage": "xl/media/image305.png",
+    "format": "PNG",
+    "sha256": "9e640be419b5d04fa18a49d088db56bb3dd5df558aa8a0eb671b8dbde306cc85"
+  },
+  "headset.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A (3).xlsx",
+    "embeddedImage": "xl/media/image306.png",
+    "format": "PNG",
+    "sha256": "5a7b5251ba1c94d6c549b9300b35bd3d4573d0cf4d16b62baa903e445fbc6ed9"
+  },
+  "shield.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A (3).xlsx",
+    "embeddedImage": "xl/media/image307.png",
+    "format": "PNG",
+    "sha256": "cddac6dd14e761e74e0492956872e532e74dd72188296e4b3c00a87e99f2b5d4"
+  }
+}

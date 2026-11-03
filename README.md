@@ -78,3 +78,7 @@ La Sirena and Steel Commodore are alternatives for the same slot, as clarified b
 ### Officer gear images
 
 Every specified gear item now has original raster artwork through `src/GearIcon.jsx` and `src/gearIcons.js`: 11 unique items across all authored loadouts. Eight PNGs come from public gear illustrations; three use the named native equipment sprites in the previously saved `UI_New_Icon_Officer_PNG` atlas. Source URLs and sprite coordinates are recorded in `public/guides/officers/gear/SOURCES.json`. The game is not launched for this workflow. Gear names, levels and loadout assignments are unchanged.
+
+## Workbook gear choices
+
+Fourteen tank/helicopter cards show gear progression from the supplied `Наземные_офицеры_навыки_единая_палитра_A (3).xlsx`. The first gear row offers suitable purple items; the second offers target items. The two main-row items are choices, not one item assigned per officer. Separate right-hand items are additional alternatives. Existing explicit loadouts remain intact. `src/workbookGear.js` records sheet names and row positions; original embedded PNGs and their hashes are in `public/guides/officers/gear/workbook/`. Item labels describe the images rather than claim official localized names. The new block and its explanation are translated into all four languages.
