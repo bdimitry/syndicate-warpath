@@ -55,7 +55,7 @@ export default function SiteNavigation({lang, page, guides, homeLabels}) {
     return () => window.removeEventListener('keydown', onShortcut);
   }, []);
   const groups = [
-    [progression, ['construction','calculator','units','research','parts','events']],
+    [progression, ['construction','calculator','units','research','parts','events','combat']],
     [officers, ['tanks','infantry','artillery','aircraft','naval']],
   ];
   const items = {...guides, calculator: {title: calculator}};

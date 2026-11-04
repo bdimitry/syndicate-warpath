@@ -16,7 +16,7 @@ const labels = {
 const officerRoutes = [
   ['tanks','mbt'], ['infantry','infantry'], ['artillery','howitzer'], ['aircraft','fighter'], ['naval','carrier'],
 ];
-const guideRoutes = ['construction','units','research','parts','events'];
+const guideRoutes = ['construction','units','research','parts','events','combat'];
 
 export default function FieldHub({lang, setLang, guides}) {
   const t = content[lang];

@@ -25,10 +25,13 @@ import {units} from './units';
 import './polish.css';
 import SiteNavigation from './SiteNavigation';
 import FieldHub from './FieldHub';
+import CombatGuide from './CombatGuide';
+import {combat} from './combat';
 import './fieldHub.css';
 import {pageUrl} from './siteRoutes';
 
 const pages = {
+  combat: [CombatGuide, combat],
   construction: [ConstructionGuide, construction], units: [UnitsGuide, units],
   research: [ResearchGuide, research], parts: [PartsGuide, parts], events: [EventsGuide, events],
   tanks: [TankGuide, tanks], infantry: [InfantryGuide, infantry], artillery: [ArtilleryGuide, artillery],

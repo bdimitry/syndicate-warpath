@@ -1,6 +1,6 @@
 import {languages} from './content';
 
-export const guidePages = ['construction','units','research','parts','events','tanks','infantry','artillery','aircraft','naval'];
+export const guidePages = ['construction','units','research','parts','events','combat','tanks','infantry','artillery','aircraft','naval'];
 export const isLanguage = code => Object.hasOwn(languages, code);
 
 export function pageUrl(lang, page = '') {

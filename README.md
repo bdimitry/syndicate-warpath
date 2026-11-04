@@ -6,6 +6,8 @@ React field guide in Russian, English, Arabic (RTL), Vietnamese, Polish and Port
 
 ## Development
 
+The combat theory guide is at `ru/combat/` (also en, vi, ar, pl and pt), linked from the homepage and section navigation. `src/combat.js` adapts the user-supplied shared chat on artillery sorties, reload/range, base targeting and reserve attrition. Each topic retains a nearby rationale and controlled-test instructions. Historical tactics and hidden targeting/reload models remain explicitly unverified; the shared-chat source is linked on the page. No game screenshots or numerical mechanics were invented. Verified at 390px and 1440px in all six languages, including Arabic RTL, section anchors and language persistence.
+
 Requires Node.js 22.12+ and npm.
 
 ```sh
