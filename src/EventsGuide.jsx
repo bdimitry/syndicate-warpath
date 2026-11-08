@@ -3,6 +3,9 @@ import React from 'react';
 import { events, eventSources } from './events';
 import Why from './Why';
 import {rationale} from './rationale';
+import PartScreenshot from './PartScreenshot';
+import {screenshotCopy} from './partScreenshots';
+import {missionRewind, rewindScreenshots} from './missionRewind';
 
 
 function StageTimes({ lang, text }) {
@@ -27,6 +30,9 @@ function StageTimes({ lang, text }) {
 export default function EventsGuide({ lang }) {
   const t = events[lang];
   const why = rationale[lang].events;
+  const rewind = missionRewind[lang];
+  const contents = t.headings.map((title, index) => ({id: `event-${index}`, title}));
+  contents.splice(2, 0, {id: 'mission-rewind', title: rewind.title});
   return <main id="guide" className="guide">
     <div className="guide-cover section">
       <a className="text-link" href={pageUrl(lang)}>← {t.back}</a>
@@ -35,7 +41,7 @@ export default function EventsGuide({ lang }) {
     </div>
     <div className="guide-layout section">
       <aside><p className="eyebrow">{t.toc}</p><nav aria-label={t.toc}>
-        {t.headings.map((h, i) => <a key={h} href={`#event-${i}`}><span>0{i + 1}</span>{h}</a>)}
+        {contents.map(({id, title}, i) => <a key={id} href={`#${id}`}><span>0{i + 1}</span>{title}</a>)}
       </nav></aside>
       <article>
         <section id="event-0"><h2>{t.headings[0]}</h2><p>{t.note}</p>
@@ -47,6 +53,17 @@ export default function EventsGuide({ lang }) {
         <section id="event-1"><h2>{t.headings[1]}</h2><p>{t.definition}</p>
           <StageTimes lang={lang} text={t}/>
           {t.steps.map(([h, p], i) => <div className="event-step" key={h}><span>0{i + 1}</span><div><h3>{h}</h3><p>{p}</p><Why lang={lang}>{why.steps[i]}</Why></div></div>)}
+        </section>
+        <section id="mission-rewind" aria-labelledby="mission-rewind-title">
+          <h2 id="mission-rewind-title">{rewind.title}</h2>
+          <p>{rewind.intro}</p>
+          {rewindScreenshots.map((screenshot, i) => {
+            const [title, alt, ...points] = rewind.steps[i];
+            return <PartScreenshot key={screenshot.file} screenshot={screenshot} copy={{title, alt, points}}
+              labels={screenshotCopy[lang]} directory="events" width={1920} height={1080} />;
+          })}
+          <p className="lesson-warning">{rewind.check}</p>
+          <p className="lesson-source">{rewind.source}</p>
         </section>
         <section id="event-2"><h2>{t.headings[2]}</h2><p>{t.why}</p>
           <div className="lesson-callout"><h3>{t.overlap}</h3><p>{t.whyMore}</p></div><p>{t.exception}</p><Why lang={lang}>{why.honors}</Why>

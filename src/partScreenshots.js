@@ -1,5 +1,6 @@
 // Positions use original image coordinates, never mirrored for RTL.
 export const partScreenshots = [
+  {id: 'perfect-ak190', section: 'perfect', file: 'perfect-ak190.webp', width: 1920, height: 1080, marks: [[18, 40], [78.7, 48.5], [44, 63]]},
   {
     "id": "base-workshop",
     "section": "materials",
@@ -169,6 +170,7 @@ export const screenshotCopy = {
     "original": "Открыть оригинал",
     "note": "Скриншоты предоставлены игроком. Интерфейс на русском; цены, остатки и скидки — пример с этого аккаунта, а не постоянные условия магазина.",
     "items": {
+      "perfect-ak190": {"title":"Идеальное изготовление: АК-190","alt":"Окно «Улучшенные детали» с отметкой Perfect и характеристиками АК-190.","points":["Отметка Perfect и строка «Золото++» показывают результат изготовления.","Сверь слот, тип юнита и характеристики, чтобы понять, подходит ли деталь твоему основному юниту.","Внизу указан бонус для «Дозора мучеников». Учитывай фракцию своего юнита при оценке детали."]},
       "conversion-filter": {
         "title": "Шаг 2. Отфильтруй ненужные чертежи",
         "alt": "Окно фильтра конверсии: выбраны все лагеря и все показанные типы юнитов.",
@@ -251,6 +253,7 @@ export const screenshotCopy = {
     "original": "Open original",
     "note": "Player-provided screenshots. The game UI is in Russian; prices, stock and discounts illustrate this account, not permanent store conditions.",
     "items": {
+      "perfect-ak190": {"title":"Perfect craft result: AK-190","alt":"Upgraded part window with the Perfect stamp and AK-190 stats.","points":["The Perfect stamp and Gold++ label show the crafting result.","Check the slot, unit type and stats to see whether the part fits your core unit.","The bottom note shows a bonus for Martyrs’ Watch. Check your unit’s faction when judging the part."]},
       "conversion-filter": {
         "title": "Step 2. Filter unwanted blueprints",
         "alt": "Blueprint conversion filter with all camps and displayed unit types selected.",
@@ -333,6 +336,7 @@ export const screenshotCopy = {
     "original": "Otwórz oryginał",
     "note": "Zrzuty ekranu dostarczone przez gracza. Interfejs gry jest w języku rosyjskim; ceny, stany magazynowe i rabaty ilustrują to konto, a nie stałe warunki sklepu.",
     "items": {
+      "perfect-ak190": {"title":"Wynik doskonałego wykonania: AK-190","alt":"Okno ulepszonej części z oznaczeniem Perfect i statystykami AK-190.","points":["Oznaczenie Perfect i jakość Złoto++ pokazują wynik wykonania.","Sprawdź gniazdo, typ jednostki i statystyki, aby ocenić, czy część pasuje do głównej jednostki.","Na dole widnieje premia dla Martyrs’ Watch. Oceń część z uwzględnieniem frakcji jednostki."]},
       "conversion-filter": {
         "title": "Krok 2. Odfiltruj niechciane plany",
         "alt": "Filtr konwersji planów z wybranymi wszystkimi obozami i wyświetlanymi typami jednostek.",
@@ -415,6 +419,7 @@ export const screenshotCopy = {
     "original": "Abrir original",
     "note": "Capturas de tela fornecidas pelo jogador. A IU do jogo está em russo; preços, estoque e descontos ilustram essa conta, e não condições permanentes de loja.",
     "items": {
+      "perfect-ak190": {"title":"Resultado da fabricação perfeita: AK-190","alt":"Janela de peça aprimorada com selo Perfect e atributos do AK-190.","points":["O selo Perfect e a qualidade Ouro++ mostram o resultado da fabricação.","Confira o encaixe, o tipo de unidade e os atributos para saber se a peça serve à sua unidade principal.","A nota inferior indica um bônus para Martyrs’ Watch. Confira a facção da unidade ao avaliar a peça."]},
       "conversion-filter": {
         "title": "Passo 2. Filtrar projetos indesejados",
         "alt": "Filtro de conversão do projeto com todos os acampamentos e tipos de unidades exibidos selecionados.",
@@ -497,6 +502,7 @@ export const screenshotCopy = {
     "original": "Mở ảnh gốc",
     "note": "Ảnh do người chơi cung cấp. Giao diện tiếng Nga; giá, số lượng và giảm giá là ví dụ của tài khoản này, không phải điều kiện cố định.",
     "items": {
+      "perfect-ak190": {"title":"Kết quả chế tạo hoàn hảo: AK-190","alt":"Cửa sổ linh kiện nâng cấp với dấu Perfect và chỉ số AK-190.","points":["Dấu Perfect và chất lượng Vàng++ cho biết kết quả chế tạo.","Kiểm tra ô, loại đơn vị và chỉ số để biết linh kiện có hợp với đơn vị chủ lực không.","Ghi chú bên dưới cho biết thưởng của phe Martyrs’ Watch. Kiểm tra phe của đơn vị khi đánh giá linh kiện."]},
       "conversion-filter": {
         "title": "Bước 2. Lọc bản vẽ không cần",
         "alt": "Bộ lọc chuyển đổi bản vẽ đang chọn mọi phe và loại quân hiển thị.",
@@ -579,6 +585,7 @@ export const screenshotCopy = {
     "original": "فتح الصورة الأصلية",
     "note": "صور مقدمة من لاعب. الواجهة بالروسية؛ الأسعار والمخزون والخصومات أمثلة من هذا الحساب وليست شروطًا ثابتة للمتجر.",
     "items": {
+      "perfect-ak190": {"title":"نتيجة التصنيع المثالي: AK-190","alt":"نافذة القطعة المحسّنة مع ختم Perfect وإحصاءات AK-190.","points":["يوضّح ختم Perfect وتصنيف ذهب++ نتيجة التصنيع.","تحقّق من خانة القطعة ونوع الوحدة والإحصاءات لتعرف إن كانت تناسب وحدتك الأساسية.","توضح الملاحظة أسفل النافذة مكافأة فصيل حرس الشهداء. راجع فصيل وحدتك عند تقييم القطعة."]},
       "conversion-filter": {
         "title": "الخطوة 2. تصفية المخططات غير المطلوبة",
         "alt": "مرشح تحويل المخططات مع تحديد كل المعسكرات وأنواع الوحدات المعروضة.",

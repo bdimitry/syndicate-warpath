@@ -62,7 +62,8 @@ export default function PartsGuide({ lang }) {
               )}
               {section.callout && <p className="lesson-warning">{section.callout}</p>}
               {partScreenshots.filter(screenshot => screenshot.section === section.id).map(screenshot => (
-                <PartScreenshot key={screenshot.id} screenshot={screenshot} copy={screenshots.items[screenshot.id]} labels={screenshots} />
+                <PartScreenshot key={screenshot.id} screenshot={screenshot} copy={screenshots.items[screenshot.id]}
+                  labels={screenshots} width={screenshot.width} height={screenshot.height} />
               ))}
               {section.sources && (
                 <div className="parts-references">

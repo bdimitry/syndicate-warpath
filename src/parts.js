@@ -234,7 +234,7 @@ export const parts = {
         "callout": "Перед современной конверсией проверь итоговую совместимость детали. Сначала план, потом необратимый обмен."
       }
     ],
-    "evidence": "Расположение зданий, авторазбор кампании, конверсия, разбор и магазины показаны на скриншотах игрока. Механик сверён с публикациями Lilith; перфекты — с материалами сообщества. Скриншот изготовления пока не предоставлен. Цены и наличие на изображениях — примеры с аккаунта, а не постоянные условия магазинов."
+    "evidence": "Расположение зданий, авторазбор кампании, конверсия, разбор и магазины показаны на скриншотах игрока. Механик сверён с публикациями Lilith; перфекты — с материалами сообщества. Кадр с АК-190 показывает результат идеального изготовления. Цены и наличие на изображениях — примеры с аккаунта, а не постоянные условия магазинов."
   },
   "en": {
     "title": "Parts: turn bronze into a stronger loadout",
@@ -440,7 +440,7 @@ export const parts = {
         "callout": "Check the resulting part’s compatibility before modern conversion. Plan before an irreversible exchange."
       }
     ],
-    "evidence": "Building locations, campaign auto-disassembly, conversion, dismantling and stores use player-provided screenshots. Mechanic was checked against Lilith posts; perfect crafting uses community sources. A crafting screenshot has not yet been supplied. Prices and stock are account examples, not permanent store conditions."
+    "evidence": "Building locations, campaign auto-disassembly, conversion, dismantling and stores use player-provided screenshots. Mechanic was checked against Lilith posts; perfect crafting uses community sources. The AK-190 screenshot shows a perfect crafting result. Prices and stock are account examples, not permanent store conditions."
   },
   pl: {
     "title": "Części: zamień brąz w silniejszy ładunek",
@@ -646,7 +646,7 @@ export const parts = {
         "callout": "Sprawdź zgodność powstałej części przed nowoczesną konwersją. Zaplanuj przed nieodwracalną wymianą."
       }
     ],
-    "evidence": "Lokalizacje budynków, automatyczny demontaż kampanii, konwersja, demontaż i sklepy korzystają ze zrzutów ekranu dostarczonych przez graczy. Mechanik został sprawdzony pod kątem stanowisk Lilith; doskonałe rzemiosło korzysta ze źródeł społecznościowych. Zrzut ekranu rzemiosła nie został jeszcze dostarczony. Ceny i stany magazynowe są przykładami kont, a nie stałymi warunkami sklepu."
+    "evidence": "Lokalizacje budynków, automatyczny demontaż kampanii, konwersja, demontaż i sklepy korzystają ze zrzutów ekranu dostarczonych przez graczy. Mechanik został sprawdzony pod kątem stanowisk Lilith; doskonałe rzemiosło korzysta ze źródeł społecznościowych. Zrzut AK-190 pokazuje wynik doskonałego wykonania. Ceny i stany magazynowe są przykładami kont, a nie stałymi warunkami sklepu."
   },
   pt: {
     "title": "Peças: transforme o bronze em um carregamento mais forte",
@@ -852,7 +852,7 @@ export const parts = {
         "callout": "Verifique a compatibilidade da peça resultante antes da conversão moderna. Planeje antes de uma troca irreversível."
       }
     ],
-    "evidence": "Locais de construção, desmontagem automática de campanha, conversão, desmontagem e lojas usam capturas de tela fornecidas pelo jogador. O mecânico foi verificado nos postos de Lilith; a elaboração perfeita usa fontes da comunidade. Uma captura de tela de artesanato ainda não foi fornecida. Preços e estoque são exemplos de contas, não condições permanentes de armazenamento."
+    "evidence": "Locais de construção, desmontagem automática de campanha, conversão, desmontagem e lojas usam capturas de tela fornecidas pelo jogador. O mecânico foi verificado nos postos de Lilith; a elaboração perfeita usa fontes da comunidade. A captura do AK-190 mostra um resultado de fabricação perfeita. Preços e estoque são exemplos de contas, não condições permanentes de armazenamento."
   },
   "vi": {
     "title": "Linh kiện: từ đồng đến bộ trang bị mạnh",
@@ -1058,7 +1058,7 @@ export const parts = {
         "callout": "Kiểm tra linh kiện đầu ra trước chuyển đổi hiện đại. Lên kế hoạch trước thao tác không thể hoàn tác."
       }
     ],
-    "evidence": "Vị trí công trình, tự tháo chiến dịch, chuyển đổi, tháo và cửa hàng dùng ảnh người chơi. Thợ máy đối chiếu bài Lilith; perfect theo nguồn cộng đồng. Chưa có ảnh chế tạo. Giá và tồn kho chỉ là ví dụ tài khoản, không phải điều kiện cố định."
+    "evidence": "Vị trí công trình, tự tháo chiến dịch, chuyển đổi, tháo và cửa hàng dùng ảnh người chơi. Thợ máy đối chiếu bài Lilith; perfect theo nguồn cộng đồng. Ảnh AK-190 cho thấy kết quả chế tạo hoàn hảo. Giá và tồn kho chỉ là ví dụ tài khoản, không phải điều kiện cố định."
   },
   "ar": {
     "title": "القطع: من البرونز إلى تجهيز أقوى",
@@ -1264,6 +1264,6 @@ export const parts = {
         "callout": "تحقق من توافق القطعة الناتجة قبل التحويل الحديث. خطط قبل التبادل غير القابل للتراجع."
       }
     ],
-    "evidence": "مواقع المباني والتفكيك التلقائي للحملة والتحويل والتفكيك والمتاجر موضحة بصور اللاعب. روجع الميكانيكي مع منشورات Lilith والبيرفكت مع مصادر المجتمع. لم تُقدّم صورة التصنيع بعد. الأسعار والمخزون أمثلة من الحساب وليست شروطًا ثابتة."
+    "evidence": "مواقع المباني والتفكيك التلقائي للحملة والتحويل والتفكيك والمتاجر موضحة بصور اللاعب. روجع الميكانيكي مع منشورات Lilith والبيرفكت مع مصادر المجتمع. تُظهر لقطة AK-190 نتيجة تصنيع مثالي. الأسعار والمخزون أمثلة من الحساب وليست شروطًا ثابتة."
   }
 };
