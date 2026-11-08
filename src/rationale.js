@@ -19,7 +19,7 @@ export const rationale = {
       rules:['Копии разных моделей не заменяют одинаковые там, где сборка требует именно их. Распылённый материал остаётся в промежуточных юнитах, вместо того чтобы довести основной до следующей ступени.','Подходящий материал того же лагеря может заменить обычную расходную карту, но нужную одинаковую копию потом придётся получать заново. Сохраняя её, ты не создаёшь себе дополнительное ограничение.','Предварительная проверка связывает сегодняшнюю сборку со следующей. Иначе можно получить промежуточный юнит без копий для продолжения и надолго заморозить вложенный материал.'],
       assembly:'Условие «основной плюс две одинаковые копии» объясняет правило про 7.0: дорогая промежуточная сборка должна вести к нужному 7.1. Это план расходования материала альянса, а не запрет временно пользоваться уже имеющимся 7.0.',
       coupons:['Выбор фракции полезен, когда заранее определена целевая армия. Тогда затраты на выбор поддерживают одну цель, а не оплачивают постоянное переключение между случайными желаниями.','Фокус на одной фракции концентрирует поступающие карты в выбранном направлении. Он не гарантирует выпадение конкретной модели, но не делит ограниченный запас купонов между несколькими планами.','Награда позволяет выбирать фракцию, поэтому согласуй её с тем же планом. Случайность конкретного юнита остаётся: не считай эту награду гарантированной недостающей копией.'],
-      warning:'Купон, потраченный на другую цель, уже не пополняет основной набор карт. Поэтому правило альянса сохраняет их для сборки армии; решение по прототипам не следует принимать отдельно от общего плана ресурсов.',
+      warning:'По стратегии SyndiCate сохраняй купоны для ящиков основной фракции. Так купоны идут на карты для сборки твоего состава, а трата на исследование прототипов сокращает запас для этой цели.',
       checks:'Проверка до подтверждения дешевле исправления после расходования карт. Вопрос в чате особенно полезен, когда одна и та же копия может быть боевой целью или материалом для другой сборки.',
     },
     events:{
@@ -57,7 +57,7 @@ export const rationale = {
       rules:['Different models cannot replace identical copies where required. Scattered materials stay locked in intermediate units instead of advancing the core unit.','Another eligible same-camp unit may serve as ordinary material, while a needed identical copy would have to be obtained again. Keeping it avoids creating a new shortage.','Planning connects today’s assembly to the next one. Otherwise you can create an intermediate unit without the copies needed to continue.'],
       assembly:'The main unit plus two identical copies explains the 7.0 rule: a costly intermediate assembly should support the target 7.1. This is an alliance spending plan, not a ban on temporarily using an existing 7.0.',
       coupons:['Choosing a faction helps when the target army is already decided. The selection cost then supports one plan rather than repeated switches.','One faction concentrates incoming cards in your chosen direction. It does not guarantee a specific model, but avoids splitting limited coupons between competing plans.','Choose the same faction for the milestone reward to support the plan. The individual unit remains random, so do not count it as a guaranteed missing copy.'],
-      warning:'A coupon spent on another purpose no longer supplies your core card pool. The alliance reserves coupons for army assembly; prototype choices should fit the whole resource plan.',
+      warning:'The SyndiCate plan saves coupons for your main faction’s crates. Those coupons go toward unit cards for your roster. Spending them on Prototype Research leaves fewer for that goal.',
       checks:'Checking before confirmation costs less than correcting a consumed card. Ask the alliance when the same copy could be a combat target or material for another assembly.',
     },
     events:{
@@ -95,7 +95,7 @@ export const rationale = {
       rules:["W razie potrzeby różne modele nie mogą zastąpić identycznych kopii. Rozproszone materiały pozostają zablokowane w jednostkach pośrednich, zamiast posuwać się do przodu jednostki głównej.","Jako zwykły materiał może służyć inna kwalifikująca się jednostka z tego samego obozu, przy czym potrzebny będzie identyczny egzemplarz, który będzie musiał zostać ponownie uzyskany. Utrzymanie go pozwala uniknąć tworzenia nowych niedoborów.","Planowanie łączy dzisiejszy montaż z następnym. W przeciwnym razie możesz utworzyć jednostkę pośrednią bez kopii potrzebnych do kontynuowania."],
       assembly:"Jednostka główna plus dwie identyczne kopie wyjaśniają zasadę 7.0: kosztowny zespół pośredni powinien wspierać docelowy 7.1. To jest plan wydatków sojuszu, a nie zakaz tymczasowego używania istniejącej wersji 7.0.",
       coupons:["Wybór frakcji pomaga, gdy docelowa armia jest już ustalona. Koszt wyboru obsługuje wówczas jeden plan, a nie powtarzalne zmiany.","Jedna frakcja koncentruje przychodzące karty w wybranym przez ciebie kierunku. Nie gwarantuje konkretnego modelu, ale pozwala uniknąć dzielenia ograniczonych kuponów pomiędzy konkurencyjnymi planami.","Wybierz tę samą frakcję, aby otrzymać nagrodę za kamień milowy wspierający plan. Pojedyncza jednostka pozostaje losowa, więc nie licz jej jako gwarantowanego brakującego egzemplarza."],
-      warning:"Kupon wydany na inny cel nie zasila już podstawowej puli kart. Sojusz rezerwuje kupony na zgromadzenia armii; Wybór prototypów powinien pasować do całego planu zasobów.",
+      warning:"W planie SyndiCate kupony zachowujemy na skrzynie głównej frakcji, żeby zdobywać karty do swojego składu. Wydanie ich na badania prototypów zmniejsza pulę na ten cel.",
       checks:"Sprawdzenie przed potwierdzeniem kosztuje mniej niż poprawienie zużytej karty. Zapytaj sojusz, kiedy ta sama kopia może być celem bojowym lub materiałem dla innego zgromadzenia.",
     },
     events:{
@@ -133,7 +133,7 @@ export const rationale = {
       rules:["Modelos diferentes não podem substituir cópias idênticas quando necessário. Os materiais dispersos ficam presos em unidades intermediárias em vez de avançarem para a unidade central.","Outra unidade elegível do mesmo campo pode servir como material comum, enquanto uma cópia idêntica necessária deverá ser obtida novamente. Mantê-lo evita criar uma nova escassez.","O planejamento conecta a assembleia de hoje à próxima. Caso contrário, você poderá criar uma unidade intermediária sem as cópias necessárias para continuar."],
       assembly:"A unidade principal mais duas cópias idênticas explicam a regra 7.0: uma montagem intermediária dispendiosa deve apoiar a meta 7.1. Este é um plano de gastos da aliança, não uma proibição do uso temporário de um 7.0 existente.",
       coupons:["Escolher uma facção ajuda quando o exército alvo já está decidido. O custo de seleção suporta então um plano em vez de trocas repetidas.","Uma facção concentra as cartas recebidas na direção escolhida. Não garante um modelo específico, mas evita a divisão de cupons limitados entre planos concorrentes.","Escolha a mesma facção para a recompensa de marco para apoiar o plano. A unidade individual permanece aleatória, portanto não a conte como uma cópia perdida garantida."],
-      warning:"Um cupom gasto para outra finalidade não abastece mais seu conjunto principal de cartões. A aliança reserva cupons para montagem do exército; as escolhas do protótipo devem se adequar a todo o plano de recursos.",
+      warning:"O plano da SyndiCate reserva os cupons para as caixas da facção principal, onde você busca cartas para sua formação. Gastá-los em pesquisas de protótipos reduz a reserva para esse objetivo.",
       checks:"Verificar antes da confirmação custa menos do que corrigir um cartão consumido. Pergunte à aliança quando a mesma cópia poderá ser alvo de combate ou material para outra montagem.",
     },
     events:{
@@ -171,7 +171,7 @@ export const rationale = {
       rules:['Mẫu khác không thay thế bản sao giống nhau khi công thức yêu cầu. Nguyên liệu phân tán bị giữ trong đơn vị trung gian.','Nguyên liệu cùng phe phù hợp có thể thay thẻ thường, còn bản sao cần thiết sẽ phải kiếm lại nếu tiêu mất. Giữ nó để tránh điểm nghẽn mới.','Kế hoạch nối lần ghép hiện tại với bước sau. Nếu không, có thể tạo đơn vị trung gian mà thiếu bản sao để đi tiếp.'],
       assembly:'Một đơn vị chính cộng hai bản sao giải thích quy tắc 7.0: lần ghép đắt phải hướng tới 7.1 cần dùng. Đây là kế hoạch tài nguyên, không cấm tạm dùng 7.0 sẵn có.',
       coupons:['Chọn phe hữu ích khi đã quyết định đội hình. Chi phí chọn phục vụ một kế hoạch thay vì đổi liên tục.','Một phe tập trung thẻ theo hướng đã chọn. Không bảo đảm đúng mẫu nhưng tránh chia phiếu hạn chế cho nhiều kế hoạch.','Chọn cùng phe ở mốc thưởng để hỗ trợ kế hoạch. Đơn vị vẫn ngẫu nhiên, không tính là bản sao còn thiếu chắc chắn.'],
-      warning:'Phiếu dùng vào mục đích khác không còn bổ sung thẻ chủ lực. Liên minh giữ phiếu để ghép quân; quyết định nguyên mẫu cần nằm trong kế hoạch chung.',
+      warning:'Theo kế hoạch SyndiCate, hãy giữ phiếu cho hòm của phe chủ lực để lấy thẻ xây dựng đội hình. Dùng phiếu để nghiên cứu nguyên mẫu sẽ giảm số phiếu dành cho mục tiêu này.',
       checks:'Kiểm tra trước xác nhận ít tốn hơn sửa sau khi đã mất thẻ. Hỏi liên minh khi một bản sao vừa có thể dùng chiến đấu vừa làm nguyên liệu.',
     },
     events:{
@@ -209,7 +209,7 @@ export const rationale = {
       rules:['لا تعوض الطرازات المختلفة النسخ المتطابقة عندما تكون مطلوبة. تبقى المواد المشتتة في وحدات وسيطة بدل تطوير الأساسية.','قد تحل مادة مناسبة من المعسكر نفسه محل بطاقة عادية، لكن النسخة المتطابقة المطلوبة ستحتاج للحصول عليها مجددًا إذا استهلكتها.','يربط التخطيط تجميع اليوم بالخطوة التالية. بدونه قد تصنع وحدة وسيطة بلا نسخ لمتابعتها.'],
       assembly:'الوحدة الأساسية ونسختان متطابقتان تفسر قاعدة 7.0: التجميع المكلف يجب أن يدعم هدف 7.1. إنها خطة إنفاق للتحالف وليست منعًا لاستخدام 7.0 موجودة مؤقتًا.',
       coupons:['اختيار الفصيل يفيد بعد تحديد الجيش المطلوب؛ تخدم التكلفة خطة واحدة بدل التبديل المتكرر.','يركز الفصيل الواحد البطاقات في المسار المختار. لا يضمن طرازًا محددًا لكنه يمنع تقسيم القسائم المحدودة بين خطط متنافسة.','اختر الفصيل نفسه لمكافأة المرحلة لدعم الخطة. تبقى الوحدة عشوائية فلا تعتبرها نسخة مفقودة مضمونة.'],
-      warning:'القسيمة المصروفة لغرض آخر لا تغذي بطاقات الجيش الأساسي. يحفظ التحالف القسائم للتجميع؛ قرار النماذج الأولية يتبع خطة الموارد كلها.',
+      warning:'توصي خطة SyndiCate بادّخار القسائم لصناديق فصيلك الأساسي للحصول على بطاقات تشكيلتك. إنفاقها على أبحاث النماذج الأولية يقلّل رصيد القسائم المخصّص لهذا الهدف.',
       checks:'الفحص قبل التأكيد أقل تكلفة من إصلاح بطاقة مستهلكة. اسأل التحالف عندما تكون النسخة هدفًا قتاليًا أو مادة لتجميع آخر.',
     },
     events:{
