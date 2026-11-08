@@ -26,7 +26,9 @@ export default function UnitsGuide({lang}){const u=units[lang];const why=rationa
   <div className="lesson-callout" id="avoid-prototype-research">
     <h3>{u.warning}</h3>
     <p>{why.warning}</p>
+    <a className="text-link" href="https://forum-global-share.lilithgame.com/warpath/post/113543/?lang=en-US">Warpath · Developer War Room 5.00 ↗</a>
   </div>
+  <UnitScreenshot id="disassembly" lang={lang}/>
   <UnitScreenshot id="prototypes" lang={lang}/>
   {u.coupons.map(([h, p], i) => (
     <div className="coupon-rule" key={h}>
