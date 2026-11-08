@@ -1,13 +1,13 @@
 import React, { useId, useRef } from 'react';
 
-export default function PartScreenshot({ screenshot, copy, labels }) {
+export default function PartScreenshot({ screenshot, copy, labels, directory = 'parts', width = 1280, height = 591 }) {
   const modal = useRef(null);
   const headingId = useId();
-  const src = `${import.meta.env.BASE_URL}guides/parts/${screenshot.file}`;
+  const src = `${import.meta.env.BASE_URL}guides/${directory}/${screenshot.file}`;
 
   function annotatedImage() {
     return <span className="part-shot-image" dir="ltr">
-      <img src={src} alt={copy.alt} width="1280" height="591" loading="lazy" decoding="async" />
+      <img src={src} alt={copy.alt} width={width} height={height} loading="lazy" decoding="async" />
       {screenshot.marks.map(([left, top], i) => (
         <span className="part-shot-marker" key={i} aria-hidden="true" style={{ left: `${left}%`, top: `${top}%` }}>{i + 1}</span>
       ))}
