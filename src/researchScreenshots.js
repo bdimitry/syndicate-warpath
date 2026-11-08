@@ -1,0 +1,65 @@
+export const researchScreenshots = {
+  industry: {file: 'industry.webp', marks: [[44.8, 45.8]]},
+  advanced: {file: 'advanced-industry.webp', marks: [[60.3, 49.7]]},
+  city: {file: 'city-honors.webp', marks: [[76.5, 47.2]]},
+  military: {file: 'military-120.webp', marks: [[61.5, 23.7]]},
+  level200: {file: 'military-200.webp', marks: [[64, 37.2], [64, 53.5], [79.2, 47]]},
+};
+
+// Each screenshot has a caption, alt text and one legend entry per marker.
+export const researchVisuals = {
+  ru: {
+    deferTitle: '«Гибкая защита» и «Точечный удар» — после первой фракции',
+    defer: 'Для доступа к исследованиям лимита 200 «Гибкая защита» и «Точечный удар» не требуются. Сначала открой лимит 200 для фракции основного юнита, чтобы не задерживать эту цель расходами на два боковых узла. К ним можно вернуться сразу после открытия лимита или позже, по потребностям состава.',
+    industry: ['Индустрия', 'Начало ветки «Индустрия» с несколькими узлами уровня «Макс.».', 'Проверяй отметки «Макс.» по всей ветке. Кадр показывает её начальную часть.'],
+    advanced: ['Продвинутая промышленность', 'Поздняя часть ветки с узлами на уровнях 4/5 и 3/4.', 'На кадре «Объединённая логистика материалов» ещё на 3/4. Такие узлы остаются в работе, если цель — завершить всю ветку.'],
+    city: ['Городские почести: путь к Liberator', 'Поздняя часть ветки с карточкой Liberator и узлами 6/10 слева.', 'Liberator — ориентир в конце ветки. После прохода к нему вернись к узлам, которые остались ниже максимума, как 6/10 на кадре.'],
+    military: ['Военная ветка: фракционные карточки на пути к 120', 'Фракционные карточки «Советская гвардия», «Танковые войска» и «Механизированная дивизия».', 'Найди столбец с фракционными эмблемами и открой карточку своей фракции. Проверь лимит в её описании перед запуском исследования.'],
+    level200: ['Военная ветка: боковые узлы и карточки фракций', 'Узлы «Гибкая защита» и «Точечный удар» рядом с тремя фракционными карточками.', '«Гибкая защита». Уровень 2/10 на кадре показывает прогресс этого аккаунта.', '«Точечный удар». Уровень 7/10 на кадре показывает прогресс этого аккаунта.', 'Справа — фракционные карточки. Для первого лимита 200 выбери карточку фракции своего основного юнита.'],
+  },
+  en: {
+    deferTitle: 'Flexible Defense and Precision Strike can wait',
+    defer: 'Flexible Defense and Precision Strike are not required to access level 200 cap research. Unlock the cap for your core unit’s faction first so spending on those two side nodes does not delay it. Return to them once the first faction cap is open or later, depending on what your roster needs.',
+    industry: ['Industry', 'Early Industry tree with several nodes marked Max.', 'Check for Max across the whole tree. This screenshot shows its early section.'],
+    advanced: ['Advanced Industry', 'Later Advanced Industry nodes showing ranks 4/5 and 3/4.', 'The materials logistics node is still at 3/4. Nodes like this remain on your list if you aim to complete the entire tree.'],
+    city: ['City Honors: the route to Liberator', 'Late City Honors tree with the Liberator card and 6/10 nodes on the left.', 'Use Liberator as the endpoint. After reaching it, go back to nodes below their maximum, such as the 6/10 nodes shown here.'],
+    military: ['Military tree: faction cards on the route to 120', 'The Soviet Guards, Tank Troops and Mechanized Division faction cards.', 'Find the column of faction emblems and open the card for your faction. Check the cap in its description before starting research.'],
+    level200: ['Military tree: side nodes and faction cards', 'Flexible Defense and Precision Strike beside three faction cards.', 'Flexible Defense. The 2/10 shown is this account’s progress.', 'Precision Strike. The 7/10 shown is this account’s progress.', 'The faction cards are on the right. For your first level 200 cap, choose your core unit’s faction card.'],
+  },
+  vi: {
+    deferTitle: 'Có thể để Phòng thủ linh hoạt và Tấn công chính xác làm sau',
+    defer: 'Phòng thủ linh hoạt và Tấn công chính xác không phải điều kiện để mở nghiên cứu giới hạn cấp 200. Hãy mở giới hạn cho phe của đơn vị chủ lực trước để hai nút phụ không làm chậm mục tiêu này. Có thể quay lại ngay sau khi mở giới hạn cho phe đầu tiên hoặc muộn hơn tùy đội hình.',
+    industry: ['Công nghiệp', 'Phần đầu nhánh Công nghiệp với nhiều nút đã đạt tối đa.', 'Kiểm tra dấu tối đa trên toàn nhánh. Ảnh chỉ hiển thị phần đầu.'],
+    advanced: ['Công nghiệp nâng cao', 'Phần sau của nhánh với các nút ở mức 4/5 và 3/4.', 'Nút hậu cần vật liệu vẫn ở 3/4. Những nút như vậy vẫn cần hoàn tất nếu mục tiêu là xong cả nhánh.'],
+    city: ['City Honors: đường đến Liberator', 'Phần cuối City Honors với thẻ Liberator và các nút 6/10 ở bên trái.', 'Dùng Liberator làm mốc cuối. Sau khi tới đó, quay lại các nút chưa đạt tối đa như những nút 6/10 trong ảnh.'],
+    military: ['Quân sự: thẻ phe trên đường đến cấp 120', 'Ba thẻ phe trong nhánh quân sự.', 'Tìm cột biểu tượng phe rồi mở thẻ của phe bạn. Đọc giới hạn trong mô tả trước khi nghiên cứu.'],
+    level200: ['Quân sự: nút phụ và thẻ phe', 'Phòng thủ linh hoạt và Tấn công chính xác bên cạnh ba thẻ phe.', 'Phòng thủ linh hoạt. Mức 2/10 là tiến độ của tài khoản trong ảnh.', 'Tấn công chính xác. Mức 7/10 là tiến độ của tài khoản trong ảnh.', 'Thẻ phe ở bên phải. Để mở giới hạn cấp 200 đầu tiên, chọn thẻ phe của đơn vị chủ lực.'],
+  },
+  ar: {
+    deferTitle: 'يمكن تأجيل الدفاع المرن والضربة الدقيقة',
+    defer: 'الدفاع المرن والضربة الدقيقة غير مطلوبين للوصول إلى بحث حد المستوى 200. افتح الحد لفصيل وحدتك الأساسية أولًا حتى لا يؤخّر الإنفاق على العقدتين الجانبيتين هذا الهدف. يمكنك العودة إليهما بعد فتح الحد للفصيل الأول مباشرة أو لاحقًا حسب حاجة تشكيلتك.',
+    industry: ['الصناعة', 'بداية شجرة الصناعة وفيها عدة عقد عند الحد الأقصى.', 'تحقّق من بلوغ الحد الأقصى في كامل الشجرة. تعرض الصورة بدايتها.'],
+    advanced: ['الصناعة المتقدمة', 'جزء متأخر من الشجرة بعقد عند 4/5 و3/4.', 'عقدة لوجستيات المواد ما زالت عند 3/4. تبقى مثل هذه العقد ضمن خطتك إذا كان هدفك إكمال الشجرة كلها.'],
+    city: ['أوسمة المدينة: الطريق إلى Liberator', 'نهاية شجرة أوسمة المدينة مع بطاقة Liberator وعقد عند 6/10 إلى اليسار.', 'استخدم Liberator كعلامة لنهاية المسار. بعد الوصول إليه، ارجع إلى العقد التي لم تبلغ الحد الأقصى، مثل عقد 6/10 في الصورة.'],
+    military: ['الشجرة العسكرية: بطاقات الفصائل في طريق المستوى 120', 'ثلاث بطاقات للفصائل في الشجرة العسكرية.', 'ابحث عن عمود شعارات الفصائل وافتح بطاقة فصيلك. راجع حد المستوى في وصفها قبل بدء البحث.'],
+    level200: ['الشجرة العسكرية: العقد الجانبية وبطاقات الفصائل', 'الدفاع المرن والضربة الدقيقة بجوار ثلاث بطاقات للفصائل.', 'الدفاع المرن. الرقم 2/10 هو تقدّم الحساب الظاهر في الصورة.', 'الضربة الدقيقة. الرقم 7/10 هو تقدّم الحساب الظاهر في الصورة.', 'بطاقات الفصائل على اليمين. لفتح أول حد للمستوى 200، اختر بطاقة فصيل وحدتك الأساسية.'],
+  },
+  pl: {
+    deferTitle: 'Elastyczna obrona i Precyzyjne uderzenie mogą poczekać',
+    defer: 'Elastyczna obrona i Precyzyjne uderzenie nie są wymagane do uzyskania dostępu do badań limitu poziomu 200. Najpierw odblokuj limit dla frakcji głównej jednostki, aby wydatki na boczne węzły nie opóźniały celu. Wróć do nich po otwarciu limitu pierwszej frakcji lub później, zależnie od potrzeb składu.',
+    industry: ['Przemysł', 'Początek drzewa przemysłu z kilkoma węzłami na maksymalnym poziomie.', 'Sprawdź poziomy w całym drzewie. Zrzut pokazuje jego początek.'],
+    advanced: ['Zaawansowany przemysł', 'Dalsza część drzewa z węzłami 4/5 i 3/4.', 'Węzeł logistyki materiałów ma jeszcze 3/4. Jeśli chcesz ukończyć całą gałąź, takie węzły wciąż wymagają pracy.'],
+    city: ['Honory Miasta: droga do Liberator', 'Końcowa część drzewa z kartą Liberator i węzłami 6/10 po lewej.', 'Liberator wyznacza koniec drogi. Po dotarciu do niego wróć do węzłów poniżej maksimum, takich jak pokazane 6/10.'],
+    military: ['Drzewo wojskowe: karty frakcji w drodze do 120', 'Trzy karty frakcji w drzewie wojskowym.', 'Znajdź kolumnę emblematów i otwórz kartę swojej frakcji. Przed rozpoczęciem badania sprawdź limit w opisie.'],
+    level200: ['Drzewo wojskowe: boczne węzły i karty frakcji', 'Elastyczna obrona i Precyzyjne uderzenie obok trzech kart frakcji.', 'Elastyczna obrona. 2/10 to postęp konta ze zrzutu.', 'Precyzyjne uderzenie. 7/10 to postęp konta ze zrzutu.', 'Karty frakcji są po prawej. Aby otworzyć pierwszy limit 200, wybierz kartę frakcji głównej jednostki.'],
+  },
+  pt: {
+    deferTitle: 'Defesa Flexível e Ataque de Precisão podem esperar',
+    defer: 'Defesa Flexível e Ataque de Precisão não são necessários para acessar a pesquisa do limite de nível 200. Libere primeiro o limite da facção da sua unidade principal para que os gastos nesses dois nós laterais não atrasem a meta. Volte a eles depois de abrir o limite da primeira facção ou mais tarde, conforme a necessidade da formação.',
+    industry: ['Indústria', 'Início da árvore de Indústria com vários nós no nível máximo.', 'Confira o nível máximo em toda a árvore. A captura mostra a parte inicial.'],
+    advanced: ['Indústria Avançada', 'Trecho avançado da árvore com nós nos níveis 4/5 e 3/4.', 'O nó de logística de materiais ainda está em 3/4. Nós assim continuam no plano se a meta for concluir toda a árvore.'],
+    city: ['Honras da Cidade: caminho até Liberator', 'Trecho final com a carta Liberator e nós em 6/10 à esquerda.', 'Use Liberator como marco final. Depois de alcançá-lo, volte aos nós abaixo do máximo, como os de 6/10 da captura.'],
+    military: ['Árvore militar: cartas de facção no caminho ao nível 120', 'Três cartas de facção na árvore militar.', 'Localize a coluna de emblemas e abra a carta da sua facção. Confira o limite na descrição antes de iniciar a pesquisa.'],
+    level200: ['Árvore militar: nós laterais e cartas de facção', 'Defesa Flexível e Ataque de Precisão ao lado de três cartas de facção.', 'Defesa Flexível. O nível 2/10 é o progresso da conta na captura.', 'Ataque de Precisão. O nível 7/10 é o progresso da conta na captura.', 'As cartas de facção ficam à direita. Para abrir o primeiro limite 200, escolha a carta da facção da unidade principal.'],
+  },
+};
