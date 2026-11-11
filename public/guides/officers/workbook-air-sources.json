@@ -1,0 +1,468 @@
+{
+  "skills/workbook-air-19e25e81.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "19e25e81ef0522341db6f0551596af1dfb54a728187fd1d2066eed08567b6b48",
+    "placements": [
+      {
+        "sheet": "Танкующий Истреб F2P",
+        "cell": "B7"
+      },
+      {
+        "sheet": "Танкующий Истреб P2W",
+        "cell": "B7"
+      }
+    ]
+  },
+  "skills/workbook-air-c7922d78.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "c7922d783dc14385bc0e20a5b510e756f36fb0c1bd9cc93816f84afddc85be99",
+    "placements": [
+      {
+        "sheet": "Танкующий Истреб F2P",
+        "cell": "D7"
+      },
+      {
+        "sheet": "Танкующий Истреб F2P",
+        "cell": "D11"
+      },
+      {
+        "sheet": "Танкующий Истреб P2W",
+        "cell": "D7"
+      },
+      {
+        "sheet": "Танкующий Истреб P2W",
+        "cell": "D11"
+      }
+    ]
+  },
+  "skills/workbook-air-5b73acdb.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "5b73acdb69a486ec0193a7f52f74d741daa24a0c1840cf6949b2437a86435e17",
+    "placements": [
+      {
+        "sheet": "Танкующий Истреб F2P",
+        "cell": "F7"
+      }
+    ]
+  },
+  "skills/workbook-air-787dbd10.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "787dbd10915db5faa4722a35d77140a6822f8ba2364884937e190a0e85184feb",
+    "placements": [
+      {
+        "sheet": "Танкующий Истреб F2P",
+        "cell": "H7"
+      },
+      {
+        "sheet": "Танкующий Истреб P2W",
+        "cell": "H7"
+      },
+      {
+        "sheet": "Атакующий Истреб F2P",
+        "cell": "H7"
+      },
+      {
+        "sheet": "Атакующий Истреб F2P",
+        "cell": "H11"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "H7"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "H11"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "H15"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "R7"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "R11"
+      }
+    ]
+  },
+  "skills/workbook-air-a5b3d328.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "a5b3d328844e6e30a3a26c2b6b6750787ee2bf62d40c21d1958a1e86ec113f66",
+    "placements": [
+      {
+        "sheet": "Танкующий Истреб F2P",
+        "cell": "B11"
+      },
+      {
+        "sheet": "Танкующий Истреб P2W",
+        "cell": "B11"
+      }
+    ]
+  },
+  "skills/workbook-air-7766e4a7.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "7766e4a7f2720fb74b7362d380c3d6dc88e21dd9e5fc374189cc6ffb50a70418",
+    "placements": [
+      {
+        "sheet": "Танкующий Истреб F2P",
+        "cell": "F11"
+      }
+    ]
+  },
+  "skills/workbook-air-6e394ea2.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "6e394ea211f6e3323ae94d6147a3364cf9d573edb50e8f840ff7dec2ddc45c6d",
+    "placements": [
+      {
+        "sheet": "Танкующий Истреб F2P",
+        "cell": "H11"
+      },
+      {
+        "sheet": "Танкующий Истреб P2W",
+        "cell": "H11"
+      }
+    ]
+  },
+  "gear/workbook/air-night-sweeper-helm.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "fa6f2bb6debc97bfb344cf61b8352cf21f45323e5c58f90061a012f2e67967f8",
+    "placements": [
+      {
+        "sheet": "Танкующий Истреб F2P",
+        "cell": "B16"
+      },
+      {
+        "sheet": "Танкующий Истреб P2W",
+        "cell": "B16"
+      }
+    ]
+  },
+  "gear/workbook/air-flare-gun.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "f93a56ea46786096def4b341062e6f3644f14b56a9e571e50160571e45ef4f8b",
+    "placements": [
+      {
+        "sheet": "Танкующий Истреб F2P",
+        "cell": "D16"
+      },
+      {
+        "sheet": "Танкующий Истреб P2W",
+        "cell": "D16"
+      }
+    ]
+  },
+  "skills/workbook-air-56fbe097.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "56fbe097ca10927b22703cc4167fbf4d72b400ff52fd9f44be120138e5ba840c",
+    "placements": [
+      {
+        "sheet": "Танкующий Истреб P2W",
+        "cell": "F7"
+      },
+      {
+        "sheet": "Танкующий Истреб P2W",
+        "cell": "F11"
+      }
+    ]
+  },
+  "skills/workbook-air-f6bd1406.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "f6bd140619268383edd5fdeb72039c9baf9686727154df005d4491f55351f361",
+    "placements": [
+      {
+        "sheet": "Атакующий Истреб F2P",
+        "cell": "B7"
+      },
+      {
+        "sheet": "Атакующий Истреб F2P",
+        "cell": "B11"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "B7"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "B11"
+      }
+    ]
+  },
+  "skills/workbook-air-90bbdd89.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "90bbdd8919ed1db4bda3ddebf691ea2b14e6f9557e8c4b73210854bf646c1035",
+    "placements": [
+      {
+        "sheet": "Атакующий Истреб F2P",
+        "cell": "D7"
+      },
+      {
+        "sheet": "Атакующий Истреб F2P",
+        "cell": "D11"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "D7"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "D11"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "D15"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "N7"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "N11"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "N15"
+      }
+    ]
+  },
+  "skills/workbook-air-6b52e6e0.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "6b52e6e02b0bc53dfb047ebd842dd12d311ebfd109e9b33ed3db501b23ac099f",
+    "placements": [
+      {
+        "sheet": "Атакующий Истреб F2P",
+        "cell": "F7"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "F7"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "P7"
+      }
+    ]
+  },
+  "skills/workbook-air-92caab4c.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "92caab4c196f6dc5150851b9cb242beed416a326f32c65bd1370390cf5b492d9",
+    "placements": [
+      {
+        "sheet": "Атакующий Истреб F2P",
+        "cell": "F11"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "F11"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "P11"
+      }
+    ]
+  },
+  "gear/workbook/air-silver-star-handgun.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "c49dc6722ae34fe3d48cfc59fc56e10c2e31a289ebb7af1a19f9600346921912",
+    "placements": [
+      {
+        "sheet": "Атакующий Истреб F2P",
+        "cell": "B16"
+      },
+      {
+        "sheet": "Атакующий Истреб F2P",
+        "cell": "B26"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "B19"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "B29"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "D39"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "L19"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "L29"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "N39"
+      }
+    ]
+  },
+  "gear/workbook/air-military-map.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "ed1a65c25a52becaec30431230321ab335d325abaede974aea7d87a3c6e0c300",
+    "placements": [
+      {
+        "sheet": "Атакующий Истреб F2P",
+        "cell": "D16"
+      },
+      {
+        "sheet": "Атакующий Истреб F2P",
+        "cell": "D21"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "D19"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "D24"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "N19"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "N24"
+      }
+    ]
+  },
+  "gear/workbook/air-moon-shadow-nvg.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "82244952a6613f8e61880b68dfbcc8f80bdad19a2d37038fbb6af4026527fa1a",
+    "placements": [
+      {
+        "sheet": "Атакующий Истреб F2P",
+        "cell": "B21"
+      },
+      {
+        "sheet": "Атакующий Истреб F2P",
+        "cell": "D26"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "B24"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "D29"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "D34"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "L24"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "N29"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "N34"
+      }
+    ]
+  },
+  "skills/workbook-air-7038161b.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "7038161b14d9f9f4f7f10712fa97b00e745eca169abeaa5f44f40946c48348a3",
+    "placements": [
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "B15"
+      }
+    ]
+  },
+  "skills/workbook-air-4421b569.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "4421b569c2603aa73df287455da497b88e5070f81916fb226633cc2054aa9c44",
+    "placements": [
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "F15"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "P15"
+      }
+    ]
+  },
+  "gear/workbook/air-peregrine-kneeboard.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "5f836c102387cd2e07cfeb55bcd0b4afaf9d9f24fbd2aee449c0c62826448f49",
+    "placements": [
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "B34"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "B39"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "L34"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "L39"
+      }
+    ]
+  },
+  "skills/workbook-air-56629bb2.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "56629bb2e7ac4323aa6626693e7af3dffd0fda2cac67868a71d0d7c4333a36cd",
+    "placements": [
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "L7"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "L11"
+      },
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "L15"
+      }
+    ]
+  },
+  "skills/workbook-air-35259840.png": {
+    "source": "Воздушные_офицеры_Warpath A.xlsx",
+    "format": "PNG",
+    "sha256": "35259840eaa07b51ff79b386b4fd983b9507ee5e6fc13dc9853095377d373244",
+    "placements": [
+      {
+        "sheet": "Атакующий Истреб P2W",
+        "cell": "R15"
+      }
+    ]
+  }
+}

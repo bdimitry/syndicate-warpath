@@ -658,5 +658,247 @@
       "pt": "Projéteis de Tinta",
       "pl": "Pociski barwiące"
     }
+  },
+  "Viper's Cunning": {
+    "key": "OfficerSkillDesc#skill_name#11440",
+    "labels": {
+      "en": "Viper's Cunning",
+      "ru": "Змеиная хитрость",
+      "ar": "مكر الأفعى",
+      "vi": "Độc Xà Gian Xảo",
+      "pt": "Astúcia da Víbora",
+      "pl": "Spryt żmii"
+    }
+  },
+  "Bring 'Em Home": {
+    "key": "OfficerSkillDesc#skill_name#13330",
+    "labels": {
+      "en": "Bring 'Em Home",
+      "ru": "Верни их домой",
+      "ar": "أعدهم إلى الوطن",
+      "vi": "Đưa Họ Về Nhà",
+      "pt": "Traga-os para Casa",
+      "pl": "Pewny powrót do domu"
+    }
+  },
+  "Cool Volition": {
+    "key": "OfficerSkillDesc#skill_name#20620",
+    "labels": {
+      "en": "Cool Volition",
+      "ru": "Хладнокровный выбор",
+      "ar": "إرادة كبيرة",
+      "vi": "Ý Chí Băng Giá",
+      "pt": "Volição Tranquila",
+      "pl": "Niezłomna wola"
+    }
+  },
+  "Electronic Interference": {
+    "key": "OfficerSkillDesc#skill_name#21320",
+    "labels": {
+      "en": "Electronic Interference",
+      "ru": "Электронные помехи",
+      "ar": "التدخل الإلكتروني",
+      "vi": "Gây Nhiễu Điện Tử",
+      "pt": "Interferência Eletrônica",
+      "pl": "Zakłócenia elektroniczne"
+    }
+  },
+  "Mystery Course": {
+    "key": "OfficerSkillDesc#skill_name#20640",
+    "labels": {
+      "en": "Mystery Course",
+      "ru": "Загадочный курс",
+      "ar": "دورة الغموض",
+      "vi": "Tuyến Đường Bí Ẩn",
+      "pt": "Curso Misterioso",
+      "pl": "Tajemniczy kurs"
+    }
+  },
+  "Steel Resilience": {
+    "key": "OfficerSkillDesc#skill_name#12130",
+    "labels": {
+      "en": "Steel Resilience",
+      "ru": "Стальная стойкость",
+      "ar": "المقاومة الفولاذية",
+      "vi": "Kiên Vững Thành Đồng",
+      "pt": "Resiliência de Aço",
+      "pl": "Stalowa odporność"
+    }
+  },
+  "Standardized Gear": {
+    "key": "OfficerSkillDesc#skill_name#12330",
+    "labels": {
+      "en": "Standardized Gear",
+      "ru": "Стандартное оснащение",
+      "ar": "المعدات الموحدة",
+      "vi": "Trang Bị Chuẩn Hóa",
+      "pt": "Equipamento Padronizado",
+      "pl": "Sprzęt standaryzowany"
+    }
+  },
+  "Night-Sweeper Helm": {
+    "key": "OfficerEquitment#equitment_name#20006",
+    "labels": {
+      "en": "Night-Sweeper Helm",
+      "ru": "Шлем «Ночной дозорный»",
+      "ar": "خوذة كاسحة الليل",
+      "vi": "Mũ Quét Nhìn Đêm",
+      "pt": "Capacete de Varredura Noturna",
+      "pl": "Kask nocnego łowcy"
+    }
+  },
+  "Flare Gun": {
+    "key": "OfficerEquitment#equitment_name#10006",
+    "labels": {
+      "en": "Flare Gun",
+      "ru": "Сигнальный пистолет",
+      "ar": "مسدس الإشارة",
+      "vi": "Súng Bắn Pháo Sáng",
+      "pt": "Sinalizador",
+      "pl": "Pistolet sygnałowy"
+    }
+  },
+  "Legacy's Bulwark": {
+    "key": "OfficerSkillDesc#skill_name#32630",
+    "labels": {
+      "en": "Legacy's Bulwark",
+      "ru": "Оплот наследия",
+      "ar": "حصن الإرث",
+      "vi": "Vệ Lũy Di Sản",
+      "pt": "Baluarte do Legado",
+      "pl": "Bastion dziedzictwa"
+    }
+  },
+  "No Retreat": {
+    "key": "OfficerSkillDesc#skill_name#10840",
+    "labels": {
+      "en": "No Retreat",
+      "ru": "Не отступать",
+      "ar": "لا تتراجعوا",
+      "vi": "Quyết Không Rút Lui",
+      "pt": "Sem Saída",
+      "pl": "Bez odwrotu"
+    }
+  },
+  "Venomous Bite": {
+    "key": "OfficerSkillDesc#skill_name#11420",
+    "labels": {
+      "en": "Venomous Bite",
+      "ru": "Ядовитый укус",
+      "ar": "العضة السامة",
+      "vi": "Nhát Cắn Độc Xà",
+      "pt": "Mordida Venenosa",
+      "pl": "Ukąszenie"
+    }
+  },
+  "Adaptive Weaponry": {
+    "key": "OfficerSkillDesc#skill_name#12320",
+    "labels": {
+      "en": "Adaptive Weaponry",
+      "ru": "Адаптивное вооружение",
+      "ar": "الأسلحة التكيفية",
+      "vi": "Vũ Khí Thích Ứng",
+      "pt": "Armamento Adaptável",
+      "pl": "Uzbrojenie adaptacyjne"
+    }
+  },
+  "Light Armaments": {
+    "key": "OfficerSkillDesc#skill_name#30620",
+    "labels": {
+      "en": "Light Armaments",
+      "ru": "Легкое вооружение",
+      "ar": "التسلح الخفيف",
+      "vi": "Khí Tài Hạng Nhẹ",
+      "pt": "Armamento Leve",
+      "pl": "Lekkie uzbrojenie"
+    }
+  },
+  "Silver-Star Handgun": {
+    "key": "OfficerEquitment#equitment_name#20005",
+    "labels": {
+      "en": "Silver-Star Handgun",
+      "ru": "Пистолет «Серебряная звезда»",
+      "ar": "مسدس النجمة الفضية",
+      "vi": "Súng Lục Sao Bạc",
+      "pt": "Pistola Estrela Prateada",
+      "pl": "Pistolet Srebrna Gwiazda"
+    }
+  },
+  "Military Map": {
+    "key": "OfficerEquitment#equitment_name#10005",
+    "labels": {
+      "en": "Military Map",
+      "ru": "Военная карта",
+      "ar": "خريطة عسكرية",
+      "vi": "Bản Đồ Quân Sự",
+      "pt": "Mapa Militar",
+      "pl": "Mapa wojskowa"
+    }
+  },
+  "Moon Shadow Air Force NVG": {
+    "key": "OfficerEquitment#equitment_name#20009",
+    "labels": {
+      "en": "Moon Shadow Air Force NVG",
+      "ru": "ПНВ для ВВС «Лунная тень»",
+      "ar": "نظارات ظل القمر للقوات الجوية",
+      "vi": "Kính Nhìn Đêm Không Quân Nguyệt Ảnh",
+      "pt": "NVG da Força Aérea Sombra Lunar",
+      "pl": "Lotnicze gogle noktowizyjne Moon Shadow"
+    }
+  },
+  "Hunter's Instinct": {
+    "key": "OfficerSkillDesc#skill_name#11640",
+    "labels": {
+      "en": "Hunter's Instinct",
+      "ru": "Охотничий инстинкт",
+      "ar": "غريزة الصياد",
+      "vi": "Bản Năng Săn Mồi",
+      "pt": "Instinto do Caçador",
+      "pl": "Instynkt łowcy"
+    }
+  },
+  "Fiery Punch": {
+    "key": "OfficerSkillDesc#skill_name#13120",
+    "labels": {
+      "en": "Fiery Punch",
+      "ru": "Огненный удар",
+      "ar": "لكمة نارية",
+      "vi": "Nắm Đấm Rực Lửa",
+      "pt": "Soco Ardente",
+      "pl": "Ognista pięść"
+    }
+  },
+  "Peregrine Air Tactical Kneeboard": {
+    "key": "OfficerEquitment#equitment_name#30005",
+    "labels": {
+      "en": "Peregrine Air Tactical Kneeboard",
+      "ru": "Авиационный тактический планшет «Сапсан»",
+      "ar": "اللوح التكتيكي للطيران",
+      "vi": "Bảng Đeo Đùi Chiến Thuật Không Quân Chim Cắt",
+      "pt": "Prancheta Tática Aérea Peregrine",
+      "pl": "Panel taktyczny Sokół"
+    }
+  },
+  "Directed Threat": {
+    "key": "OfficerSkillDesc#skill_name#10520",
+    "labels": {
+      "en": "Directed Threat",
+      "ru": "Прямая угроза",
+      "ar": "التهديد الموجه",
+      "vi": "Hiểm Họa Trực Tiếp",
+      "pt": "Ameaça Direta",
+      "pl": "Ukierunkowane zagrożenie"
+    }
+  },
+  "System Override": {
+    "key": "OfficerSkillDesc#skill_name#22420",
+    "labels": {
+      "en": "System Override",
+      "ru": "Перехват системы",
+      "ar": "تجاوز النظام",
+      "vi": "Chiếm Quyền Hệ Thống",
+      "pt": "Sobreposição do Sistema",
+      "pl": "Nadpisanie systemu"
+    }
   }
 }
