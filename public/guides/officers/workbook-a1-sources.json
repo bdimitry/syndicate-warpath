@@ -1,0 +1,72 @@
+{
+  "gear/workbook/a1-shotgun.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A_1.xlsx",
+    "format": "PNG",
+    "sha256": "a3d6bdd156201d71c88faba7430a25c39cf52e4278328ebc96d7f5b2ea7c3e97"
+  },
+  "gear/workbook/a1-knuckles.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A_1.xlsx",
+    "format": "PNG",
+    "sha256": "c71cc0b9330fa7425ae3ccbc2f3882518f6319f947bd9e9ffa6bc22c6899095b"
+  },
+  "gear/workbook/a1-knife.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A_1.xlsx",
+    "format": "PNG",
+    "sha256": "550ac275f016bca8d17a11ecbe62b4ea449bba440c90fa19b582c1a8827e6627"
+  },
+  "skills/workbook-a1-68d73.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A_1.xlsx",
+    "format": "PNG",
+    "sha256": "68d73abdd4e18503da7104c4ee4dee31062a801c77bc935ce8f7f472f9d7a4b2"
+  },
+  "gear/workbook/a1-shield.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A_1.xlsx",
+    "format": "PNG",
+    "sha256": "cddac6dd14e761e74e0492956872e532e74dd72188296e4b3c00a87e99f2b5d4"
+  },
+  "gear/workbook/a1-keycard.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A_1.xlsx",
+    "format": "PNG",
+    "sha256": "e1645db661bb6f28fcd73ee48f32a3c6b25cc15aa21b8b1c5a03bd4c4dc2c0cf"
+  },
+  "skills/workbook-a1-028e4.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A_1.xlsx",
+    "format": "PNG",
+    "sha256": "028e47f7c8c2c2e2a086ac8c4f97a73e764269aca790aef6e3f5655871682f63"
+  },
+  "skills/workbook-a1-4c4e4.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A_1.xlsx",
+    "format": "PNG",
+    "sha256": "4c4e44eb2df6a2511bf7015f9523aaa7f1564d448c93c7c9ac8269f3a7a7d265"
+  },
+  "gear/workbook/a1-drone.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A_1.xlsx",
+    "format": "PNG",
+    "sha256": "401b2485fdd18425dd8e58d9f21ecdb73a4d0f56d70cf479db7a90257bff0d70"
+  },
+  "gear/workbook/a1-gloves.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A_1.xlsx",
+    "format": "PNG",
+    "sha256": "178a86d5a2dd4307634a960e7e28355325ef0f88e8c3b641a9b2f5654937fd77"
+  },
+  "gear/workbook/a1-sand-table.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A_1.xlsx",
+    "format": "PNG",
+    "sha256": "1c6245345044eddf83d2f8a0c84a9e3a55f5af7753359021ed190bf9ee14aed6"
+  },
+  "skills/workbook-a1-a5fe5.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A_1.xlsx",
+    "format": "PNG",
+    "sha256": "a5fe5f5c4693a3f13eabb8e01609cc733c5e673af7624fcd989faa8db972492e"
+  },
+  "skills/workbook-a1-b3ec9.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A_1.xlsx",
+    "format": "PNG",
+    "sha256": "b3ec9cb2bdbc35106f514b81cbd52a2cfaf9314f8ff2c1d850c1d07daba91ce1"
+  },
+  "skills/workbook-a1-eae81.png": {
+    "source": "Наземные_офицеры_навыки_единая_палитра_A_1.xlsx",
+    "format": "PNG",
+    "sha256": "eae8148d195404b59c5bf2fce021cf0d761d4c6107cc677a735a564685fe734b"
+  }
+}

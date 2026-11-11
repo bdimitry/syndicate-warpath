@@ -1,3 +1,5 @@
+import {groundWorkbook} from './groundWorkbook';
+
 // User workbook A.xlsx: Легкие танки, ОБТ F2P, MBT P2W. Duplicate light-tank layouts in A (2).xlsx are counted once.
 // Each skill row is a complete alternative; positions map to the portrait above, not to an assumed leader/aide role.
 export const workbookCopy={
@@ -15,6 +17,7 @@ const workbookIcon=(id,name)=>({name,workbookIcon:`workbook-${id}.png`});
 // The workbook shows Iron Cavalier first. The site lists The Arbitrator first.
 const assaultP2w=['Sweetheart of the Troops','Full Suppression','Ruthless Outlaw',workbookIcon(135,'Resilient Charge')];
 export const workbookLoadouts={
+ ...Object.fromEntries(Object.entries(groundWorkbook).map(([key,build])=>[key,make(build.skills)])),
  'mbt-b2b-f2p:iron-cavalier+dawn-anthem':make([['Ruthless Outlaw','Crimebuster','Sweetheart of the Troops','Full Suppression']]),
  'mbt-b2b-p2w:the-arbitrator+iron-cavalier':make([assaultP2w]),
  // The workbook shows Gridlock Architect before Uncle Ivankov. Row 13 only supplies Gridlock's skills.

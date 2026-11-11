@@ -1,8 +1,11 @@
-// User workbook A (3).xlsx; original embedded PNGs, unchanged.
+import {groundWorkbook} from './groundWorkbook';
+
+// User workbooks A (3) and A_1; original embedded PNGs, unchanged.
 // Per user clarification, main-row items are choices, not one item per officer.
 const field=(sheet,offset=0,purpleRow=20,targetRow=25)=>({sheet,offset,purpleRow,targetRow,purple:['knife','knuckles'],target:['shotgun','map'],alternatives:['headset','launcher']});
 const assault=sheet=>({sheet,offset:0,purpleRow:14,targetRow:19,purple:['knife','tablet'],target:['headset','shield'],alternatives:[]});
 export const workbookGear={
+ ...Object.fromEntries(Object.entries(groundWorkbook).map(([key,{sheet,gear}])=>[key,{sheet,...gear}])),
  'light-f2p:rapier+haymaker':field('Легкий танк '),
  'light-f2p:lady-shadow+rapier':field('Легкий танк ',10),
  'light-p2w:catseye+haymaker':field('Легкий танк ',20,25,30),

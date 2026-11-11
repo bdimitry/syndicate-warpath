@@ -592,5 +592,71 @@
       "vi": "Xung Kích Bền Bỉ",
       "ar": "الهجوم المرن"
     }
+  },
+  "Relentless Salvos": {
+    "key": "OfficerSkillDesc#skill_name#22220",
+    "labels": {
+      "en": "Relentless Salvos",
+      "ru": "Непрерывные залпы",
+      "ar": "قصف متواصل",
+      "vi": "Loạt Pháo Không Ngớt",
+      "pt": "Salvas implacáveis",
+      "pl": "Nieustępliwe salwy"
+    }
+  },
+  "Intel Master": {
+    "key": "OfficerSkillDesc#skill_name#21721",
+    "labels": {
+      "en": "Intel Master",
+      "ru": "Мастер разведки",
+      "ar": "خبيرة الاستخبارات",
+      "vi": "Bậc Thầy Tình Báo",
+      "pt": "Mestre em Inteligência",
+      "pl": "Mistrz wywiadu"
+    }
+  },
+  "Fortified": {
+    "key": "OfficerSkillDesc#skill_name#20320",
+    "labels": {
+      "en": "Fortified",
+      "ru": "Укрепление",
+      "ar": "محصَّن",
+      "vi": "Gia Cường",
+      "pt": "Fortificada",
+      "pl": "Umocnienie"
+    }
+  },
+  "Steel Bloom": {
+    "key": "OfficerSkillDesc#skill_name#32340",
+    "labels": {
+      "en": "Steel Bloom",
+      "ru": "Стальной цветок",
+      "ar": "زهرة الصلب",
+      "vi": "Hoa Hồng Sắt Thép",
+      "pt": "Florescer de Aço",
+      "pl": "Stalowy kwiat"
+    }
+  },
+  "Armor Havoc": {
+    "key": "OfficerSkillDesc#skill_name#12930",
+    "labels": {
+      "en": "Armor Havoc",
+      "ru": "Разрушение бронемашин",
+      "ar": "خراب الدروع",
+      "vi": "Hủy Hoại Thiết Giáp",
+      "pt": "Caos na Blindagem",
+      "pl": "Zniszczenie pancerza"
+    }
+  },
+  "Paint Shells": {
+    "key": "OfficerSkillDesc#skill_name#31730",
+    "labels": {
+      "en": "Paint Shells",
+      "ru": "Снаряды с краской",
+      "ar": "قذائف الطلاء",
+      "vi": "Đầu Đạn Tô Vẽ",
+      "pt": "Projéteis de Tinta",
+      "pl": "Pociski barwiące"
+    }
   }
 }
