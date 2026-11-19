@@ -57,6 +57,7 @@ export default function SiteNavigation({lang, page, guides, homeLabels}) {
   const groups = [
     [progression, ['construction','calculator','units','research','parts','events','combat']],
     [officers, ['tanks','infantry','artillery','aircraft','naval']],
+    [homeLabels[2], ['sponsors']],
   ];
   const items = {...guides, calculator: {title: calculator}};
   const matches = id => items[id].title.toLocaleLowerCase(lang).includes(query.trim().toLocaleLowerCase(lang));

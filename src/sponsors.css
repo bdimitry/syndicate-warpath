@@ -1,0 +1,36 @@
+.sponsors {
+  width: min(90%, 64rem);
+  margin: clamp(3rem, 8vw, 7rem) auto;
+}
+.sponsors h1 { font-size: clamp(2.5rem, 7vw, 5rem); margin: 0; }
+.sponsors ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  gap: 1rem;
+  list-style: none;
+  margin: 2rem 0;
+  padding: 0;
+}
+.sponsors li {
+  padding: 1.5rem;
+  border-inline-start: 3px solid #be985c;
+  background: rgba(152, 126, 82, .12);
+  font-size: 1.25rem;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+.footer-sponsors {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding-inline: 1.25rem;
+  border: 1px solid #be985c;
+  border-radius: 4px;
+  color: #eed4a9;
+  font-weight: 700;
+  text-decoration: none;
+}
+.footer-sponsors:hover, .footer-sponsors:focus-visible {
+  background: #eed4a9;
+  color: #101923;
+}

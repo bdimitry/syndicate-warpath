@@ -25,12 +25,14 @@ import {units} from './units';
 import './polish.css';
 import SiteNavigation from './SiteNavigation';
 import FieldHub from './FieldHub';
+import Sponsors, {sponsors} from './Sponsors';
 import CombatGuide from './CombatGuide';
 import {combat} from './combat';
 import './fieldHub.css';
 import {pageUrl} from './siteRoutes';
 
 const pages = {
+  sponsors: [Sponsors, sponsors],
   combat: [CombatGuide, combat],
   construction: [ConstructionGuide, construction], units: [UnitsGuide, units],
   research: [ResearchGuide, research], parts: [PartsGuide, parts], events: [EventsGuide, events],
@@ -99,6 +101,11 @@ export default function App({initialLanguage, page}) {
       </div>
     </header>
     {Guide ? <Guide lang={lang}/> : <FieldHub lang={lang} setLang={changeLanguage} guides={guides}/>}
-    <footer><a className="footer-brand" href={home}>SyndiCate<span>Strength · Strategy · Unity</span></a><p>{t.footer}</p><span>© {new Date().getFullYear()} SyndiCate</span></footer>
+    <footer>
+      <a className="footer-brand" href={home}>SyndiCate<span>Strength · Strategy · Unity</span></a>
+      <p>{t.footer}</p>
+      <a className="footer-sponsors" href={pageUrl(lang, 'sponsors')} aria-current={page === 'sponsors' ? 'page' : undefined}>{sponsors[lang].title}</a>
+      <span>© {new Date().getFullYear()} SyndiCate</span>
+    </footer>
   </>;
 }
