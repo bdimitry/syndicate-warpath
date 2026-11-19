@@ -73,7 +73,6 @@ export default function FieldHub({lang, setLang, guides}) {
       </section>
       <section id="alliance" className="alliance">
         <p className="hub-kicker">SYNDICATE / WARPATH</p><h2>{t.about}</h2>
-        <a href={link('sponsors')}>{guides.sponsors.title}</a>
         <div className="language-links">{Object.entries(languages).map(([code, name]) => <button type="button" lang={code} aria-pressed={lang === code} key={code} onClick={() => setLang(code)}>{name}</button>)}</div>
       </section>
     </div>
