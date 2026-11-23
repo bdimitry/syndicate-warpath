@@ -10,7 +10,7 @@ export const sponsors = {
   pt: {title: 'Patrocinadores', intro: 'Agradecemos aos primeiros jogadores que apoiaram a SyndiCate.'},
 };
 
-const players = ['MARCCUUSS', 'Hmkd~Astartes(Modefator)'];
+const players = ['MARCCUUSS', 'Hmkd~Astartes'];
 
 export default function Sponsors({lang}) {
   const {title, intro} = sponsors[lang];
