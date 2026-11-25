@@ -1,0 +1,406 @@
+{
+  "workbook-naval-85d38322.png": {
+    "source": "Морские_офицеры_Warpath.xlsx",
+    "format": "PNG",
+    "sha256": "85d383227f39fa83d4defb8bd74d872b818adaaa2f296785d28f2b853074f510",
+    "placements": [
+      {
+        "sheet": "Броня",
+        "row": 7,
+        "column": 2
+      }
+    ]
+  },
+  "workbook-naval-45d4b23a.png": {
+    "source": "Морские_офицеры_Warpath.xlsx",
+    "format": "PNG",
+    "sha256": "45d4b23af7262ef457a997ad46a5b01dc9efeae238c7d7c2fcc65cd8150b73f0",
+    "placements": [
+      {
+        "sheet": "Броня",
+        "row": 12,
+        "column": 2
+      }
+    ]
+  },
+  "workbook-naval-ebded93e.png": {
+    "source": "Морские_офицеры_Warpath.xlsx",
+    "format": "PNG",
+    "sha256": "ebded93e39ea03d11b5a712a48a9ec59ff366c73f2566db03bb6dacff8cb514d",
+    "placements": [
+      {
+        "sheet": "Броня",
+        "row": 7,
+        "column": 6
+      }
+    ]
+  },
+  "workbook-naval-b8159f41.png": {
+    "source": "Морские_офицеры_Warpath.xlsx",
+    "format": "PNG",
+    "sha256": "b8159f4126503d2644385f897acfcb966e8cc3fedc4116f131e9db34fdc3bab5",
+    "placements": [
+      {
+        "sheet": "Подлодка",
+        "row": 7,
+        "column": 2
+      },
+      {
+        "sheet": "Подлодка",
+        "row": 7,
+        "column": 12
+      },
+      {
+        "sheet": "Ракета",
+        "row": 7,
+        "column": 2
+      },
+      {
+        "sheet": "Ракета",
+        "row": 7,
+        "column": 12
+      },
+      {
+        "sheet": "Ракета",
+        "row": 7,
+        "column": 21
+      },
+      {
+        "sheet": "Авианосец",
+        "row": 7,
+        "column": 2
+      },
+      {
+        "sheet": "Авианосец",
+        "row": 7,
+        "column": 11
+      },
+      {
+        "sheet": "Авианосец",
+        "row": 7,
+        "column": 20
+      },
+      {
+        "sheet": "ПВО",
+        "row": 7,
+        "column": 2
+      },
+      {
+        "sheet": "ПВО",
+        "row": 7,
+        "column": 11
+      },
+      {
+        "sheet": "ПВО",
+        "row": 7,
+        "column": 20
+      },
+      {
+        "sheet": "БПК",
+        "row": 7,
+        "column": 20
+      }
+    ]
+  },
+  "workbook-naval-131d6883.png": {
+    "source": "Морские_офицеры_Warpath.xlsx",
+    "format": "PNG",
+    "sha256": "131d688381a596c197ae0111112c8662578095102e00fe4c139058c3d593c611",
+    "placements": [
+      {
+        "sheet": "Подлодка",
+        "row": 11,
+        "column": 2
+      },
+      {
+        "sheet": "Подлодка",
+        "row": 11,
+        "column": 12
+      },
+      {
+        "sheet": "Ракета",
+        "row": 11,
+        "column": 21
+      },
+      {
+        "sheet": "Авианосец",
+        "row": 11,
+        "column": 2
+      },
+      {
+        "sheet": "Авианосец",
+        "row": 11,
+        "column": 11
+      },
+      {
+        "sheet": "Авианосец",
+        "row": 11,
+        "column": 20
+      },
+      {
+        "sheet": "ПВО",
+        "row": 11,
+        "column": 2
+      },
+      {
+        "sheet": "ПВО",
+        "row": 11,
+        "column": 11
+      },
+      {
+        "sheet": "ПВО",
+        "row": 11,
+        "column": 20
+      },
+      {
+        "sheet": "БПК",
+        "row": 11,
+        "column": 2
+      },
+      {
+        "sheet": "БПК",
+        "row": 11,
+        "column": 11
+      },
+      {
+        "sheet": "БПК",
+        "row": 11,
+        "column": 20
+      }
+    ]
+  },
+  "workbook-naval-799513b2.png": {
+    "source": "Морские_офицеры_Warpath.xlsx",
+    "format": "PNG",
+    "sha256": "799513b279a57566545cb07286a0e9e632798a7f4b69ee1948396261dbfec42c",
+    "placements": [
+      {
+        "sheet": "Подлодка",
+        "row": 7,
+        "column": 6
+      },
+      {
+        "sheet": "Подлодка",
+        "row": 7,
+        "column": 16
+      },
+      {
+        "sheet": "Ракета",
+        "row": 11,
+        "column": 2
+      },
+      {
+        "sheet": "Ракета",
+        "row": 11,
+        "column": 12
+      },
+      {
+        "sheet": "Ракета",
+        "row": 7,
+        "column": 25
+      },
+      {
+        "sheet": "Авианосец",
+        "row": 7,
+        "column": 6
+      },
+      {
+        "sheet": "Авианосец",
+        "row": 7,
+        "column": 15
+      },
+      {
+        "sheet": "Авианосец",
+        "row": 7,
+        "column": 24
+      },
+      {
+        "sheet": "ПВО",
+        "row": 7,
+        "column": 6
+      },
+      {
+        "sheet": "ПВО",
+        "row": 7,
+        "column": 15
+      },
+      {
+        "sheet": "ПВО",
+        "row": 7,
+        "column": 24
+      },
+      {
+        "sheet": "БПК",
+        "row": 7,
+        "column": 6
+      },
+      {
+        "sheet": "БПК",
+        "row": 7,
+        "column": 15
+      },
+      {
+        "sheet": "БПК",
+        "row": 7,
+        "column": 24
+      }
+    ]
+  },
+  "workbook-naval-4d92574d.png": {
+    "source": "Морские_офицеры_Warpath.xlsx",
+    "format": "PNG",
+    "sha256": "4d92574db35675ad83ef50f3f0f752aad8e5304cec82e8402877fd1778fda1ca",
+    "placements": [
+      {
+        "sheet": "Подлодка",
+        "row": 11,
+        "column": 6
+      },
+      {
+        "sheet": "Подлодка",
+        "row": 11,
+        "column": 16
+      },
+      {
+        "sheet": "Ракета",
+        "row": 11,
+        "column": 6
+      },
+      {
+        "sheet": "Ракета",
+        "row": 11,
+        "column": 16
+      },
+      {
+        "sheet": "Ракета",
+        "row": 11,
+        "column": 25
+      },
+      {
+        "sheet": "Авианосец",
+        "row": 11,
+        "column": 15
+      },
+      {
+        "sheet": "Авианосец",
+        "row": 11,
+        "column": 24
+      },
+      {
+        "sheet": "ПВО",
+        "row": 11,
+        "column": 6
+      },
+      {
+        "sheet": "ПВО",
+        "row": 11,
+        "column": 15
+      },
+      {
+        "sheet": "ПВО",
+        "row": 11,
+        "column": 24
+      },
+      {
+        "sheet": "БПК",
+        "row": 11,
+        "column": 6
+      },
+      {
+        "sheet": "БПК",
+        "row": 11,
+        "column": 15
+      },
+      {
+        "sheet": "БПК",
+        "row": 11,
+        "column": 24
+      }
+    ]
+  },
+  "workbook-naval-05104120.png": {
+    "source": "Морские_офицеры_Warpath.xlsx",
+    "format": "PNG",
+    "sha256": "05104120ada30ff429649183c30b98b1e70e67645c7c24f3eedd9ff2eda7c71a",
+    "placements": [
+      {
+        "sheet": "Ракета",
+        "row": 16,
+        "column": 2
+      }
+    ]
+  },
+  "workbook-naval-dfb99d88.png": {
+    "source": "Морские_офицеры_Warpath.xlsx",
+    "format": "PNG",
+    "sha256": "dfb99d88d63d7f3c88ff9db00f5b93e0dc0fa1d03d15012f850f4a23e41ede2b",
+    "placements": [
+      {
+        "sheet": "Ракета",
+        "row": 7,
+        "column": 6
+      },
+      {
+        "sheet": "Ракета",
+        "row": 7,
+        "column": 16
+      }
+    ]
+  },
+  "workbook-naval-e2d9986b.png": {
+    "source": "Морские_офицеры_Warpath.xlsx",
+    "format": "PNG",
+    "sha256": "e2d9986bd3e51278378c2d9831884730d6ad4a52457b211e4a5ad427c1ebebf4",
+    "placements": [
+      {
+        "sheet": "Ракета",
+        "row": 16,
+        "column": 21
+      },
+      {
+        "sheet": "Авианосец",
+        "row": 16,
+        "column": 20
+      },
+      {
+        "sheet": "ПВО",
+        "row": 16,
+        "column": 20
+      },
+      {
+        "sheet": "БПК",
+        "row": 16,
+        "column": 20
+      }
+    ]
+  },
+  "workbook-naval-1d573ef0.png": {
+    "source": "Морские_офицеры_Warpath.xlsx",
+    "format": "PNG",
+    "sha256": "1d573ef0559e04d627a416166768e931bfa0ba1d7b430dc7a09d95a4440b1856",
+    "placements": [
+      {
+        "sheet": "Авианосец",
+        "row": 11,
+        "column": 6
+      }
+    ]
+  },
+  "workbook-naval-e6fd052b.png": {
+    "source": "Морские_офицеры_Warpath.xlsx",
+    "format": "PNG",
+    "sha256": "e6fd052bade7f15622b551ac02646eb2d7046a1b2afd0d87be61b05477184f41",
+    "placements": [
+      {
+        "sheet": "БПК",
+        "row": 7,
+        "column": 2
+      },
+      {
+        "sheet": "БПК",
+        "row": 7,
+        "column": 11
+      }
+    ]
+  }
+}

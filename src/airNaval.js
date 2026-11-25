@@ -1,4 +1,5 @@
 import {officers} from './officers';
+import {navalWorkbookGroups} from './navalWorkbook';
 
 export const aircraftGroups=[
  {id:'fighter-defense-f2p',category:'f2p',pairs:[['shadow-chaser','silver-fox']]},
@@ -16,7 +17,7 @@ export const navalGroups=[
  {id:'carrier-fleet',pairs:[['ripcurrent','dame-sombra'],['ripcurrent','la-sirena']]},
  {id:'antiair-fleet',pairs:[['ripcurrent','liberty-blaze'],['ripcurrent','la-sirena']]},
  {id:'antisub-fleet',pairs:[['ripcurrent','black-jack'],['ripcurrent','liberty-blaze'],['ripcurrent','la-sirena']]},
-].map(group=>({...group,badge:navalBadge}));
+].map(group=>({...group,pairs:[...group.pairs,...navalWorkbookGroups[group.id].filter(pair=>!group.pairs.some(existing=>existing.join('+')===pair.join('+')))],badge:navalBadge}));
 const subset=groups=>Object.fromEntries([...new Set(groups.flatMap(g=>g.pairs.flat()))].map(id=>[id,officers[id]]));
 export const aircraftOfficers=subset(aircraftGroups);
 export const navalOfficers={...subset(navalGroups),'steel-commodore':officers['steel-commodore']};
@@ -59,11 +60,15 @@ const seaCopy={
 const make=(copy)=>Object.fromEntries(Object.keys(common).map(lang=>[lang,{...common[lang],...copy[lang],headings:[common[lang].toc,...copy[lang].groups,...common[lang].tail],groupIntros:copy[lang].groups,groupWhys:copy[lang].whys}]));
 export const aircraft=make(airCopy);
 export const naval=make(seaCopy);
-const sirenaNotes={
-ru:'Примечание SyndiCate: Сирена и Стальной командор — альтернативы для одного места в указанных морских парах. Вместо «Дитя прилива + Сирена» можно использовать «Дитя прилива + Стальной командор» — это P2W-вариант. Выбирайте по доступности и развитию офицера; такая замена не означает одинаковые навыки или одинаковую эффективность.',
-en:'SyndiCate note: La Sirena and Steel Commodore are alternatives for the same slot in the listed naval pairs. Replace “Ripcurrent + La Sirena” with “Ripcurrent + Steel Commodore” for the P2W option. Choose according to availability and officer development; this substitution does not imply identical skills or performance.',
-  pl: "Uwaga SyndiCate: La Sirena i Steel Commodore to alternatywy dla tego samego miejsca w wymienionych parach morskich. Zamień „Ripcurrent + La Sirena” na „Ripcurrent + Steel Commodore” dla opcji P2W. Wybierz według dostępności i rozwoju oficera; to zastąpienie nie oznacza identycznych umiejętności ani wydajności.",
-  pt: "Nota SyndiCate: La Sirena e Steel Commodore são alternativas para o mesmo slot nos pares navais listados. Substitua “Ripcurrent + La Sirena” por “Ripcurrent + Steel Commodore” para a opção P2W. Escolha de acordo com a disponibilidade e desenvolvimento do oficial; esta substituição não implica competências ou desempenho idênticos.",
-vi:'Ghi chú SyndiCate: La Sirena và Steel Commodore là hai lựa chọn thay thế cho cùng một vị trí trong các cặp hải quân đã liệt kê. Có thể thay “Ripcurrent + La Sirena” bằng “Ripcurrent + Steel Commodore” — phương án P2W. Chọn theo khả năng sở hữu và mức phát triển sĩ quan; thay thế không có nghĩa kỹ năng hay hiệu quả giống nhau.',
-ar:'ملاحظة SyndiCate: La Sirena وSteel Commodore بديلان للموقع نفسه في الأزواج البحرية المذكورة. يمكن استبدال «Ripcurrent + La Sirena» بـ «Ripcurrent + Steel Commodore» كخيار P2W. اختر حسب التوفر وتطوير الضابط؛ الاستبدال لا يعني تطابق المهارات أو الأداء.'};
-for(const lang of Object.keys(naval))naval[lang].checks.push(sirenaNotes[lang]);
+const navalWorkbookNotes = {
+  "ru": "Выбирай новую пару из таблицы по развитию офицеров и применимости навыков к кораблю. Это помогает использовать доступные бонусы; проверь классовые ограничения.",
+  "en": "Choose the workbook pair according to officer development and skills applicable to the ship. This helps use available bonuses; check class restrictions.",
+  "vi": "Chọn cặp trong bảng theo mức phát triển sĩ quan và kỹ năng phù hợp với tàu để tận dụng hiệu ứng sẵn có. Kiểm tra giới hạn loại tàu.",
+  "ar": "اختر ثنائي الجدول حسب تطوير الضباط والمهارات المناسبة للسفينة للاستفادة من المزايا المتاحة. تحقق من قيود الفئة.",
+  "pl": "Wybierz parę ze skoroszytu według rozwoju oficerów i umiejętności pasujących do okrętu, aby wykorzystać dostępne premie. Sprawdź ograniczenia klas.",
+  "pt": "Escolha a dupla da planilha conforme o desenvolvimento dos oficiais e as habilidades aplicáveis ao navio para aproveitar os bônus disponíveis. Confira as restrições de classe."
+};
+for (const [lang, guide] of Object.entries(naval)) {
+  guide.checks.push(navalWorkbookNotes[lang]);
+  guide.reasons = navalGroups.map((group,index) => group.pairs.map((pair,pairIndex) => guide.reasons[index][pairIndex] ?? guide.groupWhys[index] + " " + navalWorkbookNotes[lang]));
+}

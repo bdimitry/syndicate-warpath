@@ -900,5 +900,137 @@
       "pt": "Sobreposição do Sistema",
       "pl": "Nadpisanie systemu"
     }
+  },
+  "Fortified Mast": {
+    "key": "OfficerSkillDesc#skill_name#32220",
+    "labels": {
+      "en": "Fortified Mast",
+      "ru": "Укрепленная мачта",
+      "ar": "الصاري المحصّن",
+      "vi": "Cột Buồm Kiên Cố",
+      "pt": "Mastro Fortificado",
+      "pl": "Wzmocniony maszt"
+    }
+  },
+  "Endurance Surge": {
+    "key": "OfficerSkillDesc#skill_name#12730",
+    "labels": {
+      "en": "Endurance Surge",
+      "ru": "Волна стойкости",
+      "ar": "انفجار الصلابة",
+      "vi": "Tinh Thần Kiên Định",
+      "pt": "Onda de Resistência",
+      "pl": "Napływ wytrzymałości"
+    }
+  },
+  "Bastion Fleet": {
+    "key": "OfficerSkillDesc#skill_name#12640",
+    "labels": {
+      "en": "Bastion Fleet",
+      "ru": "Бастион флота",
+      "ar": "أسطول الحصن",
+      "vi": "Hạm Đội Thành Lũy",
+      "pt": "Frota Bastião",
+      "pl": "Flota bastionowa"
+    }
+  },
+  "Sea Ghost": {
+    "key": "OfficerSkillDesc#skill_name#13830",
+    "labels": {
+      "en": "Sea Ghost",
+      "ru": "Морской призрак",
+      "ar": "شبح البحر",
+      "vi": "Bóng Ma Dưới Biển",
+      "pt": "Fantasma do Mar",
+      "pl": "Morski duch"
+    }
+  },
+  "Blood of Del Rio": {
+    "key": "OfficerSkillDesc#skill_name#33020",
+    "labels": {
+      "en": "Blood of Del Rio",
+      "ru": "Кровь Дель Рио",
+      "ar": "دماء ديل ريو",
+      "vi": "Dòng Máu Del Rio",
+      "pt": "Sangue de Del Rio",
+      "pl": "Krew Del Rio"
+    }
+  },
+  "Wavebreaker": {
+    "key": "OfficerSkillDesc#skill_name#12740",
+    "labels": {
+      "en": "Wavebreaker",
+      "ru": "Волнорез",
+      "ar": "مخترق الأمواج",
+      "vi": "Huyền Thoại Lão Binh",
+      "pt": "Quebra-ondas",
+      "pl": "Poskramiacz fal"
+    }
+  },
+  "Battle-Hardened": {
+    "key": "OfficerSkillDesc#skill_name#32440",
+    "labels": {
+      "en": "Battle-Hardened",
+      "ru": "Боевая закалка",
+      "ar": "متمرس المعارك",
+      "vi": "Tàu Bất Khả Chìm",
+      "pt": "Endurecido pela Batalha",
+      "pl": "Zaprawiona w boju"
+    }
+  },
+  "Like Fish to Water": {
+    "key": "OfficerSkillDesc#skill_name#33040",
+    "labels": {
+      "en": "Like Fish to Water",
+      "ru": "Как рыба в воде",
+      "ar": "مثل سمكة في الماء",
+      "vi": "Như Cá Gặp Nước",
+      "pt": "Como um Peixe",
+      "pl": "Jak ryba w wodzie"
+    }
+  },
+  "Final Defense": {
+    "key": "OfficerSkillDesc#skill_name#21820",
+    "labels": {
+      "en": "Final Defense",
+      "ru": "Финальная защита",
+      "ar": "الدفاع الأخير",
+      "vi": "Phòng Tuyến Cuối Cùng",
+      "pt": "Defesa Final",
+      "pl": "Ostateczna obrona"
+    }
+  },
+  "Abyssal Echo": {
+    "key": "OfficerSkillDesc#skill_name#22530",
+    "labels": {
+      "en": "Abyssal Echo",
+      "ru": "Эхо пустоты",
+      "ar": "صدى الأعماق",
+      "vi": "Dư Âm Rãnh Biển",
+      "pt": "Eco Abissal",
+      "pl": "Echo otchłani"
+    }
+  },
+  "Bold Stratagem": {
+    "key": "OfficerSkillDesc#skill_name#12620",
+    "labels": {
+      "en": "Bold Stratagem",
+      "ru": "Смелая уловка",
+      "ar": "الحيلة الجريئة",
+      "vi": "Mưu Kế Táo Bạo",
+      "pt": "Plano Ousado",
+      "pl": "Przebiegły podstęp"
+    }
+  },
+  "Mariner's Resolve": {
+    "key": "OfficerSkillDesc#skill_name#12430",
+    "labels": {
+      "en": "Mariner's Resolve",
+      "ru": "Решительность моряка",
+      "ar": "عزم البحارة",
+      "vi": "Quyết Tâm Thủy Thủ",
+      "pt": "Determinação do Fuzileiro",
+      "pl": "Determinacja marynarza"
+    }
   }
 }
