@@ -19,7 +19,15 @@ const workbookIcon=(id,name)=>({name,workbookIcon:`workbook-${id}.png`});
 // The workbook shows Iron Cavalier first. The site lists The Arbitrator first.
 const assaultP2w=['Sweetheart of the Troops','Full Suppression','Ruthless Outlaw',workbookIcon(135,'Resilient Charge')];
 export const workbookLoadouts={
- ...Object.fromEntries(Object.entries(navalWorkbook).map(([key,build])=>[key,[{source:'syndicate-workbooks',rolesAssigned:false,officers:build.officers,copy:Object.fromEntries(Object.entries(workbookCopy).map(([lang,t])=>[lang,{credit:t.credit,note:t.note}]))}]])),
+ ...Object.fromEntries(Object.entries(navalWorkbook).map(([key,build])=>[
+  key,
+  (build.variants ?? [build.officers]).map(officers=>({
+   source:'syndicate-workbooks',
+   rolesAssigned:false,
+   officers,
+   copy:Object.fromEntries(Object.entries(workbookCopy).map(([lang,t])=>[lang,{credit:t.credit,note:t.note}])),
+  })),
+ ])),
  ...Object.fromEntries(Object.entries(airWorkbook).map(([key,build])=>[key,make(build.skills)])),
  ...Object.fromEntries(Object.entries(groundWorkbook).map(([key,build])=>[key,make(build.skills)])),
  'mbt-b2b-f2p:iron-cavalier+dawn-anthem':make([['Ruthless Outlaw','Crimebuster','Sweetheart of the Troops','Full Suppression']]),

@@ -1,4 +1,4 @@
-// Skills follow vertical columns beneath each portrait.
+// Blank gaps in the supplied workbook separate alternative skills.
 export const navalWorkbook = {
   "armored-fleet:captain-unbeaten+surf-strider": {
     "sheet": "Броня",
@@ -8,10 +8,6 @@ export const navalWorkbook = {
           {
             "name": "Fortified Mast",
             "workbookIcon": "workbook-naval-85d38322.png"
-          },
-          {
-            "name": "Endurance Surge",
-            "workbookIcon": "workbook-naval-45d4b23a.png"
           }
         ]
       },
@@ -23,6 +19,44 @@ export const navalWorkbook = {
           }
         ]
       }
+    ],
+    "variants": [
+      [
+        {
+          "skills": [
+            {
+              "name": "Fortified Mast",
+              "workbookIcon": "workbook-naval-85d38322.png"
+            }
+          ]
+        },
+        {
+          "skills": [
+            {
+              "name": "Bastion Fleet",
+              "workbookIcon": "workbook-naval-ebded93e.png"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "skills": [
+            {
+              "name": "Endurance Surge",
+              "workbookIcon": "workbook-naval-45d4b23a.png"
+            }
+          ]
+        },
+        {
+          "skills": [
+            {
+              "name": "Bastion Fleet",
+              "workbookIcon": "workbook-naval-ebded93e.png"
+            }
+          ]
+        }
+      ]
     ]
   },
   "submarine-fleet:ripcurrent+liberty-blaze": {
@@ -95,10 +129,6 @@ export const navalWorkbook = {
           {
             "name": "Wavebreaker",
             "workbookIcon": "workbook-naval-799513b2.png"
-          },
-          {
-            "name": "Like Fish to Water",
-            "workbookIcon": "workbook-naval-05104120.png"
           }
         ]
       },
@@ -114,6 +144,60 @@ export const navalWorkbook = {
           }
         ]
       }
+    ],
+    "variants": [
+      [
+        {
+          "skills": [
+            {
+              "name": "Sea Ghost",
+              "workbookIcon": "workbook-naval-b8159f41.png"
+            },
+            {
+              "name": "Wavebreaker",
+              "workbookIcon": "workbook-naval-799513b2.png"
+            }
+          ]
+        },
+        {
+          "skills": [
+            {
+              "name": "Final Defense",
+              "workbookIcon": "workbook-naval-dfb99d88.png"
+            },
+            {
+              "name": "Battle-Hardened",
+              "workbookIcon": "workbook-naval-4d92574d.png"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "skills": [
+            {
+              "name": "Sea Ghost",
+              "workbookIcon": "workbook-naval-b8159f41.png"
+            },
+            {
+              "name": "Like Fish to Water",
+              "workbookIcon": "workbook-naval-05104120.png"
+            }
+          ]
+        },
+        {
+          "skills": [
+            {
+              "name": "Final Defense",
+              "workbookIcon": "workbook-naval-dfb99d88.png"
+            },
+            {
+              "name": "Battle-Hardened",
+              "workbookIcon": "workbook-naval-4d92574d.png"
+            }
+          ]
+        }
+      ]
     ]
   },
   "missile-fleet:ripcurrent+skiptide": {
@@ -157,10 +241,6 @@ export const navalWorkbook = {
           {
             "name": "Blood of Del Rio",
             "workbookIcon": "workbook-naval-131d6883.png"
-          },
-          {
-            "name": "Abyssal Echo",
-            "workbookIcon": "workbook-naval-e2d9986b.png"
           }
         ]
       },
@@ -176,6 +256,60 @@ export const navalWorkbook = {
           }
         ]
       }
+    ],
+    "variants": [
+      [
+        {
+          "skills": [
+            {
+              "name": "Sea Ghost",
+              "workbookIcon": "workbook-naval-b8159f41.png"
+            },
+            {
+              "name": "Blood of Del Rio",
+              "workbookIcon": "workbook-naval-131d6883.png"
+            }
+          ]
+        },
+        {
+          "skills": [
+            {
+              "name": "Wavebreaker",
+              "workbookIcon": "workbook-naval-799513b2.png"
+            },
+            {
+              "name": "Battle-Hardened",
+              "workbookIcon": "workbook-naval-4d92574d.png"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "skills": [
+            {
+              "name": "Sea Ghost",
+              "workbookIcon": "workbook-naval-b8159f41.png"
+            },
+            {
+              "name": "Abyssal Echo",
+              "workbookIcon": "workbook-naval-e2d9986b.png"
+            }
+          ]
+        },
+        {
+          "skills": [
+            {
+              "name": "Wavebreaker",
+              "workbookIcon": "workbook-naval-799513b2.png"
+            },
+            {
+              "name": "Battle-Hardened",
+              "workbookIcon": "workbook-naval-4d92574d.png"
+            }
+          ]
+        }
+      ]
     ]
   },
   "carrier-fleet:ripcurrent+dame-sombra": {
@@ -248,10 +382,6 @@ export const navalWorkbook = {
           {
             "name": "Blood of Del Rio",
             "workbookIcon": "workbook-naval-131d6883.png"
-          },
-          {
-            "name": "Abyssal Echo",
-            "workbookIcon": "workbook-naval-e2d9986b.png"
           }
         ]
       },
@@ -267,6 +397,60 @@ export const navalWorkbook = {
           }
         ]
       }
+    ],
+    "variants": [
+      [
+        {
+          "skills": [
+            {
+              "name": "Sea Ghost",
+              "workbookIcon": "workbook-naval-b8159f41.png"
+            },
+            {
+              "name": "Blood of Del Rio",
+              "workbookIcon": "workbook-naval-131d6883.png"
+            }
+          ]
+        },
+        {
+          "skills": [
+            {
+              "name": "Wavebreaker",
+              "workbookIcon": "workbook-naval-799513b2.png"
+            },
+            {
+              "name": "Battle-Hardened",
+              "workbookIcon": "workbook-naval-4d92574d.png"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "skills": [
+            {
+              "name": "Sea Ghost",
+              "workbookIcon": "workbook-naval-b8159f41.png"
+            },
+            {
+              "name": "Abyssal Echo",
+              "workbookIcon": "workbook-naval-e2d9986b.png"
+            }
+          ]
+        },
+        {
+          "skills": [
+            {
+              "name": "Wavebreaker",
+              "workbookIcon": "workbook-naval-799513b2.png"
+            },
+            {
+              "name": "Battle-Hardened",
+              "workbookIcon": "workbook-naval-4d92574d.png"
+            }
+          ]
+        }
+      ]
     ]
   },
   "antiair-fleet:ripcurrent+liberty-blaze": {
@@ -339,10 +523,6 @@ export const navalWorkbook = {
           {
             "name": "Blood of Del Rio",
             "workbookIcon": "workbook-naval-131d6883.png"
-          },
-          {
-            "name": "Abyssal Echo",
-            "workbookIcon": "workbook-naval-e2d9986b.png"
           }
         ]
       },
@@ -358,6 +538,60 @@ export const navalWorkbook = {
           }
         ]
       }
+    ],
+    "variants": [
+      [
+        {
+          "skills": [
+            {
+              "name": "Sea Ghost",
+              "workbookIcon": "workbook-naval-b8159f41.png"
+            },
+            {
+              "name": "Blood of Del Rio",
+              "workbookIcon": "workbook-naval-131d6883.png"
+            }
+          ]
+        },
+        {
+          "skills": [
+            {
+              "name": "Wavebreaker",
+              "workbookIcon": "workbook-naval-799513b2.png"
+            },
+            {
+              "name": "Battle-Hardened",
+              "workbookIcon": "workbook-naval-4d92574d.png"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "skills": [
+            {
+              "name": "Sea Ghost",
+              "workbookIcon": "workbook-naval-b8159f41.png"
+            },
+            {
+              "name": "Abyssal Echo",
+              "workbookIcon": "workbook-naval-e2d9986b.png"
+            }
+          ]
+        },
+        {
+          "skills": [
+            {
+              "name": "Wavebreaker",
+              "workbookIcon": "workbook-naval-799513b2.png"
+            },
+            {
+              "name": "Battle-Hardened",
+              "workbookIcon": "workbook-naval-4d92574d.png"
+            }
+          ]
+        }
+      ]
     ]
   },
   "antisub-fleet:ripcurrent+black-jack": {
@@ -430,10 +664,6 @@ export const navalWorkbook = {
           {
             "name": "Blood of Del Rio",
             "workbookIcon": "workbook-naval-131d6883.png"
-          },
-          {
-            "name": "Abyssal Echo",
-            "workbookIcon": "workbook-naval-e2d9986b.png"
           }
         ]
       },
@@ -449,6 +679,60 @@ export const navalWorkbook = {
           }
         ]
       }
+    ],
+    "variants": [
+      [
+        {
+          "skills": [
+            {
+              "name": "Sea Ghost",
+              "workbookIcon": "workbook-naval-b8159f41.png"
+            },
+            {
+              "name": "Blood of Del Rio",
+              "workbookIcon": "workbook-naval-131d6883.png"
+            }
+          ]
+        },
+        {
+          "skills": [
+            {
+              "name": "Wavebreaker",
+              "workbookIcon": "workbook-naval-799513b2.png"
+            },
+            {
+              "name": "Battle-Hardened",
+              "workbookIcon": "workbook-naval-4d92574d.png"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "skills": [
+            {
+              "name": "Sea Ghost",
+              "workbookIcon": "workbook-naval-b8159f41.png"
+            },
+            {
+              "name": "Abyssal Echo",
+              "workbookIcon": "workbook-naval-e2d9986b.png"
+            }
+          ]
+        },
+        {
+          "skills": [
+            {
+              "name": "Wavebreaker",
+              "workbookIcon": "workbook-naval-799513b2.png"
+            },
+            {
+              "name": "Battle-Hardened",
+              "workbookIcon": "workbook-naval-4d92574d.png"
+            }
+          ]
+        }
+      ]
     ]
   }
 };

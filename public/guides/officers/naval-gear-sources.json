@@ -1,0 +1,26 @@
+{
+  "naval-waterproof-radio.png": {
+    "source": "User-supplied full-size PNG",
+    "file": "naval-officer-gear/full-size/waterproof-radio.png"
+  },
+  "naval-devil-ray-drone.png": {
+    "source": "User-supplied full-size PNG",
+    "file": "naval-officer-gear/full-size/devil-ray-drone.png"
+  },
+  "naval-frogman-sonar.png": {
+    "source": "User-supplied full-size PNG",
+    "file": "naval-officer-gear/full-size/frogman-sonar.png"
+  },
+  "naval-sawtooth-harpoon.png": {
+    "source": "User-supplied full-size PNG",
+    "file": "naval-officer-gear/full-size/sawtooth-harpoon.png"
+  },
+  "naval-sea-fox-binoculars.png": {
+    "source": "User-supplied full-size PNG",
+    "file": "naval-officer-gear/full-size/sea-fox-binoculars.png"
+  },
+  "naval-tactical-watch.png": {
+    "source": "User-supplied full-size PNG",
+    "file": "naval-officer-gear/full-size/tactical-watch.png"
+  }
+}

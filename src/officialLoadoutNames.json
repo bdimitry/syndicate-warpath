@@ -1032,5 +1032,71 @@
       "pt": "Determinação do Fuzileiro",
       "pl": "Determinacja marynarza"
     }
+  },
+  "Waterproof Handheld": {
+    "key": "OfficerEquitment#equitment_name#10008",
+    "labels": {
+      "en": "Waterproof Handheld",
+      "ru": "Водозащищенная радиостанция",
+      "ar": "جهاز محمول مقاوم للماء",
+      "vi": "Bộ Đàm Cầm Tay Chống Nước",
+      "pt": "Dispositivo Portátil à Prova d'Água",
+      "pl": "Wodoodporny zestaw łącznościowy"
+    }
+  },
+  "Devil Ray Drone": {
+    "key": "OfficerEquitment#equitment_name#30003",
+    "labels": {
+      "en": "Devil Ray Drone",
+      "ru": "Дрон «Дьявольский луч»",
+      "ar": "مسيّرة الشيطان",
+      "vi": "Drone Cá Đuối Ma",
+      "pt": "Drone Arraia Diabólica",
+      "pl": "Dron Diabelski promień"
+    }
+  },
+  "Frogman Handheld Sonar Detector": {
+    "key": "OfficerEquitment#equitment_name#20010",
+    "labels": {
+      "en": "Frogman Handheld Sonar Detector",
+      "ru": "Ручной гидролокатор «Водолаз»",
+      "ar": "جهاز سونار \\\"فروغمان\\\" المحمول",
+      "vi": "Máy Dò Sonar Cầm Tay Người Nhái",
+      "pt": "Detector de Sonares Portátil Frogman",
+      "pl": "Ręczny wykrywacz sonarowy Płetwonurek"
+    }
+  },
+  "Sawtooth Harpoon": {
+    "key": "OfficerEquitment#equitment_name#20007",
+    "labels": {
+      "en": "Sawtooth Harpoon",
+      "ru": "Гарпун «Пилозубая акула»",
+      "ar": "الحربة المسننة",
+      "vi": "Súng Phóng Lao Cá Mập Răng Cưa",
+      "pt": "Arpão Serrilhado",
+      "pl": "Harpun Piła"
+    }
+  },
+  "Seafox Goggles": {
+    "key": "OfficerEquitment#equitment_name#20008",
+    "labels": {
+      "en": "Seafox Goggles",
+      "ru": "Бинокль «Морская лисица»",
+      "ar": "نظارات ثعلب البحر",
+      "vi": "Ống Nhòm Cáo Biển",
+      "pt": "Óculos Marítimos",
+      "pl": "Gogle Seafox"
+    }
+  },
+  "Tactical Watch": {
+    "key": "OfficerEquitment#equitment_name#10007",
+    "labels": {
+      "en": "Tactical Watch",
+      "ru": "Тактические часы",
+      "ar": "الساعة التكتيكية",
+      "vi": "Đồng Hồ Chiến Thuật",
+      "pt": "Relógio Tático",
+      "pl": "Zegarek taktyczny"
+    }
   }
 }

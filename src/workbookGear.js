@@ -1,11 +1,14 @@
 import {groundWorkbook} from './groundWorkbook';
 import {airWorkbook} from './airWorkbook';
+import {navalGear} from './navalGear';
+import {navalGroups} from './airNaval';
 
 // User workbooks A (3) and A_1; original embedded PNGs, unchanged.
 // Per user clarification, main-row items are choices, not one item per officer.
 const field=(sheet,offset=0,purpleRow=20,targetRow=25)=>({sheet,offset,purpleRow,targetRow,purple:['knife','knuckles'],target:['shotgun','map'],alternatives:['headset','launcher']});
 const assault=sheet=>({sheet,offset:0,purpleRow:14,targetRow:19,purple:['knife','tablet'],target:['headset','shield'],alternatives:[]});
 export const workbookGear={
+ ...Object.fromEntries(navalGroups.flatMap(group=>group.pairs.map(pair=>[`${group.id}:${pair.join('+')}`,{...navalGear[group.id],naval:true}]))),
  ...Object.fromEntries(Object.entries(airWorkbook).map(([key,{sheet,gearRows}])=>[key,{sheet,rows:gearRows}])),
  ...Object.fromEntries(Object.entries(groundWorkbook).map(([key,{sheet,gear}])=>[key,{sheet,...gear}])),
  'light-f2p:rapier+haymaker':field('Легкий танк '),

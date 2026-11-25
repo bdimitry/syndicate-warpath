@@ -2,6 +2,7 @@ import React from 'react';
 import {workbookGearCopy} from './workbookGear';
 import {groundGearNames} from './groundWorkbook';
 import {airGearNames} from './airWorkbook';
+import {navalGearNames} from './navalGear';
 import {loadoutName} from './loadoutNames';
 
 const singleRowCopy = {
@@ -22,9 +23,18 @@ const airGearNote = {
  pt:'Cada linha mostra uma opção da planilha. Compare os bônus com a função da formação e os itens disponíveis. A planilha deixa em aberto a distribuição dos itens entre os oficiais.',
 };
 
+const navalCopy = {
+ ru:['Снаряжение по классу корабля','Используй эти предметы как ориентир при сборке данного класса корабля. Сверяй их бонусы со своей задачей в бою.','Если одного из предметов нет, временно используй любое фиолетовое снаряжение. Так можно продолжать пользоваться сборкой до получения нужного предмета.'],
+ en:['Gear by ship class','Use these items as the gear plan for this ship class. Compare their bonuses with your role in battle.','If an item is missing, temporarily use any purple gear. This lets you keep using the build while obtaining the intended item.'],
+ vi:['Trang bị theo loại tàu','Dùng các món này làm định hướng trang bị cho loại tàu này. So sánh hiệu ứng với nhiệm vụ trong trận.','Nếu thiếu một món, tạm dùng bất kỳ trang bị tím nào. Bạn có thể tiếp tục dùng đội hình trong lúc tìm món cần thiết.'],
+ ar:['المعدات حسب فئة السفينة','استخدم هذه العناصر كخطة معدات لهذه الفئة من السفن. قارن مزاياها بدورك في المعركة.','إذا كان أحد العناصر غير متوفر، استخدم مؤقتاً أي معدات بنفسجية. يتيح ذلك مواصلة استخدام التشكيلة حتى الحصول على العنصر المطلوب.'],
+ pl:['Wyposażenie według klasy okrętu','Traktuj te przedmioty jako plan wyposażenia tej klasy okrętu. Porównaj ich premie ze swoją rolą w bitwie.','Jeśli brakuje przedmiotu, tymczasowo użyj dowolnego fioletowego wyposażenia. Pozwala to korzystać z zestawu podczas zdobywania docelowego przedmiotu.'],
+ pt:['Equipamento por classe de navio','Use estes itens como plano de equipamento para esta classe de navio. Compare os bônus com sua função na batalha.','Se faltar um item, use temporariamente qualquer equipamento roxo. Assim você pode continuar usando a formação enquanto obtém o item desejado.'],
+};
+
 function GearItems({items,lang}) {
  return <ul>{items.map(item=>{
-  const name=airGearNames[item] ?? groundGearNames[item];
+  const name=navalGearNames[item] ?? airGearNames[item] ?? groundGearNames[item];
   return <li key={item}>
    <img src={`${import.meta.env.BASE_URL}guides/officers/gear/workbook/${item}.png`} alt="" width="64" height="64" loading="lazy"/>
    <span><bdi>{name?loadoutName(name,lang):workbookGearCopy[lang].items[item]}</bdi></span>
@@ -35,6 +45,14 @@ function GearItems({items,lang}) {
 export default function WorkbookGear({gear,lang}){
  const t=workbookGearCopy[lang];
  const [optionsLabel,optionsNote]=singleRowCopy[lang];
+ if (gear.naval) {
+  const [heading,note,fallback]=navalCopy[lang];
+  return <section className="workbook-gear" aria-label={heading}>
+   <h4>{heading}</h4>
+   <div className="workbook-gear-stages"><div className="workbook-gear-stage"><GearItems items={gear.rows[0]} lang={lang}/></div></div>
+   <p>{note}</p>{gear.purpleFallback&&<p>{fallback}</p>}<small>{t.credit}</small>
+  </section>;
+ }
  if (gear.rows) return <section className="workbook-gear" aria-label={optionsLabel}>
   <h4>{optionsLabel}</h4>
   <div className="workbook-gear-stages">{gear.rows.map(items=><div className="workbook-gear-stage" key={items.join('+')}>
