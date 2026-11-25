@@ -18,6 +18,14 @@ const heavy=['Meld Into Shadows','Heavy Barrage','Armed to the Teeth','Full Supp
 const workbookIcon=(id,name)=>({name,workbookIcon:`workbook-${id}.png`});
 // The workbook shows Iron Cavalier first. The site lists The Arbitrator first.
 const assaultP2w=['Sweetheart of the Troops','Full Suppression','Ruthless Outlaw',workbookIcon(135,'Resilient Charge')];
+const navalSkillsNote={
+ ru:'Каждая строка таблицы — отдельная сборка с одним дополнительным навыком на офицера. Пустая позиция означает, что навык для этого офицера в данной строке не указан. Роли командира и помощника не назначены.',
+ en:'Each workbook row is a separate build with one additional skill per officer. A blank position means that officer’s skill is unspecified in that row. Leader and aide roles are unassigned.',
+ vi:'Mỗi hàng trong bảng là một đội hình riêng với một kỹ năng bổ sung cho mỗi sĩ quan. Vị trí trống nghĩa là hàng đó chưa chỉ định kỹ năng cho sĩ quan này. Chưa phân vai chỉ huy và trợ lý.',
+ ar:'كل صف في الجدول تشكيلة مستقلة بمهارة إضافية واحدة لكل ضابط. الموضع الفارغ يعني أن مهارة هذا الضابط غير محددة في ذلك الصف. لم تُحدد أدوار القائد والمساعد.',
+ pl:'Każdy wiersz skoroszytu to osobny zestaw z jedną dodatkową umiejętnością na oficera. Puste miejsce oznacza, że umiejętności tego oficera nie podano w danym wierszu. Role dowódcy i pomocnika nie są przypisane.',
+ pt:'Cada linha da planilha é uma formação separada com uma habilidade adicional por oficial. Uma posição vazia indica que a habilidade desse oficial não foi informada nessa linha. As funções de comandante e assistente estão em aberto.',
+};
 export const workbookLoadouts={
  ...Object.fromEntries(Object.entries(navalWorkbook).map(([key,build])=>[
   key,
@@ -25,7 +33,7 @@ export const workbookLoadouts={
    source:'syndicate-workbooks',
    rolesAssigned:false,
    officers,
-   copy:Object.fromEntries(Object.entries(workbookCopy).map(([lang,t])=>[lang,{credit:t.credit,note:t.note}])),
+   copy:Object.fromEntries(Object.entries(workbookCopy).map(([lang,t])=>[lang,{credit:t.credit,note:navalSkillsNote[lang]}])),
   })),
  ])),
  ...Object.fromEntries(Object.entries(airWorkbook).map(([key,build])=>[key,make(build.skills)])),
