@@ -480,6 +480,33 @@
       "width": 216,
       "height": 180,
       "retrieved": "2026-10-30"
+    },
+    {
+      "file": "ol-stache.png",
+      "officer": "Ol' Stache",
+      "sourcePage": "https://warpath.afuns.cc/en/officers",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/ui_officer_head81.png",
+      "format": "PNG",
+      "width": 136,
+      "height": 192
+    },
+    {
+      "file": "lone-eagle.png",
+      "officer": "Lone Eagle",
+      "sourcePage": "https://warpath.afuns.cc/en/officers",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/ui_officer_head54.png",
+      "format": "PNG",
+      "width": 136,
+      "height": 192
+    },
+    {
+      "file": "dawn-striker.png",
+      "officer": "Dawn Striker",
+      "sourcePage": "https://warpath.afuns.cc/en/officers",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/officer/ui_officer_head70.png",
+      "format": "PNG",
+      "width": 136,
+      "height": 192
     }
   ]
 }

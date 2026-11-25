@@ -1,6 +1,7 @@
 import {baseBufferLoadout} from './baseBuffer';
 import {vanyaLoadouts} from './vanyaBuilds';
 import {mergedArtilleryCopy} from './mergedArtillery';
+import {bomberCopy} from './bombers';
 
 export const noSkillsCopy={ru:'Нет навыков для обучения в этой сборке.',en:'No skills to train for this build.',
   pl: "Brak umiejętności do wytrenowania dla tej wersji.",
@@ -15,12 +16,12 @@ export const cardCopy = {
   ar:{requirements:'التجهيز',leader:'القائد',aide:'المساعد',officer:'الضابط',skills:'المهارات المدرّبة',gear:'المعدات',pending:'لم تُحدّد المهارات والمعدات بعد.',rolesNote:'لم يُحدّد دور القائد والمساعد لهذا الزوج بعد.',reference:'نموذج SyndiCate',referenceNote:'التجهيز من نموذج SyndiCate. يظهر المستوى 40 في الصورة؛ ويسمح التعليق بأي مستوى للمعدات.',example:'صورة توضيحية',exampleLevel:'مثال: مستوى 40',types:{infantry:'المشاة',light:'الدبابة الخفيفة',mbt:'دبابة القتال الرئيسية',superheavy:'الدبابة فائقة الثقل',helicopter:'المروحية',howitzer:'الهاوتزر',rocket:'راجمة الصواريخ',antitank:'مدفع مضاد للدبابات'},modes:{attack:'هجومية',tank:'تحمّل الضرر',field:'الميدان',b2b:'B2B · هجوم',garrison:'الحامية'}},
 };
 
-export const unitExamples={infantry:'SR-556',light:'M6 Linebacker',mbt:'Leopard 2',superheavy:'P.1500 Monster',helicopter:'AH-64E Apache',howitzer:'M777',rocket:'TOS-2 Tosochka',antitank:'PzH-2000'};
+export const unitExamples={infantry:'SR-556',light:'M6 Linebacker',mbt:'Leopard 2',superheavy:'P.1500 Monster',helicopter:'AH-64E Apache',howitzer:'M777',rocket:'TOS-2 Tosochka',antitank:'PzH-2000','bomber-liberty':'B-2 Spirit','bomber-precision':'Tu-160'};
 unitExamples.artillery='M777 / TOS-2';
 for(const lang of Object.keys(cardCopy))cardCopy[lang].types.artillery=mergedArtilleryCopy[lang].type;
 
 export function cardContext(groupId='') {
-  const type=['light','mbt','superheavy','helicopter','howitzer','rocket','antitank','artillery','fighter','armored','submarine','missile','carrier','antiair','antisub'].find(type=>groupId.startsWith(type))||'infantry';
+  const type=['bomber-liberty','bomber-precision','light','mbt','superheavy','helicopter','howitzer','rocket','antitank','artillery','fighter','armored','submarine','missile','carrier','antiair','antisub'].find(type=>groupId.startsWith(type))||'infantry';
   const mode=['garrison','b2b','field','attack','defense','tank'].find(mode=>groupId.split('-').includes(mode));
   return {type,mode};
 }
@@ -56,6 +57,7 @@ en:['Fighter','Armored ship','Submarine','Missile ship','Aircraft carrier','Anti
 vi:['Tiêm kích','Tàu bọc thép','Tàu ngầm','Tàu tên lửa','Tàu sân bay','Tàu khu trục phòng không','Tàu chống ngầm','Phòng thủ'],
 ar:['مقاتلة','سفينة مدرعة','غواصة','سفينة صاروخية','حاملة طائرات','مدمرة دفاع جوي','فرقاطة مضادة للغواصات','دفاعية']};
 for(const lang of Object.keys(cardCopy)){
+ ['bomber-liberty','bomber-precision'].forEach((type,i)=>cardCopy[lang].types[type]=bomberCopy[lang].types[i]);
  ['fighter','armored','submarine','missile','carrier','antiair','antisub'].forEach((type,i)=>cardCopy[lang].types[type]=airNavalTypes[lang][i]);
  cardCopy[lang].modes.defense=airNavalTypes[lang][7];
 }

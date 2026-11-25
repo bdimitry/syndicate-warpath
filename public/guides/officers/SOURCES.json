@@ -143,6 +143,24 @@
       "width": 300,
       "height": 300,
       "retrieved": "2026-10-30"
+    },
+    {
+      "file": "units/bomber-liberty.png",
+      "name": "B-2 Spirit",
+      "sourcePage": "https://warpath.afuns.cc/en/units",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/unit/UI_Card3D_B2_01.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300
+    },
+    {
+      "file": "units/bomber-precision.png",
+      "name": "Tu-160",
+      "sourcePage": "https://warpath.afuns.cc/en/units",
+      "sourceImage": "https://i.dmzgame.com/warpath/wiki/img/db/unit/UI_Card3D_Tu160_01.png",
+      "format": "PNG",
+      "width": 300,
+      "height": 300
     }
   ],
   "references": [

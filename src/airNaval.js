@@ -1,11 +1,13 @@
 import {officers} from './officers';
 import {navalWorkbookGroups} from './navalWorkbook';
+import {bomberGroups,bomberCopy} from './bombers';
 
 export const aircraftGroups=[
  {id:'fighter-defense-f2p',category:'f2p',pairs:[['shadow-chaser','silver-fox']]},
  {id:'fighter-defense-p2w',category:'p2w',pairs:[['shadow-chaser','fleeting-arrow']]},
  {id:'fighter-attack-f2p',category:'f2p',pairs:[['nighthawk','bladewing']]},
  {id:'fighter-attack-p2w',category:'p2w',pairs:[['cloud-buster','nighthawk'],['darkwing','sky-jockey']]},
+ ...bomberGroups,
 ];
 const navalBadge={ru:'ФЛОТ',en:'NAVAL',
   pl: "NAWAL",
@@ -59,6 +61,15 @@ const seaCopy={
 };
 const make=(copy)=>Object.fromEntries(Object.keys(common).map(lang=>[lang,{...common[lang],...copy[lang],headings:[common[lang].toc,...copy[lang].groups,...common[lang].tail],groupIntros:copy[lang].groups,groupWhys:copy[lang].whys}]));
 export const aircraft=make(airCopy);
+for (const [lang, guide] of Object.entries(aircraft)) {
+ const bombers=bomberCopy[lang];
+ const originalGroupCount=guide.groupIntros.length;
+ guide.intro=bombers.intro;
+ guide.headings.splice(originalGroupCount+1,0,...bombers.headings);
+ guide.groupIntros=[...guide.groupIntros,...bombers.intros];
+ guide.groupWhys=[...guide.groupWhys,...bombers.whys];
+ guide.reasons=[...guide.reasons,...bombers.reasons.map(reason=>[reason])];
+}
 export const naval=make(seaCopy);
 const navalWorkbookNotes = {
   "ru": "Выбирай новую пару из таблицы по развитию офицеров и применимости навыков к кораблю. Это помогает использовать доступные бонусы; проверь классовые ограничения.",
